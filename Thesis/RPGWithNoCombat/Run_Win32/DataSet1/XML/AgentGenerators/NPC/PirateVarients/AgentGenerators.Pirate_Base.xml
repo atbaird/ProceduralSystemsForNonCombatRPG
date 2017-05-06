@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='Pirate_Base'
+    DefaultImage='human_base0'
+    MovementSpeed='2.f'
+    NameSet='PirateNameSet'
+    PercentageMale='0.5f'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_warrior/>
+        <male_Townsfolk_hair1/>
+        <male_Townsfolk_hair2/>
+        <male_Townsfolk_hair3/>
+        <bald/>
+        <male_Monk/>
+        <Pirate/>
+      </Male>
+
+      <Female>
+        <female_warrior/>
+        <female_Townsfolk_hair1/>
+        <female_Townsfolk_hair2/>
+        <female_Townsfolk_hair3/>
+        <female_Monk/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Townsfolk 2 clothes'/>
+      <Clothing name='Pirate clothes'/>
+      <Clothing name='Captain clothes'/>
+      <Clothing name='Berserk clothes'/>
+      <Clothing name='Warrior clothes'/>
+    </Clothing>
+
+    <SkinColors>
+      <SkinColor value='0' />
+      <SkinColor value='1' />
+      <SkinColor value='4' />
+      <SkinColor value='5' />
+      <SkinColor value='6'/>
+    </SkinColors>
+
+    <HairColors>
+      <Red/>
+      <Green/>
+      <Black/>
+      <Brown/>
+      <Blue/>
+    </HairColors>
+
+    <Jobs>
+      <PirateCaptain/>
+      <Pirate/>
+    </Jobs>
+
+    <NPCBehaviors>
+      <LookAround />
+      <Talking />
+    </NPCBehaviors>
+
+    <NPCAttributes>
+      <Age/>
+      <Personality/>
+      <Morallity/>
+      <Lawfulness/>
+    </NPCAttributes>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='PirateGreeting'/>
+    </Dialogue>
+
+    <Animations>
+      <Animation animationName='human_base0_walkForward' direction='south' animIdx='walk'/>
+      <Animation animationName='human_base0_walkBack' direction='north' animIdx='walk'/>
+      <Animation animationName='human_base0_walkLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='human_base0_walkRight' direction='east' animIdx='walk'/>
+    </Animations>
+
+    <StatRanges>
+      <Strength min='45' max='75'/>
+      <Dexterity min='45' max='65'/>
+      <Intelligence min='10' max='60'/>
+    </StatRanges>
+  </AgentGenerator>
+</AgentGenerators>

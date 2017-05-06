@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_townsfolk_hair1_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_townsfolk_hair1_forward1'/>
+    <Frame resourceName='male_townsfolk_hair1_forward2'/>
+    <Frame resourceName='male_townsfolk_hair1_forward1'/>
+    <Frame resourceName='male_townsfolk_hair1_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_townsfolk_hair1_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_townsfolk_hair1_back1'/>
+    <Frame resourceName='male_townsfolk_hair1_back2'/>
+    <Frame resourceName='male_townsfolk_hair1_back1'/>
+    <Frame resourceName='male_townsfolk_hair1_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_townsfolk_hair1_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_townsfolk_hair1_right1'/>
+    <Frame resourceName='male_townsfolk_hair1_right2'/>
+    <Frame resourceName='male_townsfolk_hair1_right1'/>
+    <Frame resourceName='male_townsfolk_hair1_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_townsfolk_hair1_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_townsfolk_hair1_left1'/>
+    <Frame resourceName='male_townsfolk_hair1_left2'/>
+    <Frame resourceName='male_townsfolk_hair1_left1'/>
+    <Frame resourceName='male_townsfolk_hair1_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_townsfolk_hair1_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_townsfolk_hair1_forward1'/>
+    <Frame resourceName='female_townsfolk_hair1_forward2'/>
+    <Frame resourceName='female_townsfolk_hair1_forward1'/>
+    <Frame resourceName='female_townsfolk_hair1_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_townsfolk_hair1_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_townsfolk_hair1_back1'/>
+    <Frame resourceName='female_townsfolk_hair1_back2'/>
+    <Frame resourceName='female_townsfolk_hair1_back1'/>
+    <Frame resourceName='female_townsfolk_hair1_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_townsfolk_hair1_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_townsfolk_hair1_right1'/>
+    <Frame resourceName='female_townsfolk_hair1_right2'/>
+    <Frame resourceName='female_townsfolk_hair1_right1'/>
+    <Frame resourceName='female_townsfolk_hair1_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_townsfolk_hair1_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_townsfolk_hair1_left1'/>
+    <Frame resourceName='female_townsfolk_hair1_left2'/>
+    <Frame resourceName='female_townsfolk_hair1_left1'/>
+    <Frame resourceName='female_townsfolk_hair1_left0'/>
+  </SpriteAnimation>
+</SpriteAnimations>

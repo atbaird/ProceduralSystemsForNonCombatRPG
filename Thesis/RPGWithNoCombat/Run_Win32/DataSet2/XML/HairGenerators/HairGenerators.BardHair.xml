@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<HairGenerators>
+  <HairGenerator name='BardHair'
+                 dialogueName='Shag cut'
+                 defautltimage='BardHairBack0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='BardHairForward' direction='south' animIdx='walk'/>
+      <Animation animationName='BardHairBack' direction='north' animIdx='walk'/>
+      <Animation animationName='BardHairLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='BardHairRight' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+</HairGenerators>

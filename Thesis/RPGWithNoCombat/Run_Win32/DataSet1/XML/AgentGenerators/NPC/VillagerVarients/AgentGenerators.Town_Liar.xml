@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='Town_Liar' 
+                  DefaultImage='human_base0' 
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+    
+    <Dialogue>
+      <DialogueSegment dialogueSegment='LongDialogueExampleWithChoice'/>
+    </Dialogue>
+
+  </AgentGenerator>
+</AgentGenerators>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='PalaceStoneFloor'
+                  resourceName='PalaceStoneFloorCenter'
+                  altResourceChance='0.5'
+                  MapCode='189,255,65'
+                  solid='false'>
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'>
+      <ToSet resourceName='PalaceStoneFloorWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'>
+      <ToSet resourceName='PalaceStoneFloorEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'>
+      <ToSet resourceName='PalaceStoneFloorSouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>0'>
+      <ToSet resourceName='PalaceStoneFloorSouthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'>
+      <ToSet resourceName='PalaceStoneFloorSouth'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'>
+      <ToSet resourceName='PalaceStoneFloorNorthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'>
+      <ToSet resourceName='PalaceStoneFloorNorthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'>
+      <ToSet resourceName='PalaceStoneFloorNorth'/>
+    </SpecialCase>
+  </TileDefinition>
+
+</TileDefinitions>

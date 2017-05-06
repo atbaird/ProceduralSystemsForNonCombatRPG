@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <!-- White Roof and Walls-->
+  <SpriteResource resourceName='roof_manilla_Sharp_NE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,372.0,236.0,357.0'/>
+  <SpriteResource resourceName='roof_manilla_Sharp_E' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,389.0,236.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_Sharp_SE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,406.0,236.0,391.0'/>
+
+  <SpriteResource resourceName='roof_manilla_Sharp_NW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,372.0,253.0,357.0'/>
+  <SpriteResource resourceName='roof_manilla_Sharp_W' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,389.0,253.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_Sharp_SW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,406.0,253.0,391.0'/>
+
+
+  <SpriteResource resourceName='roof_manilla_NW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,372.0,236.0,357.0'/>
+
+  <SpriteResource resourceName='roof_manilla_W' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,389.0,236.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_W_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='272.0,423.0,287.0,408.0'/>
+
+  <SpriteResource resourceName='roof_manilla_NE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,372.0,253.0,357.0'/>
+  <SpriteResource resourceName='roof_manilla_NC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306.0,372.0,321.0,357.0'/>
+  <SpriteResource resourceName='roof_manilla_C' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306.0,389.0,321.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_C_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136.0,15.0,151.0,0.0'/>
+  <SpriteResource resourceName='roof_manilla_E' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323.0,389.0,338.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_E_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289.0,423.0,304.0,408.0'/>
+  <SpriteResource resourceName='roof_manilla_SC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='272.0,389.0,287.0,374.0'/>
+  <SpriteResource resourceName='roof_manilla_SW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255.0,406.0,270.0,391.0'/>
+  <SpriteResource resourceName='roof_manilla_SE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='272.0,406.0,287.0,391.0'/>
+
+</SpriteResources>

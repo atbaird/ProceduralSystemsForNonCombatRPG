@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Sounds>
+  <Music filelocation='DataSet2/Music/Fishing_village.wav' name='Village1'/>
+  <Music filelocation='DataSet2/Music/Magic Town.mp3' name='Village2'
+         volume='0.4f'/>
+  <Music filelocation='DataSet2/Music/Item Shop.mp3' name='ItemShop'/>
+</Sounds>

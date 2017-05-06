@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <FindMySibling2 title='Find My Sibling 2'>
+    <Variables>
+      <NPC VariableName='OlderSibling'/>
+      <NPC VariableName='YoungerSibling'/>
+      <Player VariableName='player'/>
+      <Text VariableName='QuestItem1' value='50 Gold'/>
+      <Float VariableName='QuestState' defaultValue='0.0' />
+    </Variables>
+    <AgentsToGenerate>
+      <Orc
+        number='1'
+        Job='Smith'
+        VariableName='OlderSibling'
+        Dialogue='FindMySibling2Start'
+        AlwaysSpawn='true'>
+        <NPCAttributes>
+          <Age>
+            <WhiteList>
+              <Young_Adult />
+            </WhiteList>
+          </Age>
+        </NPCAttributes>
+      </Orc>
+      <Orc
+        number='1'
+        Job='Smith'
+        VariableName='YoungerSibling'
+        Dialogue='SiblingSpeech2SpawnText'
+        AlwaysSpawn='true'>
+        <NPCAttributes>
+          <Age>
+            <WhiteList>
+              <Teenager />
+            </WhiteList>
+          </Age>
+        </NPCAttributes>
+      </Orc>
+    
+  </AgentsToGenerate>
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OlderSibling'/>
+        </Requirements>
+        <Trigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <ChangeDialogue Entity='YoungerSibling' DialogueSegment='SiblingSpeech2'/>
+        </Trigger>
+      </Event>
+
+      <Event EventName='TalkToYougnerSibling'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='YoungerSibling'/>
+        </Requirements>
+        <Trigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMySibling2End'/>
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat variable='QuestState' value='2.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Finish'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==2.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OlderSibling'/>
+        </Requirements>
+        <Trigger>
+          <SetQuestVariableFloat variable='QuestState' value='3.0'/>
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMySibling2AlreadyComplete'/>
+          <GiveToEntity EntityName='player' ItemName='Gold' value='50.0'/>
+          <CompleteQuest/>
+        </PostTrigger>
+      </Event>
+    </Events>
+  </FindMySibling2>
+</Quests>

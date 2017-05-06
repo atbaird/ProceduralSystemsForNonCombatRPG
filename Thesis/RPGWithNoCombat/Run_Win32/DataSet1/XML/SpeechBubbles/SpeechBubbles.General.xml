@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpeechBubbles>
+  <SpeechBubble resource='SpeechBubble'/>
+  <OrcSpeechBubble resource='OrcSpeechBubble'/>
+  <ElfSpeechBubble resource='ElfSpeechBubble'/>
+  <PirateSpeechBubble resource='PirateSpeechBubble'/>
+</SpeechBubbles>

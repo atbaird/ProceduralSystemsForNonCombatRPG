@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='HumanSoldier'
+                  DefaultImage='human_base0'
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_Soldier/>
+        <bald/>
+      </Male>
+
+      <Female>
+        <female_Soldier/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Soldier clothes'/>
+    </Clothing>
+
+
+    <StatRanges>
+      <Strength min='50' max='70'/>
+      <Intelligence min='30' max='50'/>
+    </StatRanges>
+    
+
+    <Jobs>
+      <Soldier/>
+    </Jobs>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='humanSoldierGreeting'/>
+      <DialogueSegment dialogueSegment='HumanSoldierGreetingMoveAlong'/>
+    </Dialogue>
+    
+  </AgentGenerator>
+</AgentGenerators>

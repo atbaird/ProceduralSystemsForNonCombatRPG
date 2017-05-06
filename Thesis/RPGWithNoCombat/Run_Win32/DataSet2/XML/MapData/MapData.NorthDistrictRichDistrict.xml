@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <!-- TownSquare -->
+    <TileEvent TileCoords='14,0'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='14,28'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='15,0'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='15,28'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='16,0'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='16,28'/>
+    </TileEvent>
+  </TileEvents>
+
+  <FeaturesToGenerate>
+    <PalaceDoorLeftOpenned number='1'>
+      <Position position='14,29'/>
+    </PalaceDoorLeftOpenned>
+    <PalaceDoorRightOpenned number='1'>
+      <Position position='16,29'/>
+    </PalaceDoorRightOpenned>
+
+    <Door number='6'>
+      <Position position='21,6'/>
+      <Position position='8,6'/>
+      <Position position='21,15'/>
+      <Position position='8,15'/>
+      <Position position='5,23'/>
+      <Position position='24,23'/>
+    </Door>
+  </FeaturesToGenerate>
+</MapData>

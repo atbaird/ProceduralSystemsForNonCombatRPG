@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='pirateClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='pirateClothing_forward1'/>
+    <Frame resourceName='pirateClothing_forward2'/>
+    <Frame resourceName='pirateClothing_forward1'/>
+    <Frame resourceName='pirateClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='pirateClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='pirateClothing_right1'/>
+    <Frame resourceName='pirateClothing_right2'/>
+    <Frame resourceName='pirateClothing_right1'/>
+    <Frame resourceName='pirateClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='pirateClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='pirateClothing_back1'/>
+    <Frame resourceName='pirateClothing_back2'/>
+    <Frame resourceName='pirateClothing_back1'/>
+    <Frame resourceName='pirateClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='pirateClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='pirateClothing_left1'/>
+    <Frame resourceName='pirateClothing_left2'/>
+    <Frame resourceName='pirateClothing_left1'/>
+    <Frame resourceName='pirateClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

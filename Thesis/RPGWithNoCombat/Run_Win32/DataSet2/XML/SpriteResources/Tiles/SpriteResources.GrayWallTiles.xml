@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='SingleGrayWallTile'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='374,287,389,272'/>
+
+  <SpriteResource resourceName='GrayWallWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527,270,542,255'/>
+
+
+  <SpriteResource resourceName='GrayWallEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,270,576,255'/>
+
+
+  <SpriteResource resourceName='GrayWallNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527,287,542,272'/>
+
+  <SpriteResource resourceName='GrayWallNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544,287,559,272'/>
+
+  <SpriteResource resourceName='GrayWallNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,287,576,272'/>
+
+  
+  <SpriteResource resourceName='GrayWallSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='459,270,474,255'/>
+
+
+  <SpriteResource resourceName='GrayWallSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='510,270,525,255'/>
+
+
+  <SpriteResource resourceName='GrayWallSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='476,270,491,255'/>
+
+
+  <SpriteResource resourceName='GrayWallCenter'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544,270,559,255'/>
+  
+</SpriteResources>

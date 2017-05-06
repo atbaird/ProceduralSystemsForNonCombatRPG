@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='19,6'>
+      <OnEnter Function='ChangeMaps' MapFile='Forestland' PlayerPosition='1,26'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='19,5'>
+      <OnEnter Function='ChangeMaps' MapFile='Forestland' PlayerPosition='1,25'/>
+    </TileEvent>
+  </TileEvents>
+
+  <AgentsToGenerate>
+    
+  </AgentsToGenerate>
+
+  <FeaturesToGenerate>
+    
+  </FeaturesToGenerate>
+
+  <Quests>
+    <Quest QuestTitle='OneSmallFavor' PercentageChanceToOccur='0.7'>
+      <Peninsula>
+        <Positions forEntity='Fisherman'>
+          
+        </Positions>
+      </Peninsula>
+    </Quest>
+  </Quests>
+  
+</MapData>

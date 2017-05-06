@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='WhiteStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='119,49,134,34' />
+
+  <SpriteResource resourceName='AltWhiteStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='119,66,134,51' />
+
+
+  <SpriteResource resourceName='GrayStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,49,117,34' />
+
+  <SpriteResource resourceName='AltGrayStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,66,117,51' />
+
+  
+  <SpriteResource resourceName='BrownStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,49,100,34' />
+
+  <SpriteResource resourceName='AltBrownStoneRoad'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,66,100,51' />
+  
+  
+</SpriteResources>

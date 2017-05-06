@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NameGenerators>
+  <PirateNameSet
+    male='Pirate_firstName_male,Pirate_Nickname, Pirate_lastName, Pirate_title'
+    female='Pirate_firstName_female,Pirate_Nickname, Pirate_lastName, Pirate_title'
+    referMaleAs='Male'
+    referFemaleAs='Female'
+    referMaleSiblingAs='Brother'
+    referFemaleSiblingAs='Sister'>
+
+    <Pirate_firstName_male>
+      <Jack/>
+      <Rusty/>
+      <Terrel/>
+      <Isham/>
+      <Moore/>
+      <Slater/>
+      <Redman/>
+      <Cedric/>
+      <Knoll/>
+    </Pirate_firstName_male>
+
+    <Pirate_firstName_female>
+      <Anita/>
+      <Philomena/>
+      <Luisa/>
+      <Golden/>
+      <Retta/>
+      <Leonie/>
+      <Lulu/>
+    </Pirate_firstName_female>
+
+    <Pirate_Nickname optional='true' optionalpercentage='0.5'>
+      <Gloomy/>
+      <Snake/>
+      <One-Eyed/>
+      <Three-Teeth/>
+      <Riot/>
+      <Smiling/>
+      <Cowardly/>
+      <Honorable/>
+    </Pirate_Nickname>
+    
+    <Pirate_lastName>
+      <Blackbeard/>
+      <Churchill/>
+      <Chalice/>
+      <Clifford/>
+      <Milton/>
+      <Sparrow/>
+      <Stampes/>
+      <Salvotor/>
+    </Pirate_lastName>
+
+    <Pirate_title optional='true' optionalpercentage='0.1'>
+      <the_Terrible name='the Terrible'/>
+      <the_Fearless name='the Fearless'/>
+      <the_Barbaric name='the Barbaric'/>
+      <the_Unbearable name='the Unbearable'/>
+    </Pirate_title>
+    
+  </PirateNameSet>
+    
+</NameGenerators>

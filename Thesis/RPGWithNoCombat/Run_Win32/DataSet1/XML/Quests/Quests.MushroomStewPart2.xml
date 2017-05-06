@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <MushroomStewPart2 title='Mushroom Stew Part 2'>
+    <Variables>
+      <Player VariableName='player' />
+      <NPC VariableName='Cook' />
+      <Float VariableName='QuestState' value='0.0'/>
+      <Text VariableName='RedMushroomRequirement' value='2 Red Mushroom'/>
+      <Text VariableName='SpottyMushroomRequirement' value='1 Spotty Mushrooms'/>
+    </Variables>
+
+    <AgentsToGenerate>
+      <Human
+         VariableName='Cook'
+         GlobalVariableName='TheCook'/>
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='GlobalCheckVariableFloat' Variable='MushroomStew' value='==1.0'/>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Cook'/>
+
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='Cook' DialogueSegment='MushroomStewStart2'/>
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='0.5'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Yes Selected'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Cook'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='MushroomStewYes2'/>
+        </Requirements>
+
+        <Trigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='Cook' DialogueSegment='MushroomStewReminder2'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Finish'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Cook'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Red Mushroom' value='>=2.0'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Spotty Mushroom' value='>=1.0'/>
+        </Requirements>
+
+        <Trigger>
+          <RemoveFromEntity EntityName='player' ItemName='Red Mushroom' value='2.0'/>
+          <RemoveFromEntity EntityName='player' ItemName='Spotty Mushroom' value='1.0'/>
+
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='Cook' DialogueSegment='MushroomStewAfterQuest' />
+          <GiveToEntity EntityName='player' ItemName='Bowl of Stew' value='1.0' />
+          <GlobalSetVariableFloat VariableName='MushroomStew' Value='2.0'/>
+          <CompleteQuest />
+        </PostTrigger>
+      </Event>
+
+    </Events>
+
+  </MushroomStewPart2>
+
+</Quests>

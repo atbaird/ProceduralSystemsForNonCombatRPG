@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='18,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SpiralLake' PlayerPosition='9,18'/>
+    </TileEvent>
+    <TileEvent TileCoords='19,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SpiralLake' PlayerPosition='10,18'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,8'>
+      <OnEnter Function='ChangeMaps' MapFile='TradeSquare' PlayerPosition='58,30'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,9'>
+      <OnEnter Function='ChangeMaps' MapFile='TradeSquare' PlayerPosition='58,31'/>
+    </TileEvent>
+
+
+    <TileEvent TileCoords='44,9'>
+      <OnEnter Function='ChangeMaps' MapFile='Drylands' PlayerPosition='1,9'/>
+    </TileEvent>
+    
+    <TileEvent TileCoords='44,8'>
+      <OnEnter Function='ChangeMaps' MapFile='Drylands' PlayerPosition='1,8'/>
+    </TileEvent>
+  </TileEvents>
+
+  <FeaturesToGenerate>
+    <Door numbertospawn='1'>
+      <!-- Attributes for single spawn, children for multi-spawn. -->
+      <Position position='17,26'/>
+    </Door>
+
+    <Cow numberToSpawn='3-4'>
+      <Position position='32,22'/>
+      <Position position='6,22'/>
+      <Position position='5,40'/>
+      <Position position='17,38'/>
+      <Position position='30,39'/>
+    </Cow>
+
+    <Chicken numberToSpawn='2-3'>
+      <Position position='21,17'/>
+      <Position position='10,16'/>
+      <Position position='1,37'/>
+      <Position position='32,40'/>
+      <Position position='29,29'/>
+    </Chicken>
+
+    <Buckets>
+      <Position position='16,25'/>
+    </Buckets>
+  </FeaturesToGenerate>
+
+  <AgentsToGenerate>
+    <Farmer numberToSpawn='4-5'>
+      <Position position='14,29'/>
+      <Position position='21,27'/>
+      <Position position='6,18'/>
+      <Position position='29,39'/>
+    </Farmer>
+    <OrcWarrior
+      GlobalVariableName='warrior3'>
+      <Position position='36,5,41,12'/>
+    </OrcWarrior>
+  </AgentsToGenerate>
+
+  <Quests>
+    <Quest QuestTitle='GetMeABucketOfMilk' PercentChanceToOccur='1.0'>
+      <Farm>
+        <Positions forEntity='TheFarmer'>
+          <Position position='13,29'/>
+          <Position position='21,30'/>
+          <Position position='19,27'/>
+        </Positions>
+      </Farm>
+    </Quest>
+    <Quest QuestTitle='TwoEggs' PercentChanceToOccur='0.5'>
+      
+    </Quest>
+  </Quests>
+  
+</MapData>

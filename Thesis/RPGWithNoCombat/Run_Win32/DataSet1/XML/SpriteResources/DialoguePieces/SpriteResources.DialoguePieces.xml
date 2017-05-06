@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='upArrow' 
+                  textureLocation='DataSet1/Images/UpArrow.png'
+                  spriteBounds='0.0,512.0,512.0,0.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='downArrow' 
+                  textureLocation='DataSet1/Images/DownArrow.png'
+                  spriteBounds='0.0,512.0,512.0,0.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='currentSelection' 
+                  textureLocation='DataSet1/Images/Selection.png'
+                  spriteBounds='0.0,512.0,512.0,0.0'
+                  virtualSize='1.0f,1.0f'/>
+</SpriteResources>

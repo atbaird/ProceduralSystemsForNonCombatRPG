@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='Player' DefaultImage='human_base0' 
+    MovementSpeed='2.f'
+    SprintingMovementSpeed='4.f'
+    PercentageMale='1.f'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <MaleTownsfolkHair3/>
+      </Male>
+
+      <Female>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Paladin clothes'/>
+    </Clothing>
+
+    <Animations>
+      <Animation animationName='HumanBaseWalkForward' direction='south' animIdx='walk'/>
+      <Animation animationName='HumanBaseWalkBack' direction='north' animIdx='walk'/>
+      <Animation animationName='HumanBaseWalkLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='HumanBaseWalkRight' direction='east' animIdx='walk'/>
+    </Animations>
+
+    <StatRanges>
+      <Strength min='10' max='10'/>
+      <Dexterity min='10' max='10'/>
+    </StatRanges>
+
+    <SkinColors>
+      <SkinColor value='0' />
+    </SkinColors>
+
+    <HairColors>
+    </HairColors>
+    
+  </AgentGenerator>
+</AgentGenerators>

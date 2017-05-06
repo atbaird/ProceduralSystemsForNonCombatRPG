@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='BigBrownRock' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='918,338,933,323' />
+
+  <SpriteResource resourceName='BigMossyBrownRock'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='918,355,933,340' />
+
+  <SpriteResource resourceName='BigGrayRock'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='918,372,933,357' />
+
+  <SpriteResource resourceName='BigMossyGrayRock'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='918,389,933,374' />
+  
+</SpriteResources>

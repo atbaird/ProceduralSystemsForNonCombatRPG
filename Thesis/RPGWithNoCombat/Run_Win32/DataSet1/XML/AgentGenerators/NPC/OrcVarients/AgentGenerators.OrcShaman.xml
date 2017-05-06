@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='OrcShaman'
+    DefaultImage='human_base0'
+    NameSet='OrcNameSet'
+    PercentageMale='0.5f'
+    inherit='Orc'>
+    <Jobs>
+      <Shaman/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='65' max='95'/>
+      <Dexterity min='45' max='55'/>
+      <Intelligence min='70' max='80'/>
+    </StatRanges>
+    
+
+  </AgentGenerator>
+</AgentGenerators>

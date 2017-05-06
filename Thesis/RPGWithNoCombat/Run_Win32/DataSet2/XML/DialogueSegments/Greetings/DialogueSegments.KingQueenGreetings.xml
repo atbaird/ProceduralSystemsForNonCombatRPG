@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='RoyalSpeechBubble'>
+
+  <KingQueenGreeting1 uniqueGroup='KingQueenGreeting'
+                    text='' />
+  <KingQueenGreeting2 uniqueGroup='KingQueenGreeting'
+                    text='' />
+  <KingQueenGreeting3 uniqueGroup='KingQueenGreeting'
+                    text='' />
+</DialogueSegments>

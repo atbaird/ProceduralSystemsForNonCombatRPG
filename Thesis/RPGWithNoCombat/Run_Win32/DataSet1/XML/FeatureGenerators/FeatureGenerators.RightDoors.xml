@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='RightDoor' DefaultImage='RightOpenWoodenDoor1'
+                    solid='false' renderOffset='-0.07f,0.1f'>
+    <Animations>
+      <Animation animationName='RightWoodenDoor1LockedOpen' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <!-- 
+      <SwitchSides type='Interactive'/>
+      -->
+
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+</FeatureGenerators>

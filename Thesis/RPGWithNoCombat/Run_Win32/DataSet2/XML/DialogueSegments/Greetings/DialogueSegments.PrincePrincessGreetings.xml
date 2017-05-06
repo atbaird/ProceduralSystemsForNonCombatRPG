@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='RoyalSpeechBubble'>
+
+  <PrincePrincessGreeting1 uniqueGroup='PrincePrincessGreeting'
+                    text='One day I will be the ruler of this land!' />
+
+  <PrincePrincessGreeting2 uniqueGroup='PrincePrincessGreeting'
+                    text='tread lightly, as you are speaking to $MyName$!' />
+
+  <PrincePrincessGreeting3 uniqueGroup='PrincePrincessGreeting'
+                    text='' />
+</DialogueSegments>

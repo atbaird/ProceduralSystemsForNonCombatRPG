@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='PaladinHairForward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinHairForward1'/>
+    <Frame resourceName='PaladinHairForward2'/>
+    <Frame resourceName='PaladinHairForward1'/>
+    <Frame resourceName='PaladinHairForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinHairBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinHairBack1'/>
+    <Frame resourceName='PaladinHairBack2'/>
+    <Frame resourceName='PaladinHairBack1'/>
+    <Frame resourceName='PaladinHairBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinHairRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinHairRight1'/>
+    <Frame resourceName='PaladinHairRight2'/>
+    <Frame resourceName='PaladinHairRight1'/>
+    <Frame resourceName='PaladinHairRight0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinHairLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinHairLeft1'/>
+    <Frame resourceName='PaladinHairLeft2'/>
+    <Frame resourceName='PaladinHairLeft1'/>
+    <Frame resourceName='PaladinHairLeft0'/>
+  </SpriteAnimation>
+</SpriteAnimations>

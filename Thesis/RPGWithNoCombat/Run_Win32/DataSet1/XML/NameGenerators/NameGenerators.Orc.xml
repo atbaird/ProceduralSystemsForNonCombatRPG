@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NameGenerators>
+  <OrcNameSet
+    male='Orc_FirstSound, Orc_Male_MiddleSound, Orc_LastSound'
+    female='Orc_FirstSound, Orc_Female_MiddleSound, Orc_LastSound'
+    referMaleAs='Male'
+    referFemaleAs='Female'
+    referMaleSiblingAs='Brother'
+    referFemaleSiblingAs='Sister'>
+
+    <Orc_FirstSound>
+      <Ka/>
+      <No/>
+      <Shik/>
+      <Blo/>
+      <Tal/>
+    </Orc_FirstSound>
+    
+    <Orc_Male_MiddleSound>
+      <Bo/>
+      <Ro/>
+      <Rek/>
+      <Nah/>
+    </Orc_Male_MiddleSound>
+
+    <Orc_Female_MiddleSound>
+      <Shel/>
+      <Ook/>
+      <Bra/>
+    </Orc_Female_MiddleSound>
+
+    <Orc_LastSound>
+      <Oom/>
+      <Oan/>
+      <Lo/>
+      <Hik/>
+      <To/>
+      <Hajus/>
+    </Orc_LastSound>
+  </OrcNameSet>
+</NameGenerators>

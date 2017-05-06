@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <!-- East District: Prison -->
+    <TileEvent TileCoords='29,14'>
+      <OnEnter Function='ChangeMaps' MapFile='EastDistrict' PlayerPosition='1,14'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='29,15'>
+      <OnEnter Function='ChangeMaps' MapFile='EastDistrict' PlayerPosition='1,15'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='29,16'>
+      <OnEnter Function='ChangeMaps' MapFile='EastDistrict' PlayerPosition='1,16'/>
+    </TileEvent>
+    
+    <!-- West District: Factory -->
+    <TileEvent TileCoords='0,14'>
+      <OnEnter Function='ChangeMaps' MapFile='WestDistrict' PlayerPosition='28,14'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,15'>
+      <OnEnter Function='ChangeMaps' MapFile='WestDistrict' PlayerPosition='28,15'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,16'>
+      <OnEnter Function='ChangeMaps' MapFile='WestDistrict' PlayerPosition='28,16'/>
+    </TileEvent>
+
+
+    <!-- South District: Poor -->
+    <TileEvent TileCoords='14,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SouthDistrict' PlayerPosition='14,28'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='15,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SouthDistrict' PlayerPosition='15,28'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='16,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SouthDistrict' PlayerPosition='16,28'/>
+    </TileEvent>
+
+
+    <!-- North District: Rich -->
+    <TileEvent TileCoords='14,29'>
+      <OnEnter Function='ChangeMaps' MapFile='NorthDistrict' PlayerPosition='14,1'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='15,29'>
+      <OnEnter Function='ChangeMaps' MapFile='NorthDistrict' PlayerPosition='15,1'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='16,29'>
+      <OnEnter Function='ChangeMaps' MapFile='NorthDistrict' PlayerPosition='16,1'/>
+    </TileEvent>
+  </TileEvents>
+
+  <FeaturesToGenerate>
+    <Door number='13'>
+      <Position position='8,5'/>
+      <Position position='23,11'/>
+      <Position position='23,4'/>
+      <Position position='18,4'/>
+      <Position position='17,9'/>
+      <Position position='13,5'/>
+      <Position position='9,11'/>
+      <Position position='8,16'/>
+      <Position position='7,21'/>
+      <Position position='13,19'/>
+      <Position position='18,21'/>
+      <Position position='22,21'/>
+      <Position position='22,16'/>
+    </Door>
+  </FeaturesToGenerate>
+
+  <AgentsToGenerate>
+    <Peasant number='5-7'>
+
+    </Peasant>
+  </AgentsToGenerate>
+  
+</MapData>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <!-- 180, 167, 140 -->
+  <TileDefinition
+    name='DrylingLinesOnMud'
+    resourceName='DryingLineLeft'
+    bottomResourceName='RegularDirtTile'
+    altBottomResourceName='AltRegularDirtTile'
+    altBottomResourceChance='0.5'
+    MapCode='180,0,140'
+    solid='true'>
+    <SpecialCase>
+      <ToSet TileCoords='1,0'
+             overlayResourceName='DryingLineRight'
+             solid='true'/>
+    </SpecialCase>
+  </TileDefinition>
+
+</TileDefinitions>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='human_base0_walkForward' 
+                   defaultIntervalBetweenFrames='0.125' 
+                   animationMode='loop' 
+                   reverseDirection='false'>
+    <Frame resourceName='human_baseForward1'/>
+    <Frame resourceName='human_baseForward2'/>
+    <Frame resourceName='human_baseForward1'/>
+    <Frame resourceName='human_baseForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='human_base0_walkBack' defaultIntervalBetweenFrames='0.125' animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='human_baseBack1'/>
+    <Frame resourceName='human_baseBack2'/>
+    <Frame resourceName='human_baseBack1'/>
+    <Frame resourceName='human_baseBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='human_base0_walkLeft' defaultIntervalBetweenFrames='0.125' animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='human_baseLeft1'/>
+    <Frame resourceName='human_baseLeft2'/>
+    <Frame resourceName='human_baseLeft1'/>
+    <Frame resourceName='human_baseLeft0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='human_base0_walkRight' defaultIntervalBetweenFrames='0.125' animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='human_baseRight1'/>
+    <Frame resourceName='human_baseRight2'/>
+    <Frame resourceName='human_baseRight1'/>
+    <Frame resourceName='human_baseRight0'/>
+  </SpriteAnimation>
+  
+</SpriteAnimations>

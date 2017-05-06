@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='horizontal_fence_bigGap_West' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816,406,831,391'/>
+
+  <SpriteResource resourceName='horizontal_fence_bigGap_East'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833,406,848,391'/>
+                  
+  <SpriteResource resourceName='horizontal_fence_bigGap_SelfEnclosed' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799,406,814,391'/>
+</SpriteResources>

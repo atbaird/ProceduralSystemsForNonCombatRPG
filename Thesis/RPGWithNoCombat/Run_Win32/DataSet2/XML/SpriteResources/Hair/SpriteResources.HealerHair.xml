@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='male_healer_hair_back0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='16, 342, 32, 324'/>
+  <SpriteResource resourceName='male_healer_hair_back1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='32, 342, 48, 324'/>
+  <SpriteResource resourceName='male_healer_hair_back2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='48, 342, 64, 324'/>
+
+  <SpriteResource resourceName='male_healer_hair_right0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='16, 360, 32, 342'/>
+  <SpriteResource resourceName='male_healer_hair_right1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='32, 360, 48, 342'/>
+  <SpriteResource resourceName='male_healer_hair_right2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='48, 360, 64, 342'/>
+
+  <SpriteResource resourceName='male_healer_hair_forward0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='16, 378, 32, 360'/>
+  <SpriteResource resourceName='male_healer_hair_forward1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='32, 378, 48, 360'/>
+  <SpriteResource resourceName='male_healer_hair_forward2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='48, 378, 64, 360'/>
+
+  <SpriteResource resourceName='male_healer_hair_left0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='16, 396, 32, 378'/>
+  <SpriteResource resourceName='male_healer_hair_left1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='32, 396, 48, 378'/>
+  <SpriteResource resourceName='male_healer_hair_left2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Males_altogether.png'
+                  spriteBounds='48, 396, 64, 378'/>
+
+  <SpriteResource resourceName='female_healer_hair_back0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='16, 342, 32, 324'/>
+  <SpriteResource resourceName='female_healer_hair_back1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='32, 342, 48, 324'/>
+  <SpriteResource resourceName='female_healer_hair_back2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='48, 342, 64, 324'/>
+
+  <SpriteResource resourceName='female_healer_hair_right0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='16, 360, 32, 342'/>
+  <SpriteResource resourceName='female_healer_hair_right1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='32, 360, 48, 342'/>
+  <SpriteResource resourceName='female_healer_hair_right2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='48, 360, 64, 342'/>
+
+  <SpriteResource resourceName='female_healer_hair_forward0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='16, 378, 32, 360'/>
+  <SpriteResource resourceName='female_healer_hair_forward1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='32, 378, 48, 360'/>
+  <SpriteResource resourceName='female_healer_hair_forward2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='48, 378, 64, 360'/>
+
+  <SpriteResource resourceName='female_healer_hair_left0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='16, 396, 32, 378'/>
+  <SpriteResource resourceName='female_healer_hair_left1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='32, 396, 48, 378'/>
+  <SpriteResource resourceName='female_healer_hair_left2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_1st_Females_altogether.png'
+                  spriteBounds='48, 396, 64, 378'/>
+
+</SpriteResources>

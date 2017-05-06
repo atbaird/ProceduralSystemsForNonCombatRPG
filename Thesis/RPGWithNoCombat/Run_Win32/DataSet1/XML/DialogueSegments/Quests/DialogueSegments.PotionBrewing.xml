@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='ElfSpeechBubble'>
+
+  <PotionBrewingStart text='Greetings. If you would be so kind, I require a few ingredients for...'>
+    <Text text=' Something I am making; if you help me, I will empart you something highly valueable' />
+    <Decision>
+      <Help DialogueToOpen='PotionBrewingYes'/>
+      <Dont_Help DialogueToOpen='PotionBrewingNo'
+        DialogueChoice='Dont Help'/>
+    </Decision>
+  </PotionBrewingStart>
+
+  <PotionBrewingYes>
+    <Text text='Good. Now, I need $PotionBrewing.RedMushroomRequirement$ ,'/>
+    <Text text=' $PotionBrewing.BrownMushroomRequirement$ , and $PotionBrewing.SpottyMushroomRequirement$.' />
+  </PotionBrewingYes>
+  
+  <PotionBrewingNo>
+    <Text text="Hmph! If you won't aid me, then begone!"/>
+  </PotionBrewingNo>
+
+  <PotionBrewingReminder>
+    <Text text="Are you deaf? I need $PotionBrewing.RedMushroomRequirement$ ,"/>
+    <Text text=" $PotionBrewing.BrownMushroomRequirement$ , and $PotionBrewing.SpottyMushroomRequirement$." />
+  </PotionBrewingReminder>
+
+  <PotionBrewingComplete>
+    <Text text="Excellent! Thats all the ingredients!"/>
+    <Text text="Here... have this $PotionBrewing.PotionBrewingReward$"/>
+  </PotionBrewingComplete>
+
+  <PotionBrewingAfterwards1 uniqueGroup="PotionBrewingAfterwards">
+    <Text text="Hello again; I can not thank you enough for your assistance.">
+      <Text text=" Without your help, I would not of been able to petrify my newt collection." />
+    </Text>
+  </PotionBrewingAfterwards1>
+
+  
+  <PotionBrewingAfterwards2 uniqueGroup="PotionBrewingAfterwards">
+    <Text text="Are you going to pester me all day?" />
+  </PotionBrewingAfterwards2>
+
+  <PotionBrewingAfterwards3 uniqueGroup="PotionBrewingAfterwards">
+    <Text text="How is that $PotionBrewing.PotionBrewingReward$ fairing you? Heh heh." />
+  </PotionBrewingAfterwards3>
+</DialogueSegments>

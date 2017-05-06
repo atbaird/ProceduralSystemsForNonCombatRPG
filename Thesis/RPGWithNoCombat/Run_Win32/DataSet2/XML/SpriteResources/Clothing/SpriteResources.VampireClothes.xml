@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='VampireClothesBack0'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='144, 144, 159, 126' />
+
+  <SpriteResource resourceName='VampireClothesBack1'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='160, 144, 175, 126' />
+
+  <SpriteResource resourceName='VampireClothesBack2'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='176, 144, 191, 126' />
+
+
+  <SpriteResource resourceName='VampireClothesRight0'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='144, 162, 159, 144' />
+
+  <SpriteResource resourceName='VampireClothesRight1'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='160, 162, 175, 144' />
+
+  <SpriteResource resourceName='VampireClothesRight2'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='176, 162, 191, 144' />
+
+
+  <SpriteResource resourceName='VampireClothesForward0'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='144, 180, 159, 162' />
+
+  <SpriteResource resourceName='VampireClothesForward1'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='160, 180, 175, 162' />
+
+  <SpriteResource resourceName='VampireClothesForward2'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='176, 180, 191, 162' />
+
+
+  <SpriteResource resourceName='VampireClothesLeft0'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='144, 198, 159, 180' />
+
+  <SpriteResource resourceName='VampireClothesLeft1'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='160, 198, 175, 180' />
+
+  <SpriteResource resourceName='VampireClothesLeft2'
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='176, 198, 191, 180' />
+
+</SpriteResources>

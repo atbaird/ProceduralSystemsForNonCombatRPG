@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='grassTile1_1' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85.0,0.0,100.0,15.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='grassTile1_1_alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85.0,17.0,100.0,32.0'
+                  virtualSize='1.0f,1.0f'/>
+</SpriteResources>

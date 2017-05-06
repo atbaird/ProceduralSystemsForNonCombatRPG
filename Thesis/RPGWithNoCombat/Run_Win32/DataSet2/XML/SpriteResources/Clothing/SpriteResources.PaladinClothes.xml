@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='PaladinClothesBack0' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='272, 144, 287, 126' />
+
+  <SpriteResource resourceName='PaladinClothesBack1' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='290, 144, 303, 126' />
+
+  <SpriteResource resourceName='PaladinClothesBack2' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='304, 144, 319, 126' />
+
+
+  <SpriteResource resourceName='PaladinClothesRight0' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='272, 162, 287, 144' />
+
+  <SpriteResource resourceName='PaladinClothesRight1' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='288, 162, 303, 144' />
+
+  <SpriteResource resourceName='PaladinClothesRight2' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='304, 162, 319, 144' />
+
+  
+  <SpriteResource resourceName='PaladinClothesForward0' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='272, 180, 287, 162' />
+
+  <SpriteResource resourceName='PaladinClothesForward1' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='290, 180, 303, 162' />
+
+  <SpriteResource resourceName='PaladinClothesForward2' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='306, 180, 319, 162' />
+
+  
+  <SpriteResource resourceName='PaladinClothesLeft0' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='272, 198, 288, 180' />
+
+  <SpriteResource resourceName='PaladinClothesLeft1' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='288, 198, 304, 180' />
+
+  <SpriteResource resourceName='PaladinClothesLeft2' 
+                  textureLocation='DataSet2/Images/Characters/Clothing/16x18_Bodies_separated_4th - no arms.png'
+                  spriteBounds='304, 198, 319, 180' />
+  
+</SpriteResources>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='RegularGrassTile'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,15,100,0'/>
+
+  <SpriteResource resourceName='AltRegularGrassTile'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,32,100,17'/>
+
+</SpriteResources>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='captainClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='captainClothing_forward1'/>
+    <Frame resourceName='captainClothing_forward2'/>
+    <Frame resourceName='captainClothing_forward1'/>
+    <Frame resourceName='captainClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='captainClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='captainClothing_right1'/>
+    <Frame resourceName='captainClothing_right2'/>
+    <Frame resourceName='captainClothing_right1'/>
+    <Frame resourceName='captainClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='captainClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='captainClothing_back1'/>
+    <Frame resourceName='captainClothing_back2'/>
+    <Frame resourceName='captainClothing_back1'/>
+    <Frame resourceName='captainClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='captainClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='captainClothing_left1'/>
+    <Frame resourceName='captainClothing_left2'/>
+    <Frame resourceName='captainClothing_left1'/>
+    <Frame resourceName='captainClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

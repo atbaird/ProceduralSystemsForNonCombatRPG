@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+
+  <!-- Merchant Dialogue -->
+  <MarketTradeTraderNormal 
+    text='Sorry, but I dont have time for you unless you want to trade for something.'/>
+  
+  <MarketTradeTraderTheRequest text='Eh? $MarketTrade.TheWarrior.name$ wants a new sword made of steel?'
+                             segmentToOpenNext='MarketTradeTraderTheDeal'/>
+  <MarketTradeTraderTheDeal 
+    text='Well, as it happens, I have such a thing; but you must do something for me first.'
+    segmentToOpenNext='MarketTradeTraderTheDemand'/>
+  
+  <MarketTradeTraderTheDemand text='You see, my shipment of fish has not arrived yet, '>
+    <Text text='and I cant be called a master merchant unless I have EVERYTHING on sale. '/>
+    <Text 
+      text='So I need you to go talk to the fisherman, $MarketTrade.TheFisherman.name$,'/>
+    <Text text=' and find out what the hold up is.'/>
+  </MarketTradeTraderTheDemand>
+
+  <MarketTradeTraderTheReminder text='Did you forget what I asked for? Go talk to '>
+    <Text text='$MarketTrade.TheFisherman.name$ and find out where the hell my shipment of fish is.'/>
+  </MarketTradeTraderTheReminder>
+
+  <MarketTradeTraderComplete text='Ah, Well good to know that the shipments will begin again.'>
+    <Text text='Here is the sword you requested, it was forged by the dwarves.'/>
+  </MarketTradeTraderComplete>
+
+  <MarketTradeTraderDeliverToWarrior text='Go give that sword to $MarketTrade.TheWarrior.name$ before he starts hunting you.' />
+  
+  
+  <!-- The Fisherman Dialogue -->
+  <MarketTradeTheFishermanNormal text='...' />
+  
+  <MarketTradeTheFishermanTheRequest text='... Hmm?... Yeah, I am $MarketTrade.TheFisherman.name$.'>
+    <Text text='What do you want?'/>
+    <Decision>
+      <MarketTrade DialogueToOpen='MarketTradeTheFishermanTheRequestPart2'
+                   DialogueChoice='Market Trade'/>
+      <Nothing DialogueToOpen='MarketTradeTheFishermanNothing' />
+    </Decision>
+  </MarketTradeTheFishermanTheRequest>
+
+  <MarketTradeTheFishermanNothing text='Then stop bothering me.' />
+
+  <MarketTradeTheFishermanTheRequestPart2 text='Oh... Well... The fish are not biting.'>
+    <Text text=' I know theres more down there, but they seem to dislike any bait I try.'/>
+    <Text text=' I am not gonna tell $MarketTrade.TheTrader.name$ about this...'/>
+    <Text text=' I would lose my one trading partner to the competition. Would you do me a favor and talk to'/>
+    <Text text=' $MarketTrade.TheWiseMan.name$ the Wise Man? He would know what to do about the fish.' />
+    <Text text=' Unlike all those others, I will make it worth your while.' />
+  </MarketTradeTheFishermanTheRequestPart2>
+
+  <MarketTradeTheFishermanReminder>
+    <Text text='You talked to the Wise Man yet?'/>
+  </MarketTradeTheFishermanReminder>
+
+  <MarketTradeTheFishermanComplete>
+    <Text text='Oh I see! So that will make the fish start biting again?'/>
+    <Text text=' Well you kept your end of the deal, so I will keep mine.' />
+    <Text text=' Here, have a $MarketTrade.FishermanReward$.'/>
+  </MarketTradeTheFishermanComplete>
+
+  <MarketTradeTheFishermanCompletePart2>
+    <Text text='Go tell $MarketTrade.TheTrader.name$ that the fish will arrive to market on time tomorrow.'/>
+  </MarketTradeTheFishermanCompletePart2>
+  
+</DialogueSegments>

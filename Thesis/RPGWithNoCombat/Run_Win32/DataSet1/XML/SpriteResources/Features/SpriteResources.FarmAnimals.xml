@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='Cow_Right' textureLocation='DataSet1/Images/Cow.png'
+                    spriteBounds='0.0, 15.0, 15.0, 0.0'/>
+  <SpriteResource resourceName='Cow_Left' textureLocation='DataSet1/Images/Cow.png'
+                    spriteBounds='15.0, 15.0, 0.0, 0.0'/>
+
+  <SpriteResource resourceName='Chicken_Right' textureLocation='DataSet1/Images/Chicken.png'
+                    spriteBounds='0.0, 15.0, 15.0, 0.0'/>
+  <SpriteResource resourceName='Chicken_Left' textureLocation='DataSet1/Images/Chicken.png'
+                    spriteBounds='15.0, 15.0, 0.0, 0.0'/>
+  
+</SpriteResources>

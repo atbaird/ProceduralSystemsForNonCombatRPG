@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_magicianClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 198, 81, 180'/>
+  <SpriteResource resourceName='male_magicianClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 198, 97, 180'/>
+  <SpriteResource resourceName='male_magicianClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 198, 113, 180'/>
+
+  <SpriteResource resourceName='male_magicianClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 216, 81, 198'/>
+  <SpriteResource resourceName='male_magicianClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 216, 97, 198'/>
+  <SpriteResource resourceName='male_magicianClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 216, 113, 198'/>
+
+  <SpriteResource resourceName='male_magicianClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 234, 81, 216'/>
+  <SpriteResource resourceName='male_magicianClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 234, 97, 216'/>
+  <SpriteResource resourceName='male_magicianClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 234, 113, 216'/>
+
+  <SpriteResource resourceName='male_magicianClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 252, 81, 234'/>
+  <SpriteResource resourceName='male_magicianClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 252, 97, 234'/>
+  <SpriteResource resourceName='male_magicianClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 252, 113, 234'/>
+
+  <SpriteResource resourceName='female_magicianClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 360, 81, 342'/>
+  <SpriteResource resourceName='female_magicianClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 360, 97, 342'/>
+  <SpriteResource resourceName='female_magicianClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 360, 113, 342'/>
+
+  <SpriteResource resourceName='female_magicianClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 342, 81, 324'/>
+  <SpriteResource resourceName='female_magicianClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 342, 97, 324'/>
+  <SpriteResource resourceName='female_magicianClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 342, 113, 324'/>
+
+  <SpriteResource resourceName='female_magicianClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 324, 81, 308'/>
+  <SpriteResource resourceName='female_magicianClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 324, 97, 308'/>
+  <SpriteResource resourceName='female_magicianClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 324, 113, 308'/>
+
+  <SpriteResource resourceName='female_magicianClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='66, 378, 81, 360'/>
+  <SpriteResource resourceName='female_magicianClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='82, 378, 97, 360'/>
+  <SpriteResource resourceName='female_magicianClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='98, 378, 113, 360'/>
+</SpriteResources>

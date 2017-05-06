@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+
+  <TileDefinition name='Grassland_GreenTent'
+                  bottomResourceName='grassTile1_1'
+                  altBottomResourceName='grassTile1_1_alt'
+                  altBottomResourceChance='0.5'
+                  resourceName='GreenTent_SouthWest'
+                  solid='true'
+                  mapCode='115,108,0'>
+    <SpecialCase>
+      <ToSet debugName='Grassland_GreenTent_SouthEast'
+        TileCoords='1,0' resourceName='GreenTent_SouthEast'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+
+      <ToSet debugName='Grassland_GreenTent_NorthWest'
+        TileCoords='0,1' resourceName='GreenTent_NorthWest'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+
+      <ToSet debugName='Grassland_GreenTent_NorthEast'
+        TileCoords='1,1' resourceName='GreenTent_NorthEast'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+    </SpecialCase>
+  </TileDefinition>
+
+  <TileDefinition name='Grassland_WhiteTent'
+                  bottomResourceName='grassTile1_1'
+                  altBottomResourceName='grassTile1_1_alt'
+                  altBottomResourceChance='0.5'
+                  resourceName='WhiteTent_SouthWest'
+                  solid='true'
+                  mapCode='137,108,87'>
+    <SpecialCase>
+      <ToSet debugName='Grassland_WhiteTent_SouthEast'
+        TileCoords='1,0' resourceName='WhiteTent_SouthEast'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+
+      <ToSet debugName='Grassland_WhiteTent_NorthWest'
+        TileCoords='0,1' resourceName='WhiteTent_NorthWest'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+
+      <ToSet debugName='Grassland_WhiteTent_NorthEast'
+        TileCoords='1,1' resourceName='WhiteTent_NorthEast'
+        bottomResourceName='grassTile1_1'
+        altBottomResourceName='grassTile1_1_alt'
+        altBottomResourceChance='0.5'
+        solid='true'/>
+    </SpecialCase>
+  </TileDefinition>
+</TileDefinitions>

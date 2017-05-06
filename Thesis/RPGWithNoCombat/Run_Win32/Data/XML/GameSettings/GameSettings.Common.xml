@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<GameSettings
+  EnforceMapsMustHaveNoTilesWithNoSpriteResources='false'
+  NumberOfCharactersPerLine='35'
+  AddThreeDotsIfThereIsMoreToDialogueSegment='true'>
+
+  <Debugging 
+    OverwriteSeed='false'
+    Seed='0'
+    EnableDebugLogging='true'
+    EnableConsole='true'
+    EnableDeveloperDebug='true'
+    ConsoleFontSize='0.005'
+    MaxNumberOfConsoleLines='20'
+    ConsoleFontFolder='DataSet1/Font/'
+    ConsoleFontFNTFile='DebugFont.fnt'
+    ConsoleShaderVertFile='DataSet1/Shaders/SpritePassthrough.vert'
+    ConsoleShaderFragFile='DataSet1/Shaders/SpritePassthrough.frag'
+    ConsoleWhiteBoxSpriteName='PureWhiteBox'
+    OutputFolder='Data/'
+    debugFileWithoutExtention='debug'
+    WriteGameSettingsContent='true'
+    WriteGeneratorContent='false'
+    WriteActiveContent='true'
+    GameSettingsIncludePlayerInfo='true'
+    GameSettingsIncludeShaderInfo='true'
+    GameSettingsIncludeFileDirectoriesInfo='true'
+    GameSettingsIncludePerFrameDurationsInfo='true'
+    GameSettingsIncludePreallocationsInfo='true'
+    WriteAgentGeneratorsToDebugFile='true'
+    WriteAgentStatsToDebugFile='true'
+    WriteDialogueGroupsToDebugFile='true'
+    WriteDialogueSegmentsToDebugFile='true'
+    WriteFeatureGeneratorsToDebugFile='true'
+    WriteGlobalVariablesToDebugFile='true'
+    WriteHairGeneratorsToDebugFile='true'
+    WriteItemGeneratorsToDebugFile='true'
+    WriteMapFilesToDebugFile='true'
+    WriteNameGeneratorsToDebugFile='true'
+    WriteNPCAttributesToDebugFile='true'
+    WriteNPCJobsToDebugFile='true'
+    WriteQuestGeneratorsToDebugFile='true'
+    WriteSoundsToDebugFile='true'
+    WriteSpeechBubblesToDebugFile='true'
+    WriteSpriteAnimationsToDebugFile='true'
+    WriteSpriteResourcesToDebugFile='true'
+    WriteTileDefinitionsToDebugFile='true'
+    WriteActiveTilesPerMapToDebugFile='true'
+    WriteActiveAgentsPerMapToDebugFile='true'
+    WriteActiveFeaturesPerMapToDebugFile='true'
+    WriteActiveTileEventsPerMapToDebugFile='true'
+    WriteActiveQuestsPerMapToDebugFile='true'
+    />
+
+  <Preallocations
+    AgentGenerators='50'
+    AgentsPerMap='20'
+    FeatureGenerators='50'
+    FeaturesPerMap='20'
+    HairGenerators='50'
+    ItemGenerators='50'
+    QuestGenerators='50'
+    QuestsPerMap='20'
+    AllSoundRegistrations='50'
+    SoundEffectRegistrations='50'
+    MusicRegistrations='50'
+    TileDefinitions='20'
+    DialogueSegments='50'
+    SpriteResources='50'
+    SpriteAnimations='50'
+    />
+  
+  <AmountOfTimeToTakeForLoadingPerFrame
+    DialogueSegments='0.25'
+    DialogueGroupings='0.25'
+    SpriteResources='0.25'
+    SpriteAnimations='0.25'
+    AllSounds='0.25'
+    MapFiles='0.25'
+    QuestGenerators='0.25'
+    TileDefinitions='0.25'
+    SpeechBubbles='0.25'
+    NPCAttributes='0.25'
+    HairGenerators='0.25'
+    Namegenerators='0.25'
+    FeatureGenerators='0.25'
+    AgentStats='0.25'
+    NPCJobs='0.25'
+    AgentGenerators='0.25'
+    ItemGenerators='0.25'
+    MapDataAndPixels='0.25'
+    />
+
+
+  <!-- DataSet1 -->
+  <!-- 
+  -->
+  <StartingMap mapName='SmallVillage'/>
+
+  <DefaultShader
+    vertexFile='DataSet1/Shaders/SpritePassthrough.vert'
+    fragmentFile='DataSet1/Shaders/SpritePassthroughWithColorHandling.frag'/>
+
+  <DefaultMapShader
+    vertexFile='DataSet1/Shaders/SpritePassthroughMultipleTextures.vert'
+    fragmentFile='DataSet1/Shaders/SpritePassthroughWithColorHandlingMultipleTextures.frag'/>
+
+  <Player AgentGenerator='Player' TileCoords='10,10'/>
+
+  <DefaultClothes ItemGenerator='Townsfolk 1 clothes'/>
+
+  <Font ContainingFolder='DataSet1/Font/' FNTFile='DebugFont.fnt'/>
+
+  <GlobalVariables ContainingFolder='DataSet1/XML/GlobalVariables/'/>
+  <SpriteResources ContainingFolder='DataSet1/XML/SpriteResources/'/>
+  <SpriteAnimations ContainingFolder='DataSet1/XML/SpriteAnimations/'/>
+  <DialogueSegments ContainingFolder='DataSet1/XML/DialogueSegments/'/>
+  <DialogueGroupings ContainingFolder='DataSet1/XML/DialogueGroupings/'/>
+  <AgentGenerators ContainingFolder='DataSet1/XML/AgentGenerators/'/>
+  <FeatureGenerators ContainingFolder='DataSet1/XML/FeatureGenerators/'/>
+  <HairGenerators ContainingFolder='DataSet1/XML/HairGenerators/'/>
+  <ItemGenerators ContainingFolder='DataSet1/XML/ItemGenerators/'/>
+  <SoundRegistrations ContainingFolder='DataSet1/XML/Sound/'/>
+  <QuestGenerators ContainingFolder='DataSet1/XML/Quests/'/>
+  <SpeechBubbles ContainingFolder='DataSet1/XML/SpeechBubbles/'/>
+  <NameGenerators ContainingFolder='DataSet1/XML/NameGenerators/'/>
+  <MapFiles ContainingFolder='DataSet1/XML/MapFiles/'/>
+  <TileDefinitions ContainingFolder='DataSet1/XML/TileDefinitions/'/>
+  <NPCAttributes ContainingFolder='DataSet1/XML/NPCAttributes/' />
+  <AgentStats ContainingFolder='DataSet1/XML/AgentStats/' />
+  <NPCJobs ContainingFolder='DataSet1/XML/NPCJobs/' />
+
+
+  <!-- DataSet2 -->
+  <!-- 
+  <StartingMap mapName='TownSquare'/>
+
+  <DefaultShader
+    vertexFile='DataSet2/Shaders/SpritePassthrough.vert'
+    fragmentFile='DataSet2/Shaders/SpritePassthroughWithColorHandling.frag'/>
+
+  <DefaultMapShader
+    vertexFile='DataSet2/Shaders/SpritePassthroughMultipleTextures.vert'
+    fragmentFile='DataSet2/Shaders/SpritePassthroughWithColorHandlingMultipleTextures.frag'/>
+
+  <Player AgentGenerator='Player' TileCoords='15,15'/>
+
+  <DefaultClothes ItemGenerator='Townsfolk 1 clothes'/>
+
+  <Font ContainingFolder='DataSet2/Font/' FNTFile='DebugFont.fnt'/>
+
+  <GlobalVariables ContainingFolder='DataSet2/XML/GlobalVariables/'/>
+  <SpriteResources ContainingFolder='DataSet2/XML/SpriteResources/'/>
+  <SpriteAnimations ContainingFolder='DataSet2/XML/SpriteAnimations/'/>
+  <DialogueSegments ContainingFolder='DataSet2/XML/DialogueSegments/'/>
+  <DialogueGroupings ContainingFolder='DataSet2/XML/DialogueGroupings/'/>
+  <AgentGenerators ContainingFolder='DataSet2/XML/AgentGenerators/'/>
+  <FeatureGenerators ContainingFolder='DataSet2/XML/FeatureGenerators/'/>
+  <HairGenerators ContainingFolder='DataSet2/XML/HairGenerators/'/>
+  <ItemGenerators ContainingFolder='DataSet2/XML/ItemGenerators/'/>
+  <SoundRegistrations ContainingFolder='DataSet2/XML/Sound/'/>
+  <QuestGenerators ContainingFolder='DataSet2/XML/Quests/'/>
+  <SpeechBubbles ContainingFolder='DataSet2/XML/SpeechBubbles/'/>
+  <NameGenerators ContainingFolder='DataSet2/XML/NameGenerators/'/>
+  <MapFiles ContainingFolder='DataSet2/XML/MapFiles/'/>
+  <TileDefinitions ContainingFolder='DataSet2/XML/TileDefinitions/'/>
+  <NPCAttributes ContainingFolder='DataSet2/XML/NPCAttributes/' />
+  <AgentStats ContainingFolder='DataSet2/XML/AgentStats/' />
+  <NPCJobs ContainingFolder='DataSet2/XML/NPCJobs/' />
+  -->
+</GameSettings>

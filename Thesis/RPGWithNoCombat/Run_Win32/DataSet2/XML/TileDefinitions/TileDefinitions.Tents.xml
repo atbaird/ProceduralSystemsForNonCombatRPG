@@ -1,0 +1,46 @@
+<TileDefinitions>
+
+  <TileDefinition
+    name='GreenTent'
+    solid='true'
+    MapCode='78,177,115'
+    resourceName='RegularDirtTile'
+    altResourceName='AltRegularDirtTile'
+    altResourceChance='0.5'
+    topResourceName='TentGreenSouthWest'
+    >
+    <SpecialCase>
+      <ToSet topResourceName='TentGreenSouthEast'
+             TileCoords='1,0'
+             solid='true'/>
+      <ToSet topResourceName='TentGreenNorthWest'
+             TileCoords='0,1'/>
+      <ToSet topResourceName='TentGreenNorthEast'
+             TileCoords='1,1'/>
+    </SpecialCase>
+
+  </TileDefinition>
+
+
+  <TileDefinition
+    name='WhiteTent'
+    solid='true'
+    MapCode='224,210,177'
+    resourceName='RegularDirtTile'
+    altResourceName='AltRegularDirtTile'
+    altResourceChance='0.5'
+    topResourceName='TentWhiteSouthWest'
+    >
+    <SpecialCase>
+      <ToSet topResourceName='TentWhiteSouthEast'
+             TileCoords='1,0'
+             solid='true'/>
+      <ToSet topResourceName='TentWhiteNorthWest'
+             TileCoords='0,1'/>
+      <ToSet topResourceName='TentWhiteNorthEast'
+             TileCoords='1,1'/>
+    </SpecialCase>
+
+  </TileDefinition>
+
+</TileDefinitions>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='BardHairBack0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='16, 126, 32, 108'/>
+
+  <SpriteResource resourceName='BardHairBack1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='32, 126, 48, 108'/>
+
+  <SpriteResource resourceName='BardHairBack2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='48, 126, 64, 108'/>
+
+
+  <SpriteResource resourceName='BardHairRight0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='16, 144, 32, 126'/>
+
+  <SpriteResource resourceName='BardHairRight1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='32, 144, 48, 126'/>
+
+  <SpriteResource resourceName='BardHairRight2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='48, 144, 64, 126'/>
+
+
+  <SpriteResource resourceName='BardHairForward0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='16, 162, 32, 144'/>
+
+  <SpriteResource resourceName='BardHairForward1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='32, 162, 48, 144'/>
+
+  <SpriteResource resourceName='BardHairForward2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='48, 162, 64, 144'/>
+
+
+  <SpriteResource resourceName='BardHairLeft0'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='16, 162, 32, 180'/>
+
+  <SpriteResource resourceName='BardHairLeft1'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='32, 162, 48, 180'/>
+
+  <SpriteResource resourceName='BardHairLeft2'
+                  textureLocation='DataSet2/Images/Characters/Hair/16x18_Hairs_separated_4th_bonus_altogether.png'
+                  spriteBounds='48, 162, 64, 180'/>
+
+</SpriteResources>

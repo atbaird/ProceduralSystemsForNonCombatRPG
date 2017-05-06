@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='PalaceHorizontalStairsLeft'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221,304,236,289' />
+
+  <SpriteResource resourceName='PalaceHorizontalStairsMiddle'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,304,253,289' />
+
+  <SpriteResource resourceName='PalaceHorizontalStairsRight'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255,304,270,289' />
+
+  <SpriteResource resourceName='PalaceHorizontalStairsSingle'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='272,304,287,289' />
+</SpriteResources>

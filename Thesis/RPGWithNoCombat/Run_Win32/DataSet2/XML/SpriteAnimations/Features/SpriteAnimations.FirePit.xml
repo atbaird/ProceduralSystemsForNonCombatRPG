@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='firepit_Off' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Firepit_Off'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='firepit_On' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='Firepit_On1'/>
+    <Frame resourceName='Firepit_On2'/>
+  </SpriteAnimation>
+</SpriteAnimations>

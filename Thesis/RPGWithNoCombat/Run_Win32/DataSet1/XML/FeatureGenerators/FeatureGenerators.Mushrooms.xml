@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+
+  <FeatureGenerator name='Red_Mushroom' DefaultImage='TallRedMushroom' solid='true'>
+    <Animations>
+      <Animation animationName='TallRedMushroom' direction='south' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <GiveItem ItemWillGive='Red Mushroom' AmountToGive='1' type='Interactive'/>
+      <OpenDialogue dialogueSegment='FeatureReceivedRedMushroom' type='Interactive'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+  <FeatureGenerator name='Brown_Mushroom' DefaultImage='TallBrownMushroom' solid='true'>
+    <Animations>
+      <Animation animationName='TallBrownMushroom' direction='south' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <GiveItem ItemWillGive='Brown Mushroom' AmountToGive='1' type='Interactive'/>
+      <OpenDialogue dialogueSegment='FeatureReceivedBrownMushroom' type='Interactive'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+  <FeatureGenerator name='Spotty_Mushroom' DefaultImage='TallSpottyMushroom' solid='true'>
+    <Animations>
+      <Animation animationName='TallSpottyMushroom' direction='south' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <GiveItem ItemWillGive='Spotty Mushroom' AmountToGive='1' type='Interactive'/>
+      <OpenDialogue dialogueSegment='FeatureReceivedSpottyMushroom' type='Interactive'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+  
+  
+</FeatureGenerators>

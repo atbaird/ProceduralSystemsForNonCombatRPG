@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='PeasantSpeechBubble'>
+  <RebelGreeting1 uniqueGroup='RebelGreeting' text='Down with the king!'/>
+  <RebelGreeting2 uniqueGroup='RebelGreeting'
+                  text='How dare the royalty steal all the food from the towns folk just so they can throw a party!'/>
+  <RebelGreeting3 uniqueGroup='RebelGreeting'
+                  text='Hey! Get away you damn noble scum!'/>
+</DialogueSegments>

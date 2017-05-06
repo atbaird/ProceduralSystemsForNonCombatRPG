@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <FeatureReceivedRedMushroom text='You rip a red mushroom out of the patch.' />
+  <FeatureReceivedSpottyMushroom text='You rip a spotty mushroom out of the patch.' />
+  <FeatureReceivedBrownMushroom text='You rip a brown mushroom out of the patch.' />
+  
+</DialogueSegments>

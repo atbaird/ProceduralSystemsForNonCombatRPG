@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueGroupings>
+  
+  <!-- The name of the nodes at this level should be the name of the group. -->
+  <Greeting>
+    <Triggers>
+      <GlobalSetVariableFloat Variable="GreetingEncountered" value="1.0"/>
+    </Triggers>
+    
+    
+  </Greeting>
+</DialogueGroupings>

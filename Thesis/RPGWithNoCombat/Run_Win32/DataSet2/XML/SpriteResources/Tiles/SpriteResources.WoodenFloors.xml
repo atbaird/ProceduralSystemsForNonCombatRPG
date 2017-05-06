@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='VerticalWoodenFloor'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136,49,151,34'/>
+
+  <SpriteResource resourceName='VerticalWoodenFloorAlt'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136,66,151,51'/>
+
+  <SpriteResource resourceName='HorizontalWoodenFloor'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,49,168,34'/>
+
+  <SpriteResource resourceName='HorizontalWoodenFloorAlt'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,66,168,51'/>
+</SpriteResources>

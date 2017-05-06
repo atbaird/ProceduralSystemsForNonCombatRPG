@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorLeft1Open' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorLeftClosed'/>
+    <Frame resourceName='PalaceDoorLeftOpenned'/>
+    <Frame resourceName='PalaceDoorLeftClosed'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorLeft1LockedOpen' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorLeftOpenned'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorLeft1LockedClosed' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorLeftClosed'/>
+  </SpriteAnimation>
+
+
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorRight1Open' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorRightClosed'/>
+    <Frame resourceName='PalaceDoorRightOpenned'/>
+    <Frame resourceName='PalaceDoorRightClosed'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorRight1LockedOpen' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorRightOpenned'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PalaceDoorRight1LockedClosed' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PalaceDoorRightClosed'/>
+  </SpriteAnimation>
+  
+</SpriteAnimations>

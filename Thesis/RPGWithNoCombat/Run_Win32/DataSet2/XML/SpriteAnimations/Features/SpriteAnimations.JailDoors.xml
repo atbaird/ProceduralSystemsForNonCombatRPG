@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='JailDoor1Open' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='SquareJailCellDoorClosed'/>
+    <Frame resourceName='SquareJailCellDoorOpenned'/>
+    <Frame resourceName='SquareJailCellDoorClosed'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='JailDoor1LockedOpen' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='SquareJailCellDoorOpenned'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='JailDoor1LockedClosed' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='SquareJailCellDoorClosed'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

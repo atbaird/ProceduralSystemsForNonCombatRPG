@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemGenerators>
+  <ItemGenerator Name='Priest clothes' DefaultImage='priestClothing_forward0'
+                 ItemType='clothes' GenderSpecific='true'>
+
+    <Animations>
+      <Animation animationName='priestClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='priestClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='priestClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='priestClothing_right' direction='east' animIdx='walk'/>
+    </Animations>
+    <AlternativeAnimations>
+      <Animation animationName='priestClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='priestClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='priestClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='priestClothing_right' direction='east' animIdx='walk'/>
+    </AlternativeAnimations>
+  </ItemGenerator>
+</ItemGenerators>

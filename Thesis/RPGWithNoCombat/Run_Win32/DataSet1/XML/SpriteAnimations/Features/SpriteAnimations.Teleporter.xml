@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+
+  <SpriteAnimation spriteAnimationName='TeleporterAnim' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='TeleporterSprite'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

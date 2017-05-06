@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='RegularDirtTile'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,15,117,0'/>
+
+  <SpriteResource resourceName='AltRegularDirtTile'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,32,117,17'/>
+  
+  
+  
+  <SpriteResource resourceName='DirtEdgeNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='119,168,134,153'/>
+
+  <SpriteResource resourceName='DirtEdgeWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='119,185,134,170'/>
+
+  <SpriteResource resourceName='DirtEdgeSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='119,202,134,187'/>
+  
+  
+  <SpriteResource resourceName='DirtEdgeNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136,168,151,153'/>
+
+  <SpriteResource resourceName='DirtEdgeSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136,202,151,187'/>
+
+
+  <SpriteResource resourceName='DirtEdgeNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,168,168,153'/>
+
+  <SpriteResource resourceName='DirtEdgeEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,185,168,170'/>
+
+  <SpriteResource resourceName='DirtEdgeSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,202,168,187'/>
+
+
+  <SpriteResource resourceName='DirtEdgeSurroundedNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,202,117,187'/>
+
+  <SpriteResource resourceName='DirtEdgeSurroundedSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,202,100,187'/>
+
+
+  <SpriteResource resourceName='DirtEdgeSurroundedWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='102,219,117,204'/>
+
+  <SpriteResource resourceName='DirtEdgeSurroundedEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='85,219,100,204'/>
+
+  <SpriteResource resourceName='DirtVerticalStraight'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,134,168,119'/>
+
+  <SpriteResource resourceName='DirtHorizontalStraight'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='153,151,168,136'/>
+  
+  
+</SpriteResources>

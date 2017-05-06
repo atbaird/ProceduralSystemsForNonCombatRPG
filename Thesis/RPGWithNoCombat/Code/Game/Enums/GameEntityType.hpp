@@ -1,0 +1,16 @@
+#pragma once
+
+#ifndef GAMEENTITYTYPE_HPP
+#define GAMEENTITYTYPE_HPP
+
+enum GameEntityType
+{
+	INVALID_ENTITY = -1,
+	AGENT_ENTITY,
+	HAIR_ENTITY,
+	ITEM_ENTITY,
+	FEATURE_ENTITY,
+	NUM_OF_GAME_ENTITY_TYPES
+};
+
+#endif

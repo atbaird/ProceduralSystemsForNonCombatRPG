@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCAttributes>
+  <Age>
+    <Child/>
+    <Teenager/>
+    <Young_Adult name='Young Adult'/>
+    <Adult/>
+    <Old/>
+  </Age>
+
+  <Personality>
+    <Silly/>
+    <Shy/>
+    <Serious/>
+    <Lazy/>
+  </Personality>
+
+  <Morallity>
+    <Good/>
+    <Neutral/>
+    <Evil/>
+  </Morallity>
+
+  <Lawfulness>
+    <Lawful/>
+    <Normal/>
+    <Chaotic/>
+  </Lawfulness>
+</NPCAttributes>

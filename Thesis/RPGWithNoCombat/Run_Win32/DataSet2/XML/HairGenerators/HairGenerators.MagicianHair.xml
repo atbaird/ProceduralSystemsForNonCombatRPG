@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<HairGenerators>
+  <HairGenerator name='MaleMagicianHair'
+                 dialogueName='Shag cut'
+                 defautltimage='male_magician_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='male_magician_hair_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+  <HairGenerator name='FemaleMagicianHair'
+                 dialogueName='Shag cut'
+                 isDefault='true'
+                 defautltimage='male_magician_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='male_magician_hair_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_magician_hair_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+</HairGenerators>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <!-- Brown Roof and Walls-->
+
+  <SpriteResource resourceName='wall_gray_NW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527.0,372.0,542.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_W' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527.0,389.0,542.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_SW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527.0,406.0,542.0,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='wall_gray_W_Spotted' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='408,423.0,411,408.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='wall_gray_NC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544.0,372.0,559.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_C' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544.0,389.0,559.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_SC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544.0,406.0,559.0,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='wall_gray_C_Spotted' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,321.0,576,306.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='wall_gray_NE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561.0,372.0,577.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_E' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561.0,389.0,577.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='wall_gray_SE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561.0,406.0,577.0,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='wall_gray_E_Spotted' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527,423.0,542,408.0'
+                  virtualSize='1.0f,1.0f'/>
+</SpriteResources>

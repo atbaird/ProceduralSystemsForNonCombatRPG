@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<HairGenerators>
+  <HairGenerator name='MaleTownsfolkHair3'
+                 dialogueName='Bearded'
+                 isDefault='true'
+                 defautltimage='male_townsfolk_hair3_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='male_townsfolk_hair3_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_townsfolk_hair3_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_townsfolk_hair3_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_townsfolk_hair3_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+  <HairGenerator name='FemaleTownsfolkHair3'
+                 dialogueName='Long Hair'
+                 isDefault='false'
+                 defautltimage='female_townsfolk_hair3_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='female_townsfolk_hair3_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='female_townsfolk_hair3_back' direction='north' animIdx='walk'/>
+      <Animation animationName='female_townsfolk_hair3_left' direction='west' animIdx='walk'/>
+      <Animation animationName='female_townsfolk_hair3_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+</HairGenerators>

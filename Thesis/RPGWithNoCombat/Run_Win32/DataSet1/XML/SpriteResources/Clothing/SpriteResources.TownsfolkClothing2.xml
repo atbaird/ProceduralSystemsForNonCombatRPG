@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_townsfolk2Clothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 198, 277, 180'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 198, 293, 180'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 198, 309, 180'/>
+
+  <SpriteResource resourceName='male_townsfolk2Clothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 216, 277, 198'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 216, 293, 198'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 216, 309, 198'/>
+
+  <SpriteResource resourceName='male_townsfolk2Clothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 234, 277, 216'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 234, 293, 216'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 234, 309, 216'/>
+
+  <SpriteResource resourceName='male_townsfolk2Clothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 252, 277, 234'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 252, 293, 234'/>
+  <SpriteResource resourceName='male_townsfolk2Clothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 252, 309, 234'/>
+
+  <SpriteResource resourceName='female_townsfolk2Clothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 360, 277, 342'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 360, 293, 342'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 360, 309, 342'/>
+
+  <SpriteResource resourceName='female_townsfolk2Clothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 342, 277, 324'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 342, 293, 324'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 342, 309, 324'/>
+
+  <SpriteResource resourceName='female_townsfolk2Clothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 324, 277, 308'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 324, 293, 308'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 324, 309, 308'/>
+
+  <SpriteResource resourceName='female_townsfolk2Clothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='262, 378, 277, 360'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='278, 378, 293, 360'/>
+  <SpriteResource resourceName='female_townsfolk2Clothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_2nd - no arms.png'
+                  spriteBounds='294, 378, 309, 360'/>
+</SpriteResources>

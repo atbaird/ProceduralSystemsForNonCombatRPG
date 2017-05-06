@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='Fountain_NorthWest' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,66.0,49.0,51.0'/>
+
+  <SpriteResource resourceName='Fountain_North' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,66.0,66.0,51.0'/>
+
+  <SpriteResource resourceName='Fountain_NorthEast' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,66.0,83.0,51.0'/>
+
+
+  <SpriteResource resourceName='Fountain_West' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,83.0,49.0,68.0'/>
+
+  <SpriteResource resourceName='Fountain_Center' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,83.0,66.0,68.0'/>
+
+  <SpriteResource resourceName='Fountain_East' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,83.0,83.0,68.0'/>
+
+  
+  <SpriteResource resourceName='Fountain_SouthWest' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,100.0,49.0,85.0'/>
+
+  <SpriteResource resourceName='Fountain_South' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,100.0,66.0,85.0'/>
+
+  <SpriteResource resourceName='Fountain_SouthEast' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,100.0,83.0,85.0'/>
+
+
+  <SpriteResource resourceName='Fountain_SECornerPiece' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='0,66,15,51'/>
+
+  <SpriteResource resourceName='Fountain_SWCornerPiece' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='17,66,32,51'/>
+
+
+  <SpriteResource resourceName='Fountain_NECornerPiece' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='0,83,15,68'/>
+  
+  <SpriteResource resourceName='Fountain_NWCornerPiece' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='17,83,32,68'/>
+</SpriteResources>

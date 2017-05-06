@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='PeasantSpeechBubble'>
+  <PeasantGreeting1 uniqueGroup='PeasantGreeting'
+                    text='Those rich folk took all our food last week for that damn party of theirs.' />
+  <PeasantGreeting2 uniqueGroup='PeasantGreeting'
+                    text='Could you spare a coin?'>
+    <Decision DialogueToOpen='PeasantGreeting2Yes'>
+      <Yes>
+        <!-- have enough coins -->
+        <Requirements>
+          <CheckPlayerHasItem Variable="gold" value=">=1.0"/>
+        </Requirements>
+        <Triggers>
+          <DecreasePlayerItemAmount Variable="gold" value="1.0"/>
+        </Triggers>
+      </Yes>
+      <Yes DialogueToOpen='PeasantGreeting2YesButNotEnough'>
+        <!-- not enough coins -->
+        <Requirements>
+          <CheckPlayerHasItem Variable="gold" value="&lt;1.0"/>
+        </Requirements>
+      </Yes>
+      <No DialogueToOpen='PeasantGreeting2No'/>
+    </Decision>
+  </PeasantGreeting2>
+  <PeasantGreeting3 uniqueGroup='PeasantGreeting'
+                    text='' />
+
+  <PeasantGreeting2No text="Well aren't you selfish." />
+  <PeasantGreeting2Yes text="Thank you so much!" />
+  <PeasantGreeting2YesButNotEnough text="Err, I don't think it would be right of me to try and take from nothing." />
+</DialogueSegments>

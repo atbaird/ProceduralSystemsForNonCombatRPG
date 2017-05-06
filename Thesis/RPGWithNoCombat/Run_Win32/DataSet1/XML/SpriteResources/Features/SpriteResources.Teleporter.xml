@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='TeleporterSprite' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,136.0,236.0,118.0'
+                  virtualSize='1.0f,1.0f'/>
+</SpriteResources>

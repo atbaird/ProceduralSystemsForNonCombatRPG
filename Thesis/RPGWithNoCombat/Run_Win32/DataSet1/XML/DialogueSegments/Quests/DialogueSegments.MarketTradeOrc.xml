@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='OrcSpeechBubble'>
+
+  <MarketTradeWarriorTheDemand text='I need new sword; needs to be made of steel.'>
+    <Text text=' You will get it for me, $MarketTrade.TheWarrior.name$ or' />
+    <Text text=' I will cleave your head off with this rusty blade.'/>
+  </MarketTradeWarriorTheDemand>
+
+  <MarketTradeWarriorReminder text='What are you waiting for? Get me that steel sword peasant!'/>
+
+  <MarketTradeWarriorComplete 
+    text='Well well. You have done me quite the service peasant.'>
+    <Text text=' Here, have $MarketTrade.WarriorReward$ for your trouble.'/>
+  </MarketTradeWarriorComplete>
+
+  <MarketTradeWarriorAfterQuest text='I have no more need of you. Begone.' />
+  
+</DialogueSegments>

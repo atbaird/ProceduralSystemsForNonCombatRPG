@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <MarketTrade title='Market Trade'>
+    <Variables>
+      <Player VariableName='player'/>
+      <Float VariableName='QuestState' defaultValue='0.0' />
+      <Float VariableName='SpokeToTheWiseManOnce' defaultValue='0.0'/>
+      <NPC VariableName='TheWarrior' />
+      <NPC VariableName='TheTrader' />
+      <NPC VariableName='TheFisherman' />
+      <NPC VariableName='TheWiseMan' />
+      <Text VariableName='FishermanReward' Value='Fishing Rod' />
+      <Text VariableName='WarriorReward' Value='100 Gold Coins' />
+    </Variables>
+
+    <AgentsToGenerate>
+      <Town_Trader number='1'
+              VariableName='TheTrader'
+              GlobalVariableName='MasterTrader'
+              Dialogue='MarketTradeTraderNormal'/>
+      <OrcWarrior number='1'
+                  VariableName='TheWarrior'
+                  GlobalVariableName='TheWarrior'
+                  Dialogue='MarketTradeWarriorTheDemand'
+                  AlwaysSpawn='true'/>
+      <ElfWiseMan number='1'
+                  VariableName='TheWiseMan'
+                  Dialogue='WiseManNormal'/>
+
+      <Fisher number='1'
+              VariableName='TheFisherman'
+              Dialogue='MarketTradeTheFishermanNormal'/>
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start - The Demands of the Fearce Warrior'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheWarrior'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='TheWarrior' DialogueSegment='MarketTradeWarriorTheDemand'/>
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <ChangeDialogue Entity='TheWarrior' DialogueSegment='MarketTradeWarriorReminder'/>
+          <ChangeDialogue Entity='TheTrader' DialogueSegment='MarketTradeTraderTheRequest'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Reminder'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='&lt;=5.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheWarrior'/>
+        </Requirements>
+        <Trigger>
+          <ChangeDialogue Entity='TheWarrior' DialogueSegment='MarketTradeWarriorReminder'/>
+        </Trigger>
+      </Event>
+
+      <Event EventName='Asking the Master Trader for help.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheTrader'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='TheTrader' DialogueSegment='MarketTradeTraderTheReminder'/>
+          <ChangeDialogue Entity='TheFisherman' DialogueSegment='MarketTradeTheFishermanTheRequest'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speaking to the fisherman'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==2.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFisherman'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment'
+                       DialogueSegment='MarketTradeTheFishermanTheRequestPart2'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==3.0'/>
+          <ChangeDialogue Entity='TheFisherman' DialogueSegment='MarketTradeTheFishermanReminder'/>
+          <ChangeDialogue Entity='TheWiseMan' DialogueSegment='MarketTradeTheWiseManRequest'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName="Seeking the wise man's advice">
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==3.0'/>
+          <Requirement RequirementType='CheckVariableFloat' Variable='SpokeToTheWiseManOnce' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheWiseMan'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='SpokeToTheWiseManOnce' value='1.0'/>
+          <ChangeDialogue Entity='TheWiseMan' DialogueSegment='MarketTradeTheWiseManDemand'/>
+          
+        </PostTrigger>
+      </Event>
+
+      <Event EventName="Solving the wise man's riddles">
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==3.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheWiseMan'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment'
+                       DialogueSegment='MarketTradeTheWiseManComplete'/>
+        </Requirements>
+        
+        <Trigger>
+          
+        </Trigger>
+        
+        <PostTrigger>
+          <ChangeDialogue Entity='TheWiseMan' DialogueSegment='MarketTradeTheWiseManReminder'/>
+          <ChangeDialogue Entity='TheFisherman' DialogueSegment='MarketTradeTheFishermanComplete'/>
+          <SetQuestVariableFloat Variable='QuestState' value='4.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Informing the Fisherman'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==4.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFisherman'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='TheFisherman' DialogueSegment='MarketTradeTheFishermanCompletePart2'/>
+          <ChangeDialogue Entity='TheTrader' DialogueSegment='MarketTradeTraderComplete'/>
+          <SetQuestVariableFloat variable='QuestState' value='5.0' />
+          <GiveToEntity EntityName='player' ItemName='Fishing Rod' value='1.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Informing the Trader'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==5.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheTrader' />
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='TheTrader' DialogueSegment='MarketTradeTraderDeliverToWarrior'/>
+          <ChangeDialogue Entity='TheWarrior' DialogueSegment='MarketTradeWarriorComplete'/>
+          <SetQuestVariableFloat variable='QuestState' value='6.0' />
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Quest Complete'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==6.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheWarrior' />
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='TheWarrior' DialogueSegment='MarketTradeWarriorAfterQuest'/>
+          <ChangeDialogue Entity='TheFisherman' DialogueSegment='MarketTradeTheFishermanNormal'/>
+          <ChangeDialogue Entity='TheTrader' DialogueSegment='MarketTradeTraderNormal'/>
+          <ChangeDialogue Entity='TheWiseMan' DialogueSegment='WiseManNormal'/>
+          <SetQuestVariableFloat variable='QuestState' value='7.0' />
+          <GiveToEntity EntityName='player' ItemName='Gold' value='100.0'/>
+          <CompleteQuest />
+        </PostTrigger>
+      </Event>
+    </Events>
+    
+    
+  </MarketTrade>
+
+</Quests>

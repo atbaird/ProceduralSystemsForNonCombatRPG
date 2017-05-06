@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCJobs>
+  <Archer>
+    <StatRequirements>
+      <Dexterity value='60'/>
+    </StatRequirements>
+  </Archer>
+
+  <Healer>
+    <StatRequirements>
+      <Dexterity value='70'/>
+      <Intelligence value='40'/>
+    </StatRequirements>
+  </Healer>
+
+  <Ranger>
+    <StatRequirements>
+      <Dexterity value='80'/>
+      <Intelligence value='60'/>
+    </StatRequirements>
+  </Ranger>
+
+  <WiseMan>
+    <StatRequirements>
+      <Dexterity value='40'/>
+      <Intelligence value='80'/>
+    </StatRequirements>
+  </WiseMan>
+  
+  
+</NPCJobs>

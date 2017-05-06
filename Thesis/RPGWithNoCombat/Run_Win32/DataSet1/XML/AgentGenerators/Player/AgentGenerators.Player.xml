@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='Player' DefaultImage='human_base0' MovementSpeed='2.f'
+                  SprintingMovementSpeed='4.f'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_Townsfolk_hair1/>
+        <male_Townsfolk_hair2/>
+      </Male>
+
+      <Female>
+        <female_Townsfolk_hair1/>
+        <female_Townsfolk_hair2/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Townsfolk 1 clothes'/>
+    </Clothing>
+    
+    <Animations>
+      <Animation animationName='human_base0_walkForward' direction='south' animIdx='walk'/>
+      <Animation animationName='human_base0_walkBack' direction='north' animIdx='walk'/>
+      <Animation animationName='human_base0_walkLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='human_base0_walkRight' direction='east' animIdx='walk'/>
+    </Animations>
+
+    <StatRanges>
+      <Strength min='10' max='10'/>
+      <Dexterity min='10' max='10'/>
+    </StatRanges>
+
+    <SkinColors>
+      <SkinColor value='0' />
+    </SkinColors>
+
+    <HairColors>
+      <DarkBlue/>
+    </HairColors>
+  </AgentGenerator>
+</AgentGenerators>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='TentGreenSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='782,202,797,187' />
+
+  <SpriteResource resourceName='TentGreenSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799,202,814,187' />
+
+  <SpriteResource resourceName='TentGreenNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='782,185,797,170' />
+
+  <SpriteResource resourceName='TentGreenNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799,185,814,170' />
+
+
+  <SpriteResource resourceName='TentWhiteSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816,202,831,187' />
+
+  <SpriteResource resourceName='TentWhiteSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833,202,848,187' />
+
+  <SpriteResource resourceName='TentWhiteNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816,185,831,170' />
+
+  <SpriteResource resourceName='TentWhiteNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833,185,848,170' />
+  
+  
+</SpriteResources>

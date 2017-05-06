@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='Cow_Right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Cow_Right'/>
+  </SpriteAnimation>
+  <SpriteAnimation spriteAnimationName='Cow_Left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Cow_Left'/>
+  </SpriteAnimation>
+
+
+  <SpriteAnimation spriteAnimationName='Chicken_Right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Chicken_Right'/>
+  </SpriteAnimation>
+  <SpriteAnimation spriteAnimationName='Chicken_Left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Chicken_Left'/>
+  </SpriteAnimation>
+</SpriteAnimations>

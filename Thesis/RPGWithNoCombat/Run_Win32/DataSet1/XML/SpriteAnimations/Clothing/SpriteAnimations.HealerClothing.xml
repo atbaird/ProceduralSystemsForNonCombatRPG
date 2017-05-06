@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_healerClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_healerClothing_forward1'/>
+    <Frame resourceName='male_healerClothing_forward2'/>
+    <Frame resourceName='male_healerClothing_forward1'/>
+    <Frame resourceName='male_healerClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_healerClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_healerClothing_right1'/>
+    <Frame resourceName='male_healerClothing_right2'/>
+    <Frame resourceName='male_healerClothing_right1'/>
+    <Frame resourceName='male_healerClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_healerClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_healerClothing_back1'/>
+    <Frame resourceName='male_healerClothing_back2'/>
+    <Frame resourceName='male_healerClothing_back1'/>
+    <Frame resourceName='male_healerClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_healerClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_healerClothing_left1'/>
+    <Frame resourceName='male_healerClothing_left2'/>
+    <Frame resourceName='male_healerClothing_left1'/>
+    <Frame resourceName='male_healerClothing_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_healerClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_healerClothing_forward1'/>
+    <Frame resourceName='female_healerClothing_forward2'/>
+    <Frame resourceName='female_healerClothing_forward1'/>
+    <Frame resourceName='female_healerClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_healerClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_healerClothing_right1'/>
+    <Frame resourceName='female_healerClothing_right2'/>
+    <Frame resourceName='female_healerClothing_right1'/>
+    <Frame resourceName='female_healerClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_healerClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_healerClothing_back1'/>
+    <Frame resourceName='female_healerClothing_back2'/>
+    <Frame resourceName='female_healerClothing_back1'/>
+    <Frame resourceName='female_healerClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_healerClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_healerClothing_left1'/>
+    <Frame resourceName='female_healerClothing_left2'/>
+    <Frame resourceName='female_healerClothing_left1'/>
+    <Frame resourceName='female_healerClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Sounds>
+  <Music filelocation='DataSet1/Music/Matthew Pablo_Shake and Bake.mp3' name='Village1'/>
+  <Music filelocation='DataSet1/Music/BBandRage_Chippytoon.wav' name='Village2'/>
+</Sounds>

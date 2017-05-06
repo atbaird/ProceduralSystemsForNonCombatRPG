@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='GrayStoneWall'
+                  resourceName='SingleGrayWallTile'
+                  MapCode='100,100,100'
+                  solid='true'>
+    <SpecialCase ifSame='North>0,South>0,East>0,West==0'>
+      <ToSet resourceName='GrayWallWest'/>
+    </SpecialCase>
+
+    <SpecialCase ifSame='North>0,South>0,East==0,West>0'>
+      <ToSet resourceName='GrayWallEast'/>
+    </SpecialCase>
+
+
+    <SpecialCase ifSame='North>0,South==0,East>0,West>0'>
+      <ToSet resourceName='GrayWallSouth'/>
+    </SpecialCase>
+
+
+    <SpecialCase ifSame='North==0,South>0,East>0,West>0'>
+      <ToSet resourceName='GrayWallNorth'/>
+    </SpecialCase>
+
+    <SpecialCase ifSame='North==0,South>0,East==0,West>0'>
+      <ToSet resourceName='GrayWallNorthEast'/>
+    </SpecialCase>
+
+    <SpecialCase ifSame='North==0,South>0,East>0,West==0'>
+      <ToSet resourceName='GrayWallNorthWest'/>
+    </SpecialCase>
+
+
+    <SpecialCase ifSame='North>0,South==0,East>0,West==0'>
+      <ToSet resourceName='GrayWallSouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase ifSame='North>0,South==0,East==0,West>0'>
+      <ToSet resourceName='GrayWallSouthEast'/>
+    </SpecialCase>
+
+
+    <SpecialCase ifSame='North>0,South>0,East>0,West>0'>
+      <ToSet resourceName='GrayWallCenter'/>
+    </SpecialCase>
+    
+  </TileDefinition>
+  
+</TileDefinitions>

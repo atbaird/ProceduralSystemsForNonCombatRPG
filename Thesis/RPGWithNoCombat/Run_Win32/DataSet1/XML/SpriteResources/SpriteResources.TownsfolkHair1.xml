@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_townsfolk_hair1_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 558, 32, 540'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 558, 48, 540'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 558, 64, 540'/>
+
+  <SpriteResource resourceName='male_townsfolk_hair1_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 576, 32, 558'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 576, 48, 558'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 576, 64, 558'/>
+
+  <SpriteResource resourceName='male_townsfolk_hair1_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 594, 32, 576'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 594, 48, 576'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 594, 64, 576'/>
+
+  <SpriteResource resourceName='male_townsfolk_hair1_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 612, 32, 594'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 612, 48, 594'/>
+  <SpriteResource resourceName='male_townsfolk_hair1_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 612, 64, 594'/>
+</SpriteResources>

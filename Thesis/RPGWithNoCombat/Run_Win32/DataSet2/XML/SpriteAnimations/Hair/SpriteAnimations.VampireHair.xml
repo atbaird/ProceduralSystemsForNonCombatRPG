@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='VampireHairForward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireHairForward1'/>
+    <Frame resourceName='VampireHairForward2'/>
+    <Frame resourceName='VampireHairForward1'/>
+    <Frame resourceName='VampireHairForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireHairBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireHairBack1'/>
+    <Frame resourceName='VampireHairBack2'/>
+    <Frame resourceName='VampireHairBack1'/>
+    <Frame resourceName='VampireHairBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireHairRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireHairRight1'/>
+    <Frame resourceName='VampireHairRight2'/>
+    <Frame resourceName='VampireHairRight1'/>
+    <Frame resourceName='VampireHairRight0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireHairLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireHairLeft1'/>
+    <Frame resourceName='VampireHairLeft2'/>
+    <Frame resourceName='VampireHairLeft1'/>
+    <Frame resourceName='VampireHairLeft0'/>
+  </SpriteAnimation>
+</SpriteAnimations>

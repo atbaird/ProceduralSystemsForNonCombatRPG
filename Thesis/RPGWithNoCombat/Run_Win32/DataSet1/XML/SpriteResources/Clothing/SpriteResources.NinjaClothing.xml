@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_ninjaClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 198, 179, 180'/>
+  <SpriteResource resourceName='male_ninjaClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 198, 195, 180'/>
+  <SpriteResource resourceName='male_ninjaClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 198, 211, 180'/>
+
+  <SpriteResource resourceName='male_ninjaClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 216, 179, 198'/>
+  <SpriteResource resourceName='male_ninjaClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 216, 195, 198'/>
+  <SpriteResource resourceName='male_ninjaClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 216, 211, 198'/>
+
+  <SpriteResource resourceName='male_ninjaClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 234, 179, 216'/>
+  <SpriteResource resourceName='male_ninjaClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 234, 195, 216'/>
+  <SpriteResource resourceName='male_ninjaClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 234, 211, 216'/>
+
+  <SpriteResource resourceName='male_ninjaClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 252, 179, 234'/>
+  <SpriteResource resourceName='male_ninjaClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 252, 195, 234'/>
+  <SpriteResource resourceName='male_ninjaClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 252, 211, 234'/>
+
+  <SpriteResource resourceName='female_ninjaClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 360, 179, 342'/>
+  <SpriteResource resourceName='female_ninjaClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 360, 195, 342'/>
+  <SpriteResource resourceName='female_ninjaClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 360, 211, 342'/>
+
+  <SpriteResource resourceName='female_ninjaClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 342, 179, 324'/>
+  <SpriteResource resourceName='female_ninjaClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 342, 195, 324'/>
+  <SpriteResource resourceName='female_ninjaClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 342, 211, 324'/>
+
+  <SpriteResource resourceName='female_ninjaClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 324, 179, 308'/>
+  <SpriteResource resourceName='female_ninjaClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 324, 195, 308'/>
+  <SpriteResource resourceName='female_ninjaClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 324, 211, 308'/>
+
+  <SpriteResource resourceName='female_ninjaClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='164, 378, 179, 360'/>
+  <SpriteResource resourceName='female_ninjaClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='180, 378, 195, 360'/>
+  <SpriteResource resourceName='female_ninjaClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='196, 378, 211, 360'/>
+</SpriteResources>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='BushLightGreen' 
+                  bottomResource='grassTile1_1'
+                  resourceName='Bush_LightGreen' 
+                  MapCode='123,173,44'
+                  solid='true'/>
+
+  <TileDefinition name='TreeDarkGreen'
+                  bottomResource='grassTile1_1'
+                  resourceName='Tree_Bottom_DarkGreen'
+                  MapCode='64,156,98'
+                  solid='true'>
+
+    <SpecialCase>
+      <ToSet TileCoords='0,1' topResource2Name='Tree_Top_DarkGreen'/>
+    </SpecialCase>
+  </TileDefinition>
+  
+</TileDefinitions>

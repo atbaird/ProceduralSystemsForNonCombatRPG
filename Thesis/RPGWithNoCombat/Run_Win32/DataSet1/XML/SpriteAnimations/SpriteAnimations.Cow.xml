@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='Cow_Right'
+                   defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop'
+                   reverseDirection='false'>
+    <Frame resourceName='Cow_Right'/>
+  </SpriteAnimation>
+  
+  <SpriteAnimation spriteAnimationName='Cow_Left'
+                   defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop'
+                   reverseDirection='false'>
+    <Frame resourceName='Cow_Left'/>
+  </SpriteAnimation>
+  
+</SpriteAnimations>

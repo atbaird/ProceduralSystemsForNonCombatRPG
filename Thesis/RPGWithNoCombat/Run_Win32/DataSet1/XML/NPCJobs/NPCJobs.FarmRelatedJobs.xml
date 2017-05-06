@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCJobs>
+  <Farmer>
+    <StatRequirements>
+      <Dexterity value='45'/>
+    </StatRequirements>
+    
+  </Farmer>
+
+  <Rancher>
+    <StatRequirements>
+      <Dexterity value='55'/>
+      <Strength value='55'/>
+    </StatRequirements>>
+    
+  </Rancher>
+</NPCJobs>

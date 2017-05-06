@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='Bush_LightGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,168.0,237.0,153.0' />
+
+  <SpriteResource resourceName='Bush_Fall' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,168.0,254.0,153.0' />
+
+  <SpriteResource resourceName='Bush_DarkGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255.0,168.0,271.0,153.0' />
+
+  <SpriteResource resourceName='Tree_Top_LightGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,185.0,237.0,170.0' />
+
+  <SpriteResource resourceName='Tree_Top_Fall' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,185.0,254.0,170.0' />
+
+  <SpriteResource resourceName='Tree_Top_DarkGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255.0,185.0,271.0,170.0' />
+
+
+  <SpriteResource resourceName='Tree_Bottom_LightGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,202.0,237.0,187.0' />
+
+  <SpriteResource resourceName='Tree_Bottom_Fall' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,202.0,254.0,187.0' />
+
+  <SpriteResource resourceName='Tree_Bottom_DarkGreen' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255.0,202.0,271.0,187.0' />
+  
+  
+</SpriteResources>

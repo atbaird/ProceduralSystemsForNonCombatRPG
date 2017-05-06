@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='priest_hair_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 126, 32, 108'/>
+  <SpriteResource resourceName='priest_hair_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 126, 48, 108'/>
+  <SpriteResource resourceName='priest_hair_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 126, 64, 108'/>
+
+  <SpriteResource resourceName='priest_hair_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 144, 32, 126'/>
+  <SpriteResource resourceName='priest_hair_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 144, 48, 126'/>
+  <SpriteResource resourceName='priest_hair_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 144, 64, 126'/>
+
+  <SpriteResource resourceName='priest_hair_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 162, 32, 144'/>
+  <SpriteResource resourceName='priest_hair_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 162, 48, 144'/>
+  <SpriteResource resourceName='priest_hair_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 162, 64, 144'/>
+
+  <SpriteResource resourceName='priest_hair_left0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 180, 32, 162'/>
+  <SpriteResource resourceName='priest_hair_left1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 180, 48, 162'/>
+  <SpriteResource resourceName='priest_hair_left2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 180, 64, 162'/>
+</SpriteResources>

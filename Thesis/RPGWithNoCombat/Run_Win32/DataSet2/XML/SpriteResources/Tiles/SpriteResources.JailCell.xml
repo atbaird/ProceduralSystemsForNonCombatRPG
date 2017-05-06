@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='SquareJailCellDoorClosed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,66,576,51' />
+
+
+  <SpriteResource resourceName='SquareJailCellDoorOpenned'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,83,576,68' />
+
+
+  <SpriteResource resourceName='SmallBarredWindow'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='697,66,712,51' />
+  
+</SpriteResources>

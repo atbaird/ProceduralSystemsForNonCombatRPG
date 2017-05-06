@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='JailWallSurroundedWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='459,219,474,204' />
+
+  <SpriteResource resourceName='JailWallHorizontalStraight'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='476,219,491,204' />
+
+  <SpriteResource resourceName='JailWallSurroundedEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='493,219,508,204' />
+
+  <SpriteResource resourceName='JailWallNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='510,219,525,204' />
+
+  <SpriteResource resourceName='JailWallNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527,219,542,204' />
+
+
+
+  <SpriteResource resourceName='JailWallSurroundedNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='459,236,474,221' />
+
+  <SpriteResource resourceName='JailWallAllDirections'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='476,236,491,221' />
+
+  <SpriteResource resourceName='JailWallVerticalStraight'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='493,236,508,221' />
+
+  <SpriteResource resourceName='JailWallSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='510,236,525,221' />
+
+  <SpriteResource resourceName='JailWallSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='527,236,542,221' />
+
+  <SpriteResource resourceName='JailWallSurroundedSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='459,253,474,238' />
+
+
+  <SpriteResource resourceName='JailWallBlockedWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544,219,559,204'/>
+
+  <SpriteResource resourceName='JailWallBlockedEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='544,236,559,221'/>
+
+  <SpriteResource resourceName='JailWallBlockedSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,219,576,204'/>
+
+  <SpriteResource resourceName='JailWallBlockedNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='561,236,576,221'/>
+  
+</SpriteResources>

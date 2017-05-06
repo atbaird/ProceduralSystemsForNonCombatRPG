@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='PirateSpeechBubble'>
+
+  <OneSmallFavorPiratePipeDelivery
+    segmentToOpenNext='OneSmallFavorPirateTheRequest'>
+    <Text text="Yeah I'm $OneSmallFavor.ThePirate.name$, and I'm incredibly busy right now."/>
+    <Text text="So I am sorry, I can't help you- wait... thats old $OneSmallFavor.Fisherman.name$'s" />
+    <Text text=" $OneSmallFavor.FishermanObj$..." />
+    <Text text=" Let me guess, he lit it on fire again?... well, like I was trying to say, I'm busy."/>
+    <Text text=".. Unless you would be willing to do a favor for me and deliver something for me." />
+  </OneSmallFavorPiratePipeDelivery>
+
+  <OneSmallFavorPirateTheRequest
+    segmentToOpenNext='OneSmallFavorPirateTheDecision'>
+    <Text text="So how about this, I'll repair $OneSmallFavor.Fisherman.firstname$'s"/>
+    <Text text=" $OneSmallFavor.FishermanObj$, if you "/>
+    <Text text="deliver $OneSmallFavor.PirateObj$ to $OneSmallFavor.TheOrc.name$ the orc for me."/>
+  </OneSmallFavorPirateTheRequest>
+
+  <OneSmallFavorPirateTheDecision>
+    <Text text="What do you say?"/>
+    <Decision>
+      <Help DialogueToOpen="OneSmallFavorPirateYes"/>
+      <Dont_Help DialogueToOpen="OneSmallFavorPirateNo"
+                 DialogueChoice='Dont Help'/>
+      <SorryWhat DialogueToOpen="OneSmallFavorPirateTheRequest"
+                 DialogueChoice='Sorry, what?'/>
+    </Decision>
+  </OneSmallFavorPirateTheDecision>
+
+  <OneSmallFavorPirateNo>
+    <Text text='No package delivery, no pipe repair.' />
+  </OneSmallFavorPirateNo>
+
+  <OneSmallFavorPirateYes
+    segmentToOpenNext='OneSmallFavorPirateFinalNote'>
+    <Text text="Good, good. He's over in the Drylands. Its where all of the grass suddenly dies." />
+    <Text text=" Can't miss it. I'll have the pipe repaired by the time you get back."/>
+  </OneSmallFavorPirateYes>
+
+  <OneSmallFavorPirateReminder
+    segmentToOpenNext='OneSmallFavorPirateFinalNote'>
+    <Text text="$OneSmallFavor.TheOrc.name$ the orc is over in the Drylands."/>
+    <Text text=" Its where all of the grass suddenly dies."/>
+    <Text text=" Can't miss it. I'll have the pipe repaired by the time you get back."/>
+  </OneSmallFavorPirateReminder>
+
+  <OneSmallFavorPirateFinalNote>
+    <Text text="Do not come back until that axe is out of your hands." />
+  </OneSmallFavorPirateFinalNote>
+
+  <OneSmallFavorPirateDeliverySuccessful>
+    <Text text="So the delivery was a success? Great! Here is the $OneSmallFavor.Fisherman.firstname$'s"/>
+    <Text text=" $OneSmallFavor.FishermanObj$."/>
+  </OneSmallFavorPirateDeliverySuccessful>
+
+  <OneSmallFavorPirateReminder2>
+    <Text text="Go get that $OneSmallFavor.FishermanObj$ to $OneSmallFavor.Fisherman.firstname$."/>
+  </OneSmallFavorPirateReminder2>
+  
+</DialogueSegments>

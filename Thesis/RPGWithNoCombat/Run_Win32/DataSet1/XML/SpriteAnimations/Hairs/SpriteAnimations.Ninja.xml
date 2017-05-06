@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_ninja_hair_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_ninja_hair_forward1'/>
+    <Frame resourceName='male_ninja_hair_forward2'/>
+    <Frame resourceName='male_ninja_hair_forward1'/>
+    <Frame resourceName='male_ninja_hair_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_ninja_hair_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_ninja_hair_back1'/>
+    <Frame resourceName='male_ninja_hair_back2'/>
+    <Frame resourceName='male_ninja_hair_back1'/>
+    <Frame resourceName='male_ninja_hair_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_ninja_hair_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_ninja_hair_right1'/>
+    <Frame resourceName='male_ninja_hair_right2'/>
+    <Frame resourceName='male_ninja_hair_right1'/>
+    <Frame resourceName='male_ninja_hair_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_ninja_hair_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_ninja_hair_left1'/>
+    <Frame resourceName='male_ninja_hair_left2'/>
+    <Frame resourceName='male_ninja_hair_left1'/>
+    <Frame resourceName='male_ninja_hair_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_ninja_hair_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_ninja_hair_forward1'/>
+    <Frame resourceName='female_ninja_hair_forward2'/>
+    <Frame resourceName='female_ninja_hair_forward1'/>
+    <Frame resourceName='female_ninja_hair_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_ninja_hair_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_ninja_hair_back1'/>
+    <Frame resourceName='female_ninja_hair_back2'/>
+    <Frame resourceName='female_ninja_hair_back1'/>
+    <Frame resourceName='female_ninja_hair_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_ninja_hair_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_ninja_hair_right1'/>
+    <Frame resourceName='female_ninja_hair_right2'/>
+    <Frame resourceName='female_ninja_hair_right1'/>
+    <Frame resourceName='female_ninja_hair_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_ninja_hair_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_ninja_hair_left1'/>
+    <Frame resourceName='female_ninja_hair_left2'/>
+    <Frame resourceName='female_ninja_hair_left1'/>
+    <Frame resourceName='female_ninja_hair_left0'/>
+  </SpriteAnimation>
+</SpriteAnimations>

@@ -1,0 +1,26 @@
+<AgentGenerators>
+  <AgentGenerator Name='Fisher'
+                  DefaultImage='human_base0'
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+
+
+    <Jobs>
+      <Fisher/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='30' max='55'/>
+      <Dexterity min='50' max='65'/>
+    </StatRanges>
+
+    <Clothing>
+      <Clothing name='Townsfolk 1 clothes'/>
+      <Clothing name='Townsfolk 2 clothes'/>
+      <Clothing name='Townsfolk 3 clothes'/>
+    </Clothing>
+
+
+  </AgentGenerator>
+</AgentGenerators>

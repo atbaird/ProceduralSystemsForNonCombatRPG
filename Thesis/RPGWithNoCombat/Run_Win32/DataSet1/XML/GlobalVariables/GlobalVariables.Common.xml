@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<GlobalVariables>
+  <Float VariableName='TestGlobalFloat' DefaultValue='0.0'/>
+  <Bool VariableName='TestGlobalBool' DefaultValue='false' />
+  <Text VariableName='TestGlobalText' DefaultValue='Test'/>
+  <Int VariableName='TestGlobalInt' DefaultValue='0'/>
+</GlobalVariables>

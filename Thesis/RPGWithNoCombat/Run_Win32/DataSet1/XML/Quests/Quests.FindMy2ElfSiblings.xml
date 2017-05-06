@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <FindMy2ElfSiblings title='Find My 2 Elf Siblings'>
+    <Variables>
+      <Player VariableName='Player' />
+      <NPC VariableName='OlderSibling' />
+      <NPC VariableName='MiddleSibling' />
+      <NPC VariableName='YoungestSibling' />
+      <Bool VariableName='FoundMiddleSibling' Value='false'/>
+      <Bool VariableName='FoundYoungestSibling' Value='false'/>
+      <Float VariableName='QuestState' Value='0.0'/>
+    </Variables>
+
+    <AgentsToGenerate>
+      <Human
+        VariableName='OlderSibling'
+        Dialogue='FindMy2ElfSiblingsStart'
+        />
+      <Elf
+        VariableName='MiddleSibling'
+        Dialogue='FindMy2ElfSiblingsElfHiding'
+        />
+      <Elf
+        VariableName='YoungestSibling'
+        Dialogue='FindMy2ElfSiblingsElfHiding' 
+        />
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OlderSibling'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='FindMy2ElfSiblingsYes'/>
+        </Requirements>
+        <Trigger>
+          
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMy2ElfSiblingsNoneFound'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Found Middle Sibling'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='MiddleSibling'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableBool Variable='FoundMiddleSibling' value='true' />
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Found Youngest Sibling'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='YoungestSibling'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMy2ElfSiblingsNoneFound' />
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableBool Variable='FoundYoungestSibling' value='true' />
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speak to Oldest; only found Youngest.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundYoungestSibling' value='true'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundMiddleSibling' value='false'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OldestSibling'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMy2ElfSiblingsOneFound' />
+        </Trigger>
+        <PostTrigger>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speak to Oldest; only found Middle.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundYoungestSibling' value='false'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundMiddleSibling' value='true'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OldestSibling'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMy2ElfSiblingsOneFound' />
+        </Trigger>
+        <PostTrigger>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speak to Oldest; found both.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundYoungestSibling' value='true'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='FoundMiddleSibling' value='true'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='OldestSibling'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMy2ElfSiblingsBothFound' />
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='MiddleSibling' DialogueSegment='FindMy2ElfSiblingsCompleteElf'/>
+          <ChangeDialogue Entity='YoungestSibling' DialogueSegment='FindMy2ElfSiblingsCompleteElf'/>
+          <ChangeDialogue Entity='OlderSibling' DialogueSegment='FindMyElfSiblingsCompleteHuman' />
+          <CompleteQuest />
+        </PostTrigger>
+      </Event>
+      
+      
+    </Events>
+    
+  </FindMy2ElfSiblings>
+</Quests>

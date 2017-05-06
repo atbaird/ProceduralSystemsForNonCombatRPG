@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='grass1_1' resourceName='grassTile1_1' 
+                  altResourceName='grassTile1_1_alt'
+                  altResourceChance='0.5f'
+                  MapCode='0,255,0' solid='false' liquid='false'/>
+  <!-- 
+  <TileDefinition name='water1_1' resourceName='waterTile1_1' MapCode='0,0,255' solid='true' liquid='true'/>
+  -->
+  <TileDefinition name='grassOnEnterExitTestTile' 
+                  resourceName='grassTile1_1' 
+                  MapCode='0,255,200'
+                  solid='false' liquid='false'>
+    <OnTouch function='ChangeTileImage' AnimationIdx='waterTile1_1'/>
+    <OnExit function='ChangeTileImage' AnimationIdx='grassTile1_1'/>
+  </TileDefinition>
+  <TileDefinition name='blueflowers1_1' resourceName='blueflowers1_1'
+                  MapCode='0,255,255' solid='false' liquid='false'/>
+
+  <TileDefinition name='BrownStoneRoad_Horizontal1' resourceName='horizontal_BrownStoneRoad_1'
+                  MapCode='105,81,32' solid='false' liquid='false'/>
+  
+  
+</TileDefinitions>

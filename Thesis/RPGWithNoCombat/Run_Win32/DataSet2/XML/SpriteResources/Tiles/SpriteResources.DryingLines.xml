@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='DryingLineLeft'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,219,882,204'/>
+
+  <SpriteResource resourceName='DryingLineLeftWithFish'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,236,882,221'/>
+
+  <SpriteResource resourceName='DryingLineLeftWithNetting'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,253,882,238'/>
+
+
+  <SpriteResource resourceName='DryingLineRight'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,219,899,204'/>
+
+  <SpriteResource resourceName='DryingLineRightWithFish'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,236,899,221'/>
+
+
+  <SpriteResource resourceName='DryingLineRightWithNetting'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,253,899,238'/>
+
+</SpriteResources>

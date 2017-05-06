@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='Door' DefaultImage='openWoodenDoor1' 
+                    solid='false' renderOffset='-0.07f,0.1f'>
+    <Animations>
+      <Animation animationName='woodenDoor1LockedOpen' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <!-- 
+      <SwitchSides type='Interactive'/>
+      -->
+    
+    </FeatureBehaviors>
+    
+  </FeatureGenerator>
+  <FeatureGenerator name='Teleporter' DefaultImage='TeleporterSprite' solid='true'>
+    <Animations>
+      <Animation animationName='TeleporterAnim' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <Teleport type='Interactive'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+</FeatureGenerators>

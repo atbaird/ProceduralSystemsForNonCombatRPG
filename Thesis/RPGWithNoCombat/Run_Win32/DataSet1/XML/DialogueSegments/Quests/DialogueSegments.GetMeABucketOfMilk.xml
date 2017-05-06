@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+
+  <GetMeABucketQuestStart>
+    <Text text='Hello, would you do me a favor? I need a bucket of milk '/>
+    <Text text='so as I can make some butter, and I can not leave the house right now.'/>
+    <Decision>
+      <Help DialogueToOpen='GetMeABucketQuestYes' />
+      <DontHelp DialogueToOpen='GetMeABucketQuestNo' 
+                DialogueChoice='Dont Help'/>
+    </Decision>
+  </GetMeABucketQuestStart>
+
+  <GetMeABucketQuestNo>
+    <Text text='Not even if I give you a slice of pie?'/>
+    <Decision>
+      <Help DialogueToOpen='GetMeABucketQuestYes'/>
+      <DontHelp DialogueToOpen='GetMeABucketQuestDoubleNo'
+                DialogueChoice='Dont Help'/>
+    </Decision>
+  </GetMeABucketQuestNo>
+
+  <GetMeABucketQuestDoubleNo text='Oh well; maybe someone else will be willing to help me...'/>
+
+  <GetMeABucketQuestYes text='Oh thank you very much. Theres a bucket outside the house, and the cows are about the yard.'/>
+
+  <GetMeABucketQuestReceivedBucket text='Oh thank you; here have this slice of pie!'/>
+
+  <GetMeABucketQuestGottenMilkYet text='Have you gotten that bucket of milk yet?' />
+
+  <GetMeABucketQuestComplete text='Well welcome back friend! I dont have anything for you to do right now, but come back later and I might.' />
+</DialogueSegments>

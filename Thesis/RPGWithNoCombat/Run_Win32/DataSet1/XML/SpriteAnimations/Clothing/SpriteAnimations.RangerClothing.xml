@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_rangerClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_rangerClothing_forward1'/>
+    <Frame resourceName='male_rangerClothing_forward2'/>
+    <Frame resourceName='male_rangerClothing_forward1'/>
+    <Frame resourceName='male_rangerClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_rangerClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_rangerClothing_right1'/>
+    <Frame resourceName='male_rangerClothing_right2'/>
+    <Frame resourceName='male_rangerClothing_right1'/>
+    <Frame resourceName='male_rangerClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_rangerClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_rangerClothing_back1'/>
+    <Frame resourceName='male_rangerClothing_back2'/>
+    <Frame resourceName='male_rangerClothing_back1'/>
+    <Frame resourceName='male_rangerClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_rangerClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_rangerClothing_left1'/>
+    <Frame resourceName='male_rangerClothing_left2'/>
+    <Frame resourceName='male_rangerClothing_left1'/>
+    <Frame resourceName='male_rangerClothing_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_rangerClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_rangerClothing_forward1'/>
+    <Frame resourceName='female_rangerClothing_forward2'/>
+    <Frame resourceName='female_rangerClothing_forward1'/>
+    <Frame resourceName='female_rangerClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_rangerClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_rangerClothing_right1'/>
+    <Frame resourceName='female_rangerClothing_right2'/>
+    <Frame resourceName='female_rangerClothing_right1'/>
+    <Frame resourceName='female_rangerClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_rangerClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_rangerClothing_back1'/>
+    <Frame resourceName='female_rangerClothing_back2'/>
+    <Frame resourceName='female_rangerClothing_back1'/>
+    <Frame resourceName='female_rangerClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_rangerClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_rangerClothing_left1'/>
+    <Frame resourceName='female_rangerClothing_left2'/>
+    <Frame resourceName='female_rangerClothing_left1'/>
+    <Frame resourceName='female_rangerClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

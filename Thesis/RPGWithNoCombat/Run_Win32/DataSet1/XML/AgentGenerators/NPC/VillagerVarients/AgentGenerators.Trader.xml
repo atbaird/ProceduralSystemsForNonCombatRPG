@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='Town_Trader'
+                  DefaultImage='human_base0'
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='TradeDialogue1' />
+      <DialogueSegment dialogueSegment='TradeDialogue2' />
+      <DialogueSegment dialogueSegment='TradeDialogue4' />
+      <DialogueSegment dialogueSegment='TradeDialogue5' />
+      <DialogueSegment dialogueSegment='TradeDialogue6' />
+      <DialogueSegment dialogueSegment='TradeDialogue7' />
+      <DialogueSegment dialogueSegment='TradeDialogue8' />
+    </Dialogue>
+
+    <Jobs>
+      <Trader/>
+    </Jobs>
+
+    <Clothing>
+      <Clothing name='Townsfolk 3 clothes'/>
+      <Clothing name='Monk clothes'/>
+    </Clothing>
+
+    <StatRanges>
+      <Strength min='45' max='55'/>
+      <Dexterity min='45' max='55'/>
+      <Intelligence min='30' max='100'/>
+    </StatRanges>
+
+  </AgentGenerator>
+</AgentGenerators>

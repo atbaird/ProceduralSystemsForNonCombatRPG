@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='horizontalWoodenFloor'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='153.0,49.0,168.0,34.0'/>
+
+  <SpriteResource resourceName='horizontal_BrownStoneRoad_1' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='119.0,83.0,134.0,68.0'/>
+
+  <SpriteResource resourceName='horizontal_GrayStoneRoad_1'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='102.0,50.0,117.0,34.0'/>
+
+</SpriteResources>

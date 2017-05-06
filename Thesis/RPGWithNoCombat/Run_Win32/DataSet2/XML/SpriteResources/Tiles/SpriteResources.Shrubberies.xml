@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='FallTreeTallBottom'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,202,253,187' />
+
+
+  <SpriteResource resourceName='FallTreeTallTop'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,185,253,170' />
+  
+  
+</SpriteResources>

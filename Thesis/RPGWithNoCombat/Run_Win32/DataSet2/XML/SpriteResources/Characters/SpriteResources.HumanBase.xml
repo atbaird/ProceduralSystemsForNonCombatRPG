@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <!-- Characters -->
+  <SpriteResource resourceName='human_baseForward0' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='0.0, 54.0, 15.0, 36.0'/>
+
+  <SpriteResource resourceName='human_baseForward1' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='16.0, 54.0, 31.0, 36.0'/>
+
+  <SpriteResource resourceName='human_baseForward2' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='32.0, 54.0, 47.0, 36.0'/>
+
+
+  <SpriteResource resourceName='human_baseBack0' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='0.0, 18.0, 15.0, 0.0'/>
+
+  <SpriteResource resourceName='human_baseBack1' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='16.0, 18.0, 31.0, 0.0'/>
+
+  <SpriteResource resourceName='human_baseBack2' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='32.0, 18.0, 47.0, 0.0'/>
+
+
+  <SpriteResource resourceName='human_baseLeft0' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='0.0, 72.0, 15.0, 54.0'/>
+
+  <SpriteResource resourceName='human_baseLeft1' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='16.0, 72.0, 31.0, 54.0'/>
+
+  <SpriteResource resourceName='human_baseLeft2' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='32.0, 72.0, 47.0, 54.0'/>
+
+
+  <SpriteResource resourceName='human_baseRight0' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='0.0, 36.0, 15.0, 18.0'/>
+
+  <SpriteResource resourceName='human_baseRight1' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='16.0, 36.0, 31.0, 18.0'/>
+
+  <SpriteResource resourceName='human_baseRight2' textureLocation='DataSet2/Images/Characters/human_base.png'
+                  spriteBounds='32.0, 36.0, 47.0, 18.0'/>
+</SpriteResources>

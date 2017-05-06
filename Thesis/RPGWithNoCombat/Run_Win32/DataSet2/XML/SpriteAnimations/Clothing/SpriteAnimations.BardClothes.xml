@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='BardClothesForward'
+                   defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop'
+                   reverseDirection='false'>
+    <Frame resourceName='BardClothesForward1'/>
+    <Frame resourceName='BardClothesForward2'/>
+    <Frame resourceName='BardClothesForward1'/>
+    <Frame resourceName='BardClothesForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardClothesBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardClothesBack1'/>
+    <Frame resourceName='BardClothesBack2'/>
+    <Frame resourceName='BardClothesBack1'/>
+    <Frame resourceName='BardClothesBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardClothesLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardClothesLeft1'/>
+    <Frame resourceName='BardClothesLeft2'/>
+    <Frame resourceName='BardClothesLeft1'/>
+    <Frame resourceName='BardClothesLeft0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardClothesRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardClothesRight1'/>
+    <Frame resourceName='BardClothesRight2'/>
+    <Frame resourceName='BardClothesRight1'/>
+    <Frame resourceName='BardClothesRight0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

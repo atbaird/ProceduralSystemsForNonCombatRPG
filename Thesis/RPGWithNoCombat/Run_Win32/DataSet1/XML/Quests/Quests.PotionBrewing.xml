@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <PotionBrewing title='Potion Brewing'>
+    <Variables>
+      <Player VariableName='player' />
+      <NPC VariableName='Witch' />
+      <Float VariableName='QuestState' value='0.0'/>
+      <Text VariableName='RedMushroomRequirement' value='1 Red Mushroom'/>
+      <Text VariableName='BrownMushroomRequirement' value='2 Brown Mushrooms'/>
+      <Text VariableName='SpottyMushroomRequirement' value='2 Spotty Mushrooms'/>
+      <Text VariableName='PotionBrewingReward' value='Potion of Intelligence' />
+    </Variables>
+
+    <AgentsToGenerate>
+      <ElfWitch
+        VariableName='Witch'
+        GlobalVariableName='TheWitch'
+        Dialogue='MushroomStewStart'
+        />
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Witch'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='MushroomStewYes'/>
+        </Requirements>
+
+        <Trigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='Witch' DialogueSegment='PotionBrewingReminder' />
+          
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Finish'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Witch' />
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Brown Mushroom' value='>=2.0'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Red Mushroom' value='>=1.0'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Spotty Mushroom' value='>=2.0'/>
+        </Requirements>
+
+        <Trigger>
+          <RemoveFromEntity EntityName='player' ItemName='Red Mushroom' value='1.0'/>
+          <RemoveFromEntity EntityName='player' ItemName='Brown Mushroom' value='2.0'/>
+          <RemoveFromEntity EntityName='player' ItemName='Spotty Mushroom' value='2.0'/>
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='Witch' DialogueSegment='PotionBrewingAfterwards' />
+          <GiveToEntity EntityName='player' ItemName='Potion of Intelligence' value='1.0' />
+          <CompleteQuest />
+        </PostTrigger>
+        
+      </Event>
+      
+    </Events>
+    
+  </PotionBrewing>
+
+</Quests>

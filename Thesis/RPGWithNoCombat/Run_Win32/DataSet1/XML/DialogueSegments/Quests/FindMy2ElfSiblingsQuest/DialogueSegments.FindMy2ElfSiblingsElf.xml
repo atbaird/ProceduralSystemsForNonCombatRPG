@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='ElfSpeechBubble'>
+
+  <FindMy2ElfSiblingsElfHiding1 uniqueGroup='FindMy2ElfSiblingsElfHiding'
+                                text='Why do we have to be considered family to that human?'/>
+  <FindMy2ElfSiblingsElfHiding1 uniqueGroup='FindMy2ElfSiblingsElfHiding'
+     text='$FindMy2ElfSiblings.OlderSibling.GenderPronounIs$ will never find me here.' />
+  <FindMy2ElfSiblingsElfHiding1 uniqueGroup='FindMy2ElfSiblingsElfHiding'
+     text='Hmm? Get away, you will ruin my hiding spot.' />
+
+  <FindMy2ElfSiblingsCompleteElf1 uniqueGroup='FindMy2ElfSiblingsCompleteElf'
+     text='Why did you have to tell $FindMy2ElfSiblings.OlderSibling.FirstName$ where I was?'/>
+
+  <FindMy2ElfSiblingsCompleteElf2 uniqueGroup='FindMy2ElfSiblingsCompleteElf'
+     text='Your no fun. You ruined my hiding spot!' />
+
+  <FindMy2ElfSiblingsCompleteElf3 uniqueGroup='FindMy2ElfSiblingsCompleteElf'
+     text='Wait till mom hears about this!' />
+</DialogueSegments>

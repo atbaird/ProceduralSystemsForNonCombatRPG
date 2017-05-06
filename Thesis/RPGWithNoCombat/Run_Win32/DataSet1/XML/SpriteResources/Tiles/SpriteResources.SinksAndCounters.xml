@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='Sink' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='476,15,491,0' />
+
+  <SpriteResource resourceName='Countertop'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='493,15,508,0' />
+
+
+  <SpriteResource resourceName='Open Sack'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='459,49,474,34' />
+
+
+</SpriteResources>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='priestClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='16, 144, 31, 126'/>
+  <SpriteResource resourceName='priestClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='32, 144, 47, 126'/>
+  <SpriteResource resourceName='priestClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='48, 144, 63, 126'/>
+
+  <SpriteResource resourceName='priestClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='16, 162, 31, 144'/>
+  <SpriteResource resourceName='priestClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='32, 162, 47, 144'/>
+  <SpriteResource resourceName='priestClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='48, 162, 63, 144'/>
+
+  <SpriteResource resourceName='priestClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='16, 180, 31, 162'/>
+  <SpriteResource resourceName='priestClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='32, 180, 47, 162'/>
+  <SpriteResource resourceName='priestClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='48, 180, 63, 162'/>
+
+  <SpriteResource resourceName='priestClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='16, 192, 31, 180'/>
+  <SpriteResource resourceName='priestClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='32, 192, 47, 180'/>
+  <SpriteResource resourceName='priestClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='48, 192, 63, 180'/>
+  
+  
+</SpriteResources>

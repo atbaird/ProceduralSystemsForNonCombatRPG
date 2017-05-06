@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='nunClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='nunClothing_forward1'/>
+    <Frame resourceName='nunClothing_forward2'/>
+    <Frame resourceName='nunClothing_forward1'/>
+    <Frame resourceName='nunClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='nunClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='nunClothing_right1'/>
+    <Frame resourceName='nunClothing_right2'/>
+    <Frame resourceName='nunClothing_right1'/>
+    <Frame resourceName='nunClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='nunClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='nunClothing_back1'/>
+    <Frame resourceName='nunClothing_back2'/>
+    <Frame resourceName='nunClothing_back1'/>
+    <Frame resourceName='nunClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='nunClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='nunClothing_left1'/>
+    <Frame resourceName='nunClothing_left2'/>
+    <Frame resourceName='nunClothing_left1'/>
+    <Frame resourceName='nunClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

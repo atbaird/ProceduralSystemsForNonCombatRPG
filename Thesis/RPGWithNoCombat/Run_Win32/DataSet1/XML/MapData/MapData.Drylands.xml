@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='0,9'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='43,9'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,8'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='43,8'/>
+    </TileEvent>
+
+
+    <TileEvent TileCoords='44,39'>
+      <OnEnter Function='ChangeMaps' MapFile='DrylandsVillage' PlayerPosition='1,39'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='44,38'>
+      <OnEnter Function='ChangeMaps' MapFile='DrylandsVillage' PlayerPosition='1,38'/>
+    </TileEvent>
+    
+  </TileEvents>
+
+  <FeaturesToGenerate>
+    <Firepit_Active>
+      <Position position='31,14'/>
+    </Firepit_Active>
+  </FeaturesToGenerate>
+
+  <AgentsToGenerate>
+    <Orc number='1-2'>
+      <Position position='24,17'/>
+      <Position position='32,18'/>
+      <Position position='36,13'/>
+      <Position position='24,3'/>
+      <Position position='38,4'/>
+      <Position position='41,20'/>
+      <Position position='32,26'/>
+      <Position position='26,24'/>
+      <Position position='18,18'/>
+      <Position position='15,31'/>
+      <Position position='10,30'/>
+      <Position position='7,23'/>
+      <Position position='2,32'/>
+      <Position position='3,4'/>
+      <Position position='33,42'/>
+      <Position position='10,43'/>
+      <Position position='8,29'/>
+      <Position position='43,32'/>
+      <Position position='40,1'/>
+      <Position position='15,22'/>
+      <Position position='37,12'/>
+      <Position position='20,22'/>
+      <Position position='22,10'/>
+    </Orc>
+    <OrcHunter number='3-4'>
+      <Position position='24,17'/>
+      <Position position='32,18'/>
+      <Position position='36,13'/>
+      <Position position='24,3'/>
+      <Position position='38,4'/>
+      <Position position='41,20'/>
+      <Position position='32,26'/>
+      <Position position='26,24'/>
+      <Position position='18,18'/>
+      <Position position='15,31'/>
+      <Position position='10,30'/>
+      <Position position='7,23'/>
+      <Position position='2,32'/>
+      <Position position='3,4'/>
+      <Position position='33,42'/>
+      <Position position='10,43'/>
+      <Position position='8,29'/>
+      <Position position='43,32'/>
+      <Position position='40,1'/>
+      <Position position='15,22'/>
+      <Position position='37,12'/>
+      <Position position='20,22'/>
+      <Position position='22,10'/>
+    </OrcHunter>
+    <OrcWarrior number='3-4'>
+      <Position position='24,17'/>
+      <Position position='32,18'/>
+      <Position position='36,13'/>
+      <Position position='24,3'/>
+      <Position position='38,4'/>
+      <Position position='41,20'/>
+      <Position position='32,26'/>
+      <Position position='26,24'/>
+      <Position position='18,18'/>
+      <Position position='15,31'/>
+      <Position position='10,30'/>
+      <Position position='7,23'/>
+      <Position position='2,32'/>
+      <Position position='3,4'/>
+      <Position position='33,42'/>
+      <Position position='10,43'/>
+      <Position position='8,29'/>
+      <Position position='43,32'/>
+      <Position position='40,1'/>
+      <Position position='15,22'/>
+      <Position position='37,12'/>
+      <Position position='20,22'/>
+      <Position position='22,10'/>
+    </OrcWarrior>
+    <OrcBerserker number='3-4'>
+      <Position position='24,17'/>
+      <Position position='32,18'/>
+      <Position position='36,13'/>
+      <Position position='24,3'/>
+      <Position position='38,4'/>
+      <Position position='41,20'/>
+      <Position position='32,26'/>
+      <Position position='26,24'/>
+      <Position position='18,18'/>
+      <Position position='15,31'/>
+      <Position position='10,30'/>
+      <Position position='7,23'/>
+      <Position position='2,32'/>
+      <Position position='3,4'/>
+      <Position position='33,42'/>
+      <Position position='10,43'/>
+      <Position position='8,29'/>
+      <Position position='43,32'/>
+      <Position position='40,1'/>
+      <Position position='15,22'/>
+      <Position position='37,12'/>
+      <Position position='20,22'/>
+      <Position position='22,10'/>
+    </OrcBerserker>
+    <OrcShaman number='3-4'>
+      <Position position='24,17'/>
+      <Position position='32,18'/>
+      <Position position='36,13'/>
+      <Position position='24,3'/>
+      <Position position='38,4'/>
+      <Position position='41,20'/>
+      <Position position='32,26'/>
+      <Position position='26,24'/>
+      <Position position='18,18'/>
+      <Position position='15,31'/>
+      <Position position='10,30'/>
+      <Position position='7,23'/>
+      <Position position='2,32'/>
+      <Position position='3,4'/>
+      <Position position='33,42'/>
+      <Position position='10,43'/>
+      <Position position='8,29'/>
+      <Position position='43,32'/>
+      <Position position='40,1'/>
+      <Position position='15,22'/>
+      <Position position='37,12'/>
+      <Position position='20,22'/>
+      <Position position='22,10'/>
+    </OrcShaman>
+  </AgentsToGenerate>
+
+
+  <Quests>
+    <Quest QuestTitle='FindTheClanWarriors' PercentChanceToOccur='1.0'>
+      <Drylands >
+        <Positions forEntity='TheShaman'>
+          <Position position='28,15' />
+          <Position position='29,18' />
+          <Position position='31,16' />
+          <Position position='33,14' />
+          <Position position='32,12' />
+        </Positions>
+      </Drylands>
+    </Quest>
+
+    <Quest QuestTitle='FindMySibling2' PercentChanceToOccur='0.5'>
+      <Drylands>
+        <Positions forEntity='OlderSibling'>
+          <Position position='32,20'/>
+          <Position position='23,13'/>
+          <Position position='38,12'/>
+        </Positions>
+
+        <Positions forEntity='YoungerSibling'>
+          <Position position='34,1'/>
+          <Position position='5,6'/>
+          <Position position='7,43'/>
+          <Position position='42,35'/>
+        </Positions>
+      </Drylands>
+    </Quest>
+  </Quests>
+  
+</MapData>

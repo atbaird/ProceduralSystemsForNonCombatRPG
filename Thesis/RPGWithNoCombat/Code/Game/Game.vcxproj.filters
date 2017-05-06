@@ -1,0 +1,2854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="General\Data">
+      <UniqueIdentifier>{2db95564-8806-49b5-a066-30c364fd104b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map">
+      <UniqueIdentifier>{669fd7b0-a533-4209-bf35-5f393f2571e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Common">
+      <UniqueIdentifier>{28740e9f-789b-4303-80f8-4c7b7d8d56f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\XML">
+      <UniqueIdentifier>{0d5f1e09-585e-42a3-94c3-54f08392ad77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities">
+      <UniqueIdentifier>{268e147d-d6e8-4b43-8e06-f036daa0a92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Collision">
+      <UniqueIdentifier>{ce3b29c4-46a0-433c-86e4-0e5ea576cbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents">
+      <UniqueIdentifier>{c8953b66-27b5-4905-91cf-386e8a5de05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Items">
+      <UniqueIdentifier>{5296e251-b031-4723-aa12-260a532f5793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\Player">
+      <UniqueIdentifier>{09c37128-d102-4450-ac77-95fbf02422ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\NPCs">
+      <UniqueIdentifier>{f2064b58-d73c-4f98-825c-fd233e5c73fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Controllers">
+      <UniqueIdentifier>{18b72ed1-45c6-4592-8cf9-42f94d87f454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Enums">
+      <UniqueIdentifier>{a05e98f5-9489-4e90-9534-c9ebf33794fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map\TileEvent">
+      <UniqueIdentifier>{7fa00cf0-2c57-47f3-b0f2-da4e61aed6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\NPCs\NPCBehaviors">
+      <UniqueIdentifier>{9baf9021-0f10-4209-9ae6-7841ca29a6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Items\Clothing">
+      <UniqueIdentifier>{12fbb7bd-937d-403d-8172-76f83f68c3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Items\Inventory">
+      <UniqueIdentifier>{f8dd2a15-3577-4971-b216-ce2f0ca35b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\Names">
+      <UniqueIdentifier>{7317f1b5-f6c1-47a1-b6d4-ba97eff1b4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue">
+      <UniqueIdentifier>{0bdba452-edee-4170-b15b-31c162e4117a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\NPCs\NPCJobs">
+      <UniqueIdentifier>{1ec7a8cc-0b38-4053-99fa-63a032d5b785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue\DialogueChoices">
+      <UniqueIdentifier>{fc552735-3873-43f3-911c-94e3ee1b8ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest">
+      <UniqueIdentifier>{d3156ef3-a020-4250-ba37-a4f5d39acddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map\MapFiles">
+      <UniqueIdentifier>{b1dc2a38-1cfa-4cc4-be1c-a8b6cddf66ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Map\TileDefinitionSpecialCase">
+      <UniqueIdentifier>{cbff4b23-84e1-407d-bb51-efa3ee48ad72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Features">
+      <UniqueIdentifier>{71eb73fe-9cdd-4593-93cb-fa29347f096c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Features\FeatureBehavior">
+      <UniqueIdentifier>{026a2002-cad2-49cd-ba78-3f46c13b578a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Features\FeatureBehavior\Behaviors">
+      <UniqueIdentifier>{02ac9224-0f0f-42b9-9cbf-f0ac359c1716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\AgentStats">
+      <UniqueIdentifier>{21f7169d-6062-4f3f-a56c-d4b1fcc7aa7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestEvents">
+      <UniqueIdentifier>{9c81c0d9-d4f2-4284-a44b-654bd00104e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestEvents\QuestRequirement">
+      <UniqueIdentifier>{7a31355f-4bf6-486b-8ee7-a1c7904a86c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables">
+      <UniqueIdentifier>{f1dd02d9-cc67-4a6c-aa51-8c05b1074bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats">
+      <UniqueIdentifier>{66761a7e-86f2-49e4-9fb7-9793afd9abd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestEvents\QuestTrigger">
+      <UniqueIdentifier>{9121274c-cfc0-4a0e-9fb0-ff68727b796d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Quest\QuestTemplate">
+      <UniqueIdentifier>{cd98db81-6e54-47f1-8942-a5f53eb69565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Hair">
+      <UniqueIdentifier>{c5f45f86-cd2d-47db-955a-3d9749e84da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\SoundManager">
+      <UniqueIdentifier>{065735da-f229-4148-8e15-f76da4ae4558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue\DialogueRequirements">
+      <UniqueIdentifier>{84169655-7874-415a-8da8-a37a7a8900cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue\DialogueRequirements\Inheritors">
+      <UniqueIdentifier>{d2c00a97-c54d-4190-9c81-895e6ee36cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\GameEntities\Agents\NPCs\NPCAttribute">
+      <UniqueIdentifier>{92dcc9f3-019d-4a18-8ff7-4475a9b12de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Data\XML\GameSettings">
+      <UniqueIdentifier>{399abbeb-6638-4938-8bb5-67aaf2838bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets">
+      <UniqueIdentifier>{4f18d124-ee38-4e8d-b54f-a8e55eaf9798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1">
+      <UniqueIdentifier>{7ad53a1c-a976-4078-a878-8b594fe8be91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Images">
+      <UniqueIdentifier>{13593a39-232f-4d2d-8fa6-0029e7c816f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Images\Characters">
+      <UniqueIdentifier>{4545bb75-3413-4850-b939-fd6d88b17f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Images\Map">
+      <UniqueIdentifier>{c8d08698-f3c8-4e11-8ff1-3e011625daf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Images\Characters\Clothing">
+      <UniqueIdentifier>{b2017ecb-d905-4901-847f-1b3ed921771a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Images\Characters\Hair">
+      <UniqueIdentifier>{2a404077-56bc-4bcf-bae4-d2d880511241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Font">
+      <UniqueIdentifier>{49a49f02-5147-4dd9-9177-62038de4b696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Maps">
+      <UniqueIdentifier>{9b88a170-d5b0-45f2-ae7d-d932b59921b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Music">
+      <UniqueIdentifier>{23409ecf-27af-4222-9942-73391a46df12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\SoundEffects">
+      <UniqueIdentifier>{be479d06-2b42-4716-8b97-75d0687eccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Shaders">
+      <UniqueIdentifier>{4cf31056-634a-476b-8e40-dfcb02cd3ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\Shaders\Framebuffers">
+      <UniqueIdentifier>{a28a9adc-7bee-408e-bfe5-8b13f347a931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML">
+      <UniqueIdentifier>{2ed50831-5f9d-415d-a852-76201327c655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators">
+      <UniqueIdentifier>{9d13d955-27dc-418f-919e-1726fa79f0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentStats">
+      <UniqueIdentifier>{f8165793-979a-4ef1-925f-434ac3c3d798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueGroupings">
+      <UniqueIdentifier>{fba1bcb6-a613-42c4-aa41-4ef3052fca31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments">
+      <UniqueIdentifier>{b8153731-16f3-4f7e-83d2-032de1bcf920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\FeatureGenerators">
+      <UniqueIdentifier>{31d405e7-6c88-4457-87c6-2a27c9971f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\Player">
+      <UniqueIdentifier>{d19628ed-6dff-4a59-a931-68553c642012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\NPC">
+      <UniqueIdentifier>{cd3c0b5a-ce90-45fc-9d6c-da0e00ff4e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\NPC\ElfVarients">
+      <UniqueIdentifier>{123458ff-5b93-4a0d-a43b-f96cd04fd4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients">
+      <UniqueIdentifier>{cd4113bf-4807-47b4-b590-9a00805582e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients">
+      <UniqueIdentifier>{ca590840-3d4f-44d1-afae-47607cd5b1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments\Features">
+      <UniqueIdentifier>{6373179c-1b2b-44d4-861b-8afc4321d96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments\Quests">
+      <UniqueIdentifier>{09e5e1c3-5c5a-4c33-b453-56e77813aaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\HairGenerators">
+      <UniqueIdentifier>{b8b37e47-1236-44bd-a05e-8cd91a6fc255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\ItemGenerators">
+      <UniqueIdentifier>{fbd36944-e362-4755-bb49-2fe2bd788858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\MapData">
+      <UniqueIdentifier>{239fa9ec-1612-46ae-8d62-587a3858e5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\MapFiles">
+      <UniqueIdentifier>{63f6ea15-f360-4fb1-b226-da0d896b52ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\NameGenerators">
+      <UniqueIdentifier>{165fb530-e867-40fe-9f03-d8b809eebed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\NPCAttributes">
+      <UniqueIdentifier>{eae54aae-8ead-4326-9668-40becaad2115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\NPCJobs">
+      <UniqueIdentifier>{692b0106-2d19-4fbb-a3a7-8b1a75659d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\Quests">
+      <UniqueIdentifier>{696f01f2-2cf1-4129-b05b-038acfe91613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\Sounds">
+      <UniqueIdentifier>{dc289697-4507-4e76-b190-45fb67cd3ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpeechBubbles">
+      <UniqueIdentifier>{aa8a204b-eb01-438d-9b81-bf0f2eb1202a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources">
+      <UniqueIdentifier>{f4267db1-1ecc-4489-b949-6fc3591da7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources\Tiles">
+      <UniqueIdentifier>{1062aeda-64c9-44e6-a83f-0d2eb27d1f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources\Hair">
+      <UniqueIdentifier>{f58a55e2-4442-4855-aca9-bf0b40ca382e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources\Features">
+      <UniqueIdentifier>{43804664-8ea7-4226-a111-d8a4abe85022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources\DialoguePieces">
+      <UniqueIdentifier>{197dfbf8-ffbf-4f9e-9f86-8ca2315a4d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteResources\Clothing">
+      <UniqueIdentifier>{4079f05d-f2e9-476e-9c0a-961f3d9736ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteAnimations">
+      <UniqueIdentifier>{d251a1d0-edab-443a-9940-00a8a860e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteAnimations\Hair">
+      <UniqueIdentifier>{fd1b2cc4-953f-440c-bab3-6805d42ee2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteAnimations\Features">
+      <UniqueIdentifier>{84b3c6f5-c3d0-4ad9-ad65-5ff10e6cd436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\SpriteAnimations\Clothing">
+      <UniqueIdentifier>{dc29a0b3-a733-4236-b6de-4554e74eb8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\TileDefinitions">
+      <UniqueIdentifier>{84dfb7fe-27a3-4195-b175-3def3173e8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\AgentGenerators\NPC\PirateVarients">
+      <UniqueIdentifier>{21888e2c-d3dd-402d-a3f5-5f9fc70b8c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\GlobalVariables">
+      <UniqueIdentifier>{e80366a8-3cbe-4002-963a-6879c9beb276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments\Quests\FindMy2ElfSiblings">
+      <UniqueIdentifier>{4bc496e1-ed92-4188-807f-14ca29fe9133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments\Quests\MarketTrade">
+      <UniqueIdentifier>{1e29160a-2d13-4b8a-bb7b-e1083b5c77fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor">
+      <UniqueIdentifier>{bee902cb-44e0-4e3e-abde-bf5f3f552de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2">
+      <UniqueIdentifier>{87e3c1b7-2d92-4548-b575-d9cb200deb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Font">
+      <UniqueIdentifier>{0e5d98cb-294b-4733-b065-eb3ec531b648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Images">
+      <UniqueIdentifier>{74e290a5-742c-4d6c-bd80-febd491b4c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Maps">
+      <UniqueIdentifier>{973502fb-0fa7-496e-acae-c4c76d1baad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Music">
+      <UniqueIdentifier>{1ec5205a-db4e-4608-a19f-b252043152a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Shaders">
+      <UniqueIdentifier>{de6deeb3-ed90-4a35-b39d-9d9922a46a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\SoundEffects">
+      <UniqueIdentifier>{74c5db47-2523-4385-9d6e-e6a1a0728e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML">
+      <UniqueIdentifier>{f655f03b-d370-4301-af4f-ba4ae6fe5bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators">
+      <UniqueIdentifier>{0a84dfd6-747a-43e3-b6d5-9de262884814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentStats">
+      <UniqueIdentifier>{e7cf908c-3291-4f6a-9b53-39aa3c96987c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\DialogueGroupings">
+      <UniqueIdentifier>{7da53924-d5b1-4388-9ebc-23f28b931b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\FeatureGenerators">
+      <UniqueIdentifier>{65715e0d-4e94-46d9-814b-c45c50a41437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\GlobalVariables">
+      <UniqueIdentifier>{6c63eed9-79e7-4184-b37e-34d6f2652f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\HairGenerators">
+      <UniqueIdentifier>{e7253c17-4bd7-45e9-aaed-38959111ba3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\ItemGenerators">
+      <UniqueIdentifier>{85df4c84-3649-427b-8be9-340b87db95c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\MapData">
+      <UniqueIdentifier>{f841b9fb-c9eb-4f19-9ca6-4b658065b782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\MapFiles">
+      <UniqueIdentifier>{8bccc088-2f26-4445-8047-f78c425ee7d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\NameGenerators">
+      <UniqueIdentifier>{7a8f8cdd-4b99-4855-b4e5-7557a61944fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\NPCAttributes">
+      <UniqueIdentifier>{766cbbdf-44f8-4cc5-9a53-14242df8e2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\NPCJobs">
+      <UniqueIdentifier>{c5b22bd9-8a5c-4c26-820d-02fe39d52854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\Quests">
+      <UniqueIdentifier>{e92b96b4-83e3-4074-9723-72d60980ca32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpeechBubbles">
+      <UniqueIdentifier>{18792fe6-2722-4647-afd5-28f46ef2e681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteAnimations">
+      <UniqueIdentifier>{f4bdf64a-77b4-4991-beab-5a197abd4621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources">
+      <UniqueIdentifier>{4245bca1-9aa3-47c8-845c-62c6ca201ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\TileDefinitions">
+      <UniqueIdentifier>{2d46473d-e1bf-494e-b5c7-9f84ae4393f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Images\Characters">
+      <UniqueIdentifier>{15684b05-db9d-4de3-a313-4c34805c1c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Images\Map">
+      <UniqueIdentifier>{9415f7f7-0d3d-4191-86b4-3733200354dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Images\Characters\Hair">
+      <UniqueIdentifier>{21b7ce45-6fff-45c5-8c59-9691625ef42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Images\Characters\Clothing">
+      <UniqueIdentifier>{53a5b6c5-afda-4f28-a01b-a6ac4dbee8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\Tiles">
+      <UniqueIdentifier>{a1bee458-7126-4024-b68d-7fb7e7a19c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\Shaders\Framebuffers">
+      <UniqueIdentifier>{830fcbc6-3747-415a-8a21-7ad05e3a91a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\Characters">
+      <UniqueIdentifier>{6ffdb26a-723a-470c-87ff-2906809086be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\Hair">
+      <UniqueIdentifier>{e701a523-e300-4d43-b348-9ecf91c66d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\Clothing">
+      <UniqueIdentifier>{ae7b369a-de96-4509-adcc-e9165b2ff6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\Player">
+      <UniqueIdentifier>{d51bdd03-dcc0-493b-b65b-29006957271f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs">
+      <UniqueIdentifier>{abb25740-fa84-4f62-b264-8ce808dc03ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteAnimations\Characters">
+      <UniqueIdentifier>{f795612a-a1c1-40b7-b746-020c5aad40d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteAnimations\Clothing">
+      <UniqueIdentifier>{060eb57b-7839-4f63-be3a-ad8d06ca7777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteAnimations\Features">
+      <UniqueIdentifier>{dfd2ad6c-146e-4210-99de-010a412e2de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\Features">
+      <UniqueIdentifier>{2ef4e3eb-4b1d-4a6c-81fd-15673cd11603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteAnimations\Hair">
+      <UniqueIdentifier>{e0d0d9a3-9d62-456b-9695-0d44aafde1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\DialogueSegments">
+      <UniqueIdentifier>{4e2b8a3a-9baf-4b5c-878f-7d3e9991f021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\DialogueSegments\Quests">
+      <UniqueIdentifier>{5e737275-b097-42ee-8a8e-7aec662cf8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\DialogueSegments\Features">
+      <UniqueIdentifier>{955be6bb-05c7-4d1c-ae91-7415a1f5acd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\DialogueSegments\Greetings">
+      <UniqueIdentifier>{f165111a-e101-4719-b91e-d645d0d8104b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\SpriteResources\SpeechBubbles">
+      <UniqueIdentifier>{946a9d1f-022b-4eb7-a84e-83e1d9ebd110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs\KingQueen">
+      <UniqueIdentifier>{a838a023-1b2e-4d12-8414-f728271cbe6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs\Peasant">
+      <UniqueIdentifier>{1f901112-04fa-4d89-8283-ac856c8de70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs\PrincePrincess">
+      <UniqueIdentifier>{6e68705e-8e5a-4fb2-8915-553ba62c2681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs\Royalty">
+      <UniqueIdentifier>{f549832e-d744-4b63-b5c9-eca952a9e6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\AgentGenerators\NPCs\Guards">
+      <UniqueIdentifier>{bd055ed3-3b1f-4e19-9eac-805faf6a6ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\DataSets\DataSet2\XML\Sounds">
+      <UniqueIdentifier>{56857c94-df15-4975-98c1-3dc43479971e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue\DialogueTriggers">
+      <UniqueIdentifier>{c446a192-5973-4604-8f8c-9a141005b712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Dialogue\DialogueTriggers\Inheritors">
+      <UniqueIdentifier>{6f78827c-2607-4b6a-a84e-ee100bca9e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Debugging">
+      <UniqueIdentifier>{9aced449-67b0-4172-877d-84992adcf256}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Map.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\Tile.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameCommonVars.cpp">
+      <Filter>General\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinition.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MapCommonVars.cpp">
+      <Filter>General\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CircleCollision.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionTestResult.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionTestFunctions.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collision.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\SquareCollision.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Agent.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\LineCollision.cpp">
+      <Filter>General\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\BaseGameEntity.cpp">
+      <Filter>General\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Player\Player.cpp">
+      <Filter>General\GameEntities\Agents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Controller.cpp">
+      <Filter>General\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentGenerator.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentTemplate.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums\Directions4.cpp">
+      <Filter>General\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileEvent\TileEvent.cpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileEvent\TileEventFunctions.cpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TileEventFunctionCommonVars.cpp">
+      <Filter>General\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPC.cpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehavior.cpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehaviorRegistrationHelper.cpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehaviors\Wander.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehaviors\BasicPatrol.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehaviors\LookAround.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\Item.cpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\Clothing\Clothing.cpp">
+      <Filter>General\GameEntities\Items\Clothing</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\ItemTypeSpawnerRegistration.cpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\ItemGenerator.cpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\ItemTemplate.cpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Items\Inventory\Inventory.cpp">
+      <Filter>General\GameEntities\Items\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Names\NameGenerator.cpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Names\NameSet.cpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Names\OrderNameAndIndexPair.cpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\Dialogue.cpp">
+      <Filter>General\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueSegment.cpp">
+      <Filter>General\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\SpeechBubble.cpp">
+      <Filter>General\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\TextPiece.cpp">
+      <Filter>General\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCBehaviors\Talking.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentStatPack.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\BaseGameEntityStatPack.cpp">
+      <Filter>General\GameEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileNeighborsPack.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCJobs\NPCJob.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCJobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileEvent\TileEventPack.cpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueChoices\DialogueChoice.cpp">
+      <Filter>General\Dialogue\DialogueChoices</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapFiles\MapFiles.cpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapAgentSpecifications.cpp">
+      <Filter>General\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCase.cpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCaseDirectionInfo.cpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCaseToSet.cpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\Feature.cpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureGenerator.cpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureTemplate.cpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\FeatureBehavior.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\FeatureBehaviorRegistrationHelper.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\SwitchSides.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\TileCollisionTestPack.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentStats\AgentStat.cpp">
+      <Filter>General\GameEntities\Agents\AgentStats</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\Teleport.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\SetAgentStat.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\AddToAgentStat.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueGroupings.cpp">
+      <Filter>General\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapFiles\ExtraDataToLoadOnOpenMapFiles.cpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapFiles\EntityToLoad.cpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\Quest.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvent.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger.cpp">
+      <Filter>General\Quest\QuestEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement.cpp">
+      <Filter>General\Quest\QuestEvents</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariableBase.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckVariableFloat.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementRegistration.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckVariableBool.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats\AgentStatsCheckingStruct.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestTemplate.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestGenerator.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestTemplate\SpecialVariableTypes.cpp">
+      <Filter>General\Quest\QuestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetPlayerStat.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerRegistration.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerChangeDialogue.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerRemoveFromEntity.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerChangeMaps.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGiveEntity.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckEntityHasVariable.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\Player\PlayerQuestManager.cpp">
+      <Filter>General\GameEntities\Agents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\MapFiles\GameEntityToGenDataRelatingToQuest.cpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\MapQuestImportantData.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerCompleteQuest.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerChoice.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Hair\Hair.cpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Hair\HairTemplate.cpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Hair\HairGenerator.cpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Hair\HairColorNameValuePair.cpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager\SoundManager.cpp">
+      <Filter>General\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager\SoundRegistration.cpp">
+      <Filter>General\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager\ActiveSound.cpp">
+      <Filter>General\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorOpenDialogueSegment.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementGlobalCheckVariableBool.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementGlobalCheckVariableFloat.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGlobalSetVariableBool.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGlobalSetVariableFloat.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\DialogueRequirement.cpp">
+      <Filter>General\Dialogue\DialogueRequirements</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckGlobalVariableFloat.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckGlobalVariableBool.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\DialogueRequirementRegistrationHelper.cpp">
+      <Filter>General\Dialogue\DialogueRequirements</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\Inheritors\DialogueActionGlobalSetVariableFloat.cpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\DialogueActionRegistrationHelper.cpp">
+      <Filter>General\Dialogue\DialogueTriggers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\Inheritors\DialogueActionGlobalSetVariableBool.cpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCAttribute.cpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\NPCs\NPCAttributes\NPCAttributeContainer.cpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCAttribute</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasAttributeValue.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasAgentStatValue.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementPlayerHasAgentStatValue.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\ToggleTileSolid.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\ChangeFeatureAnimations.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\TilePositionsByEntityName.cpp">
+      <Filter>General\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentTemplateNPCAttributesContainer.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetQuestVariableFloat.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetQuestVariableBool.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorTradeItemForAnotherItem.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorGiveItem.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorOpenDialogueBasedOnIfLastBehaviorRanOrNot.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckCurrentDialogueSegment.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerHasItem.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasJob.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerConvertLocalVariableToText.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\TileDefinitionSpecialCase\SpecialCaseTestResults.cpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerConvertGlobalVariableToText.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorChangeTileSpriteResourcesOnPlacement.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckPlayerHasItem.cpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\Inheritors\DialogueActionDecreasePlayerItemAmount.cpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\Inheritors\DialogueActionIncreasePlayerItemAmount.cpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue\DialogueActions\DialogueTrigger.cpp">
+      <Filter>General\Dialogue\DialogueTriggers</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums\PlaySoundFromListActionEnum.cpp">
+      <Filter>General\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestTrigger\QuestTriggerPlaySoundFromList.cpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorPlaySoundFromList.cpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DebuggingFileHandler.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\NamedPropertiesToString.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GameDebuggingCommons.cpp">
+      <Filter>General\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntities\Agents\AgentGeneratorDialogueSegmentChoice.cpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DebugConsoleCommands.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerInteraction.cpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DeveloperDebugInfoBox.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DeveloperDebugInfoTextBlurb.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DeveloperDebugger.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\DebugConsoleCommandsPart2.cpp">
+      <Filter>General\Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Map.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Tile.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameCommonVars.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinition.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MapCommonVars.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CircleCollision.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionTestResult.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionTestFunctions.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collision.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\SquareCollision.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionType.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Agent.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\LineCollision.hpp">
+      <Filter>General\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\BaseGameEntity.hpp">
+      <Filter>General\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Player\Player.hpp">
+      <Filter>General\GameEntities\Agents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Controller.hpp">
+      <Filter>General\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentGenerator.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentTemplate.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentTypes.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\Directions4.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\GameEntityType.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\AnimationsIdxes.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileEvent\TileEvent.hpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileEvent\TileEventFunctions.hpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TileEventFunctionCommonVars.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPC.hpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehavior.hpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehaviorRegistrationHelper.hpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehaviors\Wander.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehaviors\BasicPatrol.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehaviors\LookAround.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\Item.hpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\ItemType.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\Clothing\Clothing.hpp">
+      <Filter>General\GameEntities\Items\Clothing</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\ItemTypeSpawnerRegistration.hpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\ItemCareAboutGenderOrNot.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\ItemGenerator.hpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\ItemTemplate.hpp">
+      <Filter>General\GameEntities\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Items\Inventory\Inventory.hpp">
+      <Filter>General\GameEntities\Items\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Names\NameGenerator.hpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Names\NameSet.hpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Names\OrderNameAndIndexPair.hpp">
+      <Filter>General\GameEntities\Agents\Names</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\Dialogue.hpp">
+      <Filter>General\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueSegment.hpp">
+      <Filter>General\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\SpeechBubble.hpp">
+      <Filter>General\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\TextPiece.hpp">
+      <Filter>General\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCBehaviors\Talking.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentStatPack.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\BaseGameEntityStatPack.hpp">
+      <Filter>General\GameEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileNeighborsPack.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCJobs\NPCJob.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCJobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileEvent\TileEventPack.hpp">
+      <Filter>General\Map\TileEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueChoices\DialogueChoice.hpp">
+      <Filter>General\Dialogue\DialogueChoices</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapFiles\MapFiles.hpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapAgentSpecifications.hpp">
+      <Filter>General\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\BitsPerBool.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCase.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCaseDirectionInfo.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\TileDefinitionSpecialCaseRequirement.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\SpecialCaseOperations.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\TileDefintionSpecialCaseToSet.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\Feature.hpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureGenerator.hpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureTemplate.hpp">
+      <Filter>General\GameEntities\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\FeatureBehavior.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\FeatureBehaviorRegistrationHelper.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\DefinedFeatureBehaviorIdxes.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\SwitchSides.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\TileCollisionTestPack.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentStats\AgentStat.hpp">
+      <Filter>General\GameEntities\Agents\AgentStats</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\Teleport.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\SetAgentStat.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\AddToAgentStat.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueGroupings.hpp">
+      <Filter>General\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapFiles\ExtraDataToLoadOnOpenMapFiles.hpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapFiles\EntityToLoad.hpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\Quest.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvent.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger.hpp">
+      <Filter>General\Quest\QuestEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement.hpp">
+      <Filter>General\Quest\QuestEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementType.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariableBase.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckVariableFloat.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckVariableType.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementRegistration.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckVariableBool.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats\AgentStatsCheckingStruct.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerStats</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestTemplate.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestGenerator.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestTemplate\SpecialVariableTypeEnum.hpp">
+      <Filter>General\Quest\QuestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestTemplate\SpecialVariableTypes.hpp">
+      <Filter>General\Quest\QuestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetPlayerStat.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerWhatToDoWithStatOptions.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerRegistration.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerChangeDialogue.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerRemoveFromEntity.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerChangeMaps.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGiveEntity.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementCheckEntityHasVariable.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\Player\PlayerQuestManager.hpp">
+      <Filter>General\GameEntities\Agents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapFiles\GameEntityToGenDataRelatingToQuest.hpp">
+      <Filter>General\Map\MapFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\MapQuestImportantData.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerCompleteQuest.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerChoice.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Hair\Hair.hpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Hair\HairTemplate.hpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Hair\HairGenerator.hpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Hair\HairColorNameValuePair.hpp">
+      <Filter>General\GameEntities\Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager\SoundManager.hpp">
+      <Filter>General\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager\SoundRegistration.hpp">
+      <Filter>General\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager\ActiveSound.hpp">
+      <Filter>General\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorOpenDialogueSegment.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementGlobalCheckVariableBool.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables\QuestRequirementGlobalCheckVariableFloat.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement\QuestRequirementCheckVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGlobalSetVariableBool.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerGlobalSetVariableFloat.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\DialogueRequirement.hpp">
+      <Filter>General\Dialogue\DialogueRequirements</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckGlobalVariableFloat.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckGlobalVariableBool.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\DialogueRequirementRegistrationHelper.hpp">
+      <Filter>General\Dialogue\DialogueRequirements</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\Inheritors\DialogueActionGlobalSetVariableFloat.hpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\DialogueActionRegistrationHelper.hpp">
+      <Filter>General\Dialogue\DialogueTriggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\Inheritors\DialogueActionGlobalSetVariableBool.hpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCAttribute.hpp">
+      <Filter>General\GameEntities\Agents\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\NPCs\NPCAttributes\NPCAttributeContainer.hpp">
+      <Filter>General\GameEntities\Agents\NPCs\NPCAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasAttributeValue.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasAgentStatValue.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialoguerequirementPlayerHasAgentStatValue.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\ToggleTileSolid.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\ChangeFeatureAnimations.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\TilePositionsByEntityName.hpp">
+      <Filter>General\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentTemplateNPCAttributesContainer.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetQuestVariableFloat.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerSetQuestVariableBool.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorTradeItemForAnotherItem.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorGiveItem.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorOpenDialogueBasedOnIfLastBehaviorRanOrNot.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckCurrentDialogueSegment.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerHasItem.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementNPCHasJob.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerConvertLocalVariableToText.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileDefinitionSpecialCase\SpecialCaseTestResults.hpp">
+      <Filter>General\Map\TileDefinitionSpecialCase</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerConvertGlobalVariableToText.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorChangeTileSpriteResourcesOnPlacement.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueRequirements\Inheritors\DialogueRequirementCheckPlayerHasItem.hpp">
+      <Filter>General\Dialogue\DialogueRequirements\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\Inheritors\DialogueActionDecreasePlayerItemAmount.hpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\Inheritors\DialogueActionIncreasePlayerItemAmount.hpp">
+      <Filter>General\Dialogue\DialogueTriggers\Inheritors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue\DialogueActions\DialogueTrigger.hpp">
+      <Filter>General\Dialogue\DialogueTriggers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\PlaySoundFromListActionEnum.hpp">
+      <Filter>General\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestTrigger\QuestTriggerPlaySoundFromList.hpp">
+      <Filter>General\Quest\QuestEvents\QuestTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Features\FeatureBehavior\Behaviors\FeatureBehaviorPlaySoundFromList.hpp">
+      <Filter>General\GameEntities\Features\FeatureBehavior\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DebuggingFileHandler.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\NamedPropertiesToString.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\GameDebuggingCommons.hpp">
+      <Filter>General\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntities\Agents\AgentGeneratorDialogueSegmentChoice.hpp">
+      <Filter>General\GameEntities\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DebugConsoleCommands.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest\QuestEvents\QuestRequirement\QuestRequirementCheckPlayerInteraction.hpp">
+      <Filter>General\Quest\QuestEvents\QuestRequirement</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DeveloperDebugInfoBox.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DeveloperDebugInfoTextBlurb.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DeveloperDebugger.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\DebugConsoleCommandsPart2.hpp">
+      <Filter>General\Debugging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Run_Win32\Resrouce Library Credit.xlsx">
+      <Filter>General\Data</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Font\DebugFont.fnt">
+      <Filter>General\DataSets\DataSet1\Font</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Passthrough.frag">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Passthrough.vert">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Passthrough2D.frag">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Passthrough2D.vert">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\SpritePassthrough.frag">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\SpritePassthrough.vert">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\SpritePassthroughMultipleTextures.vert">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\SpritePassthroughWithColorHandling.frag">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\SpritePassthroughWithColorHandlingMultipleTextures.frag">
+      <Filter>General\DataSets\DataSet1\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Framebuffers\ScreenPassthrough.frag">
+      <Filter>General\DataSets\DataSet1\Shaders\Framebuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet1\Shaders\Framebuffers\ScreenPassthrough.vert">
+      <Filter>General\DataSets\DataSet1\Shaders\Framebuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Font\DebugFont.fnt">
+      <Filter>General\DataSets\DataSet2\Font</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Passthrough.frag">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Passthrough.vert">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Passthrough2D.frag">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Passthrough2D.vert">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\SpritePassthrough.frag">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\SpritePassthrough.vert">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\SpritePassthroughMultipleTextures.vert">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\SpritePassthroughWithColorHandling.frag">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\SpritePassthroughWithColorHandlingMultipleTextures.frag">
+      <Filter>General\DataSets\DataSet2\Shaders</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Framebuffers\ScreenPassthrough.frag">
+      <Filter>General\DataSets\DataSet2\Shaders\Framebuffers</Filter>
+    </None>
+    <None Include="..\..\Run_Win32\DataSet2\Shaders\Framebuffers\ScreenPassthrough.vert">
+      <Filter>General\DataSets\DataSet2\Shaders\Framebuffers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run_Win32\Data\XML\GameSettings\GameSettings.Common.xml">
+      <Filter>General\Data\XML\GameSettings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\AgentGenerators.Main.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\Player\AgentGenerators.Player.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\Player</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\ElfVarients\AgentGenerators.Elf.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\ElfVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\ElfVarients\AgentGenerators.Ranger.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\ElfVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\OrcVarients\AgentGenerators.Orc.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\OrcVarients\AgentGenerators.OrcBerserker.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\OrcVarients\AgentGenerators.OrcHunter.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\OrcVarients\AgentGenerators.OrcShaman.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\OrcVarients\AgentGenerators.OrcWarrior.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\OrcVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.Farmer.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.Human.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.HumanSoldier.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.LongWindedHuman.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.Town_Liar.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.Trader.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentStats\AgentStats.Common.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentStats</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueGroupings\DialogueGroupings.Example.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueGroupings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.ElfGreetings.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.FarmerGreetings.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.HumanGreetings.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.OrcGreetings.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.Sample.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.TradingDialogue.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.FindMySiblingQuest.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.GetMeABucketOfMilk.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Features\DialogueSegments.FeaturesGeneral.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Buckets.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Cow.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Doors.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Firepits.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Bald.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Berserk.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Captain.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Cultist.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Merchant.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Monk.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Ninja.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Nun.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Pirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Priest.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Ranger.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Soldier.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Warrior.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.BerserkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.CaptainClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.CultistClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.HealerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.MagicianClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.MonkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.NinjaClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.NunClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.PirateClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.PriestClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.RangerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.SoldierClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.TownsfolkClothing1.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.TownsfolkClothing2.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.TownsfolkClothing3.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\ItemGenerators\ItemGenerators.WarriorClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.Farm.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.TradeSquare.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapFiles\MapFiles.General.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NameGenerators\NameGenerators.Elf.xml">
+      <Filter>General\DataSets\DataSet1\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NameGenerators\NameGenerators.Human.xml">
+      <Filter>General\DataSets\DataSet1\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NameGenerators\NameGenerators.Orc.xml">
+      <Filter>General\DataSets\DataSet1\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCAttributes\NPCAttributes.common.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCAttributes</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCJobs\NPCJobs.ElfJobs.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCJobs\NPCJobs.FarmRelatedJobs.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCJobs\NPCJobs.General.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCJobs\NPCJobs.OrcJobs.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.ABucketOfMilk.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.FindMySibling.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Sound\Sounds.CommonMusic.xml">
+      <Filter>General\DataSets\DataSet1\XML\Sounds</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Sound\Sounds.CommonSoundEffects.xml">
+      <Filter>General\DataSets\DataSet1\XML\Sounds</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpeechBubbles\SpeechBubbles.General.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpeechBubbles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\SpriteResources.SpeechBubbles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\SpriteResources.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\SpriteResources.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.BlueFlowerTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.BlueishGreenCarpet.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.BrownBuildingTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.BrownRoof.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Fence.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.FountainTile.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.GrassTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.GrayBuildingTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Hay.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.ManMadeFloors.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.RedCarpet.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Shrubbery.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.StoneWalls.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.WaterTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.WhiteRoof.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.WoodenFloor.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Berserk.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Captain.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Cultist.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Healer.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Magician.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Merchant.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Monk.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Ninja.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Nun.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Pirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Priest.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Ranger.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Soldier.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Hairs\SpriteResources.Warrior.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.Bookcase.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.Buckets.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.Doors.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.Firepit.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.Teleporter.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\DialoguePieces\SpriteResources.DialoguePieces.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\DialoguePieces</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.BerserkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.CaptainClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.CultistClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.HealerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.MagicianClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.Merchant.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.MonkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.NinjaClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.NunClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.PirateClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.PriestClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.RangerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.SoldierClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothing1.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothing2.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothing3.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Clothing\SpriteResources.WarriorClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\SpriteAnimations.Cow.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\SpriteAnimations.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Berserk.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Captain.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Cultist.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Healer.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Merchant.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Monk.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Ninja.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Nun.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Pirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Priest.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Ranger.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Soldier.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Warrior.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.Buckets.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.Doors.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.Firepit.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.Teleporter.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.BerserkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.CaptainClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.CultistClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.HealerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.MagicianClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.MonkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.NinjaClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.NunClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.PirateClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.PriestClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.RangerClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.SoldierClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothing2.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothing3.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Clothing\SpriteAnimations.WarriorClothing.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.BigGapFence.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.BlueishGreenCarpetOnManillaStone.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Common.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Dock.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.FountainOnManillaStone.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.HayPiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Lake.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.ManilaStoneSquare.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.RedCarpetOnManillaStone.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Shrubbery.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.StoneGrayHouse.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.WoodenHouseBrown.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.TwoEggs.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.TwoEggsQuest.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Features\SpriteResources.FarmAnimals.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.FarmAnimals.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Chicken.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.MarketTrade.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\ElfVarients\AgentGenerators.ElfWiseMan.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\ElfVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\HairGenerators\HairGenerators.Magician.xml">
+      <Filter>General\DataSets\DataSet1\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.Fisher.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.Docks.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NPCJobs\NPCJobs.PirateJobs.xml">
+      <Filter>General\DataSets\DataSet1\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\PirateVarients\AgentGenerators.Pirate_Base.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\PirateVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\PirateVarients\AgentGenerators.Pirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\PirateVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\NameGenerators\NameGenerators.Pirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\PirateVarients\AgentGenerators.PirateCaptain.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\PirateVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\DialogueSegments.PirateGreetings.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.FindTheClansWarriors.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.DrylandTiles.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Drylands.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Tent.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.GrasslandTents.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.Drylands.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.FindTheClansWarriors.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Mushrooms.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Rocks.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.Rocks.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.FindMySibling2.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.FindMySibling2Quest.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\GlobalVariables\GlobalVariables.Common.xml">
+      <Filter>General\DataSets\DataSet1\XML\GlobalVariables</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.RepeatableDeliveryQuest.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.RepeatableDeliveryQuest.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.DrylandsVillage.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.RightDoors.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.SinksAndCounters.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\TileDefinitions\TileDefinitions.BrownHouseAppliances.xml">
+      <Filter>General\DataSets\DataSet1\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.FindMy2ElfSiblings.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\FindMy2ElfSiblingsQuest\DialogueSegments.FindMy2ElfSiblingsHuman.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\FindMy2ElfSiblings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\FindMy2ElfSiblingsQuest\DialogueSegments.FindMy2ElfSiblingsElf.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\FindMy2ElfSiblings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.Forestland.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\FeatureGenerators\FeatureGenerators.Mushrooms.xml">
+      <Filter>General\DataSets\DataSet1\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Features\DialogueSegments.MushroomFeatures.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Features\SpriteAnimations.Mushrooms.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.MushroomStew.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.PotionBrewing.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.PotionBrewing.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.MushroomStew.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.MarketTradeOrc.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\MarketTrade</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.MarketTrade.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\MarketTrade</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.MarketTradeElf.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\MarketTrade</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\ElfVarients\AgentGenerators.ElfWitch.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\ElfVarients</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.MushroomStewPart2.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\DialogueSegments.MushroomStewPart2.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\Quests\Quests.OneSmallFavor.xml">
+      <Filter>General\DataSets\DataSet1\XML\Quests</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor\DialogueSegments.OneSmallFavorFisherman.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor\DialogueSegments.OneSmallFavorElf.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor\DialogueSegments.OneSmallFavorPirate.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor\DialogueSegments.OneSmallFavorOrc.xml">
+      <Filter>General\DataSets\DataSet1\XML\DialogueSegments\Quests\OneSmallFavor</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.DirtTile.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.GrassTile.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.GrassTile.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Characters\SpriteResources.HumanBase.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Characters</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.Tombstones.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteResources\Tiles\SpriteResources.WaterFountains.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.SmallVillage.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.SpiralLake.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\AgentGenerators\Player\AgentGenerators.Player.xml">
+      <Filter>General\DataSets\DataSet2\XML\AgentGenerators\Player</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Characters\SpriteAnimations.HumanBase.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Characters</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.TownSquare.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapFiles\MapFiles.Common.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapFiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.PaladinClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.PaladinClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.PaladinClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.BardClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.VampireClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothes1.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothes2.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.TownsfolkClothes3.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.HealerClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.BardClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.HealerClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothes1.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothes2.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.TownsfolkClothes3.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.VampireClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.BardClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.HealerClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.TownsfolkClothes1.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.TownsfolkClothes2.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.TownsfolkClothes3.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.VampireClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\ItemGenerators\ItemGenerators.MagicianClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\ItemGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Clothing\SpriteResources.MagicianClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Clothing\SpriteAnimations.MagicianClothes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Clothing</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.MagicianHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.HealerHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.VampireHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.BardHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Hair\SpriteResources.PaladinHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.BardHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.HealerHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.MagicianHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.PaladinHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Hair\SpriteAnimations.VampireHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.TownsfolkHair1.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.TownsfolkHair2.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.TownsfolkHair3.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\SpriteAnimations\Hairs\SpriteAnimations.Magician.xml">
+      <Filter>General\DataSets\DataSet1\XML\SpriteAnimations\Hair</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.MagicianHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.BardHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.HealerHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.PaladinHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\HairGenerators\HairGenerators.VampireHair.xml">
+      <Filter>General\DataSets\DataSet2\XML\HairGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\GlobalVariables\GlobalVariables.Common.xml">
+      <Filter>General\DataSets\DataSet2\XML\GlobalVariables</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NameGenerators\NameGenerators.RoyalNames.xml">
+      <Filter>General\DataSets\DataSet2\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NameGenerators\NameGenerators.PeasantNames.xml">
+      <Filter>General\DataSets\DataSet2\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NPCAttributes\NPCAttributes.Common.xml">
+      <Filter>General\DataSets\DataSet2\XML\NPCAttributes</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\AgentStats\AgentStats.Common.xml">
+      <Filter>General\DataSets\DataSet2\XML\AgentStats</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpeechBubbles\SpeechBubbles.Common.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpeechBubbles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\SpeechBubbles\SpriteResources.SpeechBubbles.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\SpeechBubbles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.RoyalGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NameGenerators\NameGenerators.KingQueenNames.xml">
+      <Filter>General\DataSets\DataSet2\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NameGenerators\NameGenerators.PrincePrincessNames.xml">
+      <Filter>General\DataSets\DataSet2\XML\NameGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.GuardGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.KingQueenGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.PrincePrincessGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.PeasantGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\DialogueSegments\Greetings\DialogueSegments.RebelGreetings.xml">
+      <Filter>General\DataSets\DataSet2\XML\DialogueSegments\Greetings</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.RoadTiles.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Beds.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Drapes.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Banners.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Tombstones.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Fountain.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.BrownStoneRoad.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.GrayStoneRoad.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.WhiteStoneRoad.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.GrayWallTiles.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.GrayStoneWall.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.MudTile.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\MapData\MapData.Peninsula.xml">
+      <Filter>General\DataSets\DataSet1\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\Sound\Sounds.CommonMusic.xml">
+      <Filter>General\DataSets\DataSet2\XML\Sounds</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.BrownHouse.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.BrownHouseWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.WhiteRoof.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.WoodenFloors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.BrownRoof.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.GrayHouseWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.GrayStoneBuilding.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\FeatureGenerators\FeatureGenerators.Doors.xml">
+      <Filter>General\DataSets\DataSet2\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Features\SpriteResources.Doors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Features\SpriteAnimations.Doors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.JailCell.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PrisonGeneral.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PrisonCell.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.EastDistrictPrisonDistrict.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PrisonWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.PrisonWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Shrubberies.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.Shrubberies.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Features\SpriteAnimations.JailDoors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.WestDistrictFactoryDistrict.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.SouthDistrictPoorDistrict.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.Tents.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.Tents.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Features\SpriteAnimations.FirePit.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Features\SpriteResources.FirePit.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\FeatureGenerators\FeatureGenerators.Firepits.xml">
+      <Filter>General\DataSets\DataSet2\XML\FeatureGenerators</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.DryingLines.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.DryingLines.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\NPCJobs\NPCJobs.General.xml">
+      <Filter>General\DataSets\DataSet2\XML\NPCJobs</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.PalaceWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.PalaceStairs.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PalaceStairs.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PalaceWalls.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.NorthDistrictRichDistrict.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Tiles\SpriteResources.PalaceStoneFloor.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Tiles</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\TileDefinitions\TileDefinitions.PalaceStoneFloor.xml">
+      <Filter>General\DataSets\DataSet2\XML\TileDefinitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteResources\Features\SpriteResources.PalaceDoors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteResources\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\SpriteAnimations\Features\SpriteAnimations.PalaceDoors.xml">
+      <Filter>General\DataSets\DataSet2\XML\SpriteAnimations\Features</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\MapData\MapData.Palace.xml">
+      <Filter>General\DataSets\DataSet2\XML\MapData</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet2\XML\AgentGenerators\NPC\Peasant\AgentGenerators.Peasant.xml">
+      <Filter>General\DataSets\DataSet2\XML\AgentGenerators\NPCs\Peasant</Filter>
+    </Xml>
+    <Xml Include="..\..\Run_Win32\DataSet1\XML\AgentGenerators\NPC\VillagerVarients\AgentGenerators.WanderingVillager.xml">
+      <Filter>General\DataSets\DataSet1\XML\AgentGenerators\NPC\VillagerVarients</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Cow.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\DownArrow.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\PureWhiteBox.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Red Smiley.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Selection.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\SpeechBubble.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\WhiteBoxSinglePixel.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Map\roguelikeSheet_transparent.png">
+      <Filter>General\DataSets\DataSet1\Images\Map</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\human_base.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_1st_Females_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_1st_Males_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_2nd_Females_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_2nd_Males_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_3rd_Males_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_4th_bonus_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_4th_bottom row_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Hair\16x18_Hairs_separated_4th_mid row_altogether.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_1st - no arms.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_1st.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_2nd - no arms.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_2nd.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_3rd - no arms.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_3rd.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_4th - no arms.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Characters\Clothing\16x18_Bodies_separated_4th.png">
+      <Filter>General\DataSets\DataSet1\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Font\DebugFont_0.png">
+      <Filter>General\DataSets\DataSet1\Font</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Farm.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\TestMap.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\TestMap2.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\TradeSquare.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\ElfSpeechBubble.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\OrcSpeechBubble.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\Chicken.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Docks.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Images\PirateSpeechBubble.png">
+      <Filter>General\DataSets\DataSet1\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Drylands.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Drylands_Village.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Forestland.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Font\DebugFont_0.png">
+      <Filter>General\DataSets\DataSet2\Font</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Chicken.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Cow.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\DownArrow.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\ElfSpeechBubble.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\OrcSpeechBubble.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\PirateSpeechBubble.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\PureWhiteBox.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Red Smiley.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Selection.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\SpeechBubble.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\UpArrow.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\WhiteBoxSinglePixel.png">
+      <Filter>General\DataSets\DataSet2\Images</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Map\roguelikeSheet_transparent.png">
+      <Filter>General\DataSets\DataSet2\Images\Map</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\human_base.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_1st_Females_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_1st_Males_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_2nd_Females_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_2nd_Males_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_3rd_Males_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_4th_bonus_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_4th_bottom row_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Hair\16x18_Hairs_separated_4th_mid row_altogether.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Hair</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_1st - no arms.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_1st.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_2nd - no arms.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_2nd.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_3rd - no arms.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_3rd.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_4th - no arms.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Images\Characters\Clothing\16x18_Bodies_separated_4th.png">
+      <Filter>General\DataSets\DataSet2\Images\Characters\Clothing</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Maps\TownSquare.png">
+      <Filter>General\DataSets\DataSet2\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet1\Maps\Peninsula.png">
+      <Filter>General\DataSets\DataSet1\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Maps\TownEastPrisonDistrict.png">
+      <Filter>General\DataSets\DataSet2\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Maps\TownWestFactoryDistrict.png">
+      <Filter>General\DataSets\DataSet2\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Maps\TownSouthPoorDistrict.png">
+      <Filter>General\DataSets\DataSet2\Maps</Filter>
+    </Image>
+    <Image Include="..\..\Run_Win32\DataSet2\Maps\TownNorthRichDistrict.png">
+      <Filter>General\DataSets\DataSet2\Maps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\Run_Win32\DataSet1\Music\BBandRage_Chippytoon.wav">
+      <Filter>General\DataSets\DataSet1\Music</Filter>
+    </Media>
+    <Media Include="..\..\Run_Win32\DataSet1\Music\Matthew Pablo_Shake and Bake.mp3">
+      <Filter>General\DataSets\DataSet1\Music</Filter>
+    </Media>
+    <Media Include="..\..\Run_Win32\DataSet2\Music\Fishing_village.wav">
+      <Filter>General\DataSets\DataSet2\Music</Filter>
+    </Media>
+    <Media Include="..\..\Run_Win32\DataSet2\Music\Item Shop.mp3">
+      <Filter>General\DataSets\DataSet2\Music</Filter>
+    </Media>
+    <Media Include="..\..\Run_Win32\DataSet2\Music\Magic Town.mp3">
+      <Filter>General\DataSets\DataSet2\Music</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

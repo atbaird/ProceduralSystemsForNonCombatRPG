@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <GetMeABucketOfMilk title='A Bucket Of Milk'>
+    <Variables>
+      <float VariableName='QuestState' defaultValue='0.0'/>
+      <NPC VariableName='TheFarmer'/>
+      <Player VariableName='player'/>
+    </Variables>
+    <AgentsToGenerate>
+      <Farmer
+        number='1'
+        VariableName='TheFarmer'
+        GlobalVariableName='GlobalTheFarmer'
+        Dialogue='GetMeABucketQuestStart'>
+      </Farmer>
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='GlobalCheckVariableFloat' Variable='FarmingQuest' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='GetMeABucketQuestYes'/>
+        </Requirements>
+        <Trigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <GlobalSetVariableFloat VariableName='FarmingQuest' Value='0.5'/>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='GetMeABucketQuestGottenMilkYet'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='FinishQuest'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Bucket of Milk' value='>=1.0'/>
+        </Requirements>
+        <Trigger>
+          <RemoveFromEntity EntityName='player' ItemName='Bucket of Milk' value='1.0'/>
+          <GiveToEntity EntityName='player' ItemName='Slice of Pie' value='1.0'/>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='GetMeABucketQuestReceivedBucket'/>
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='GetMeABucketQuestComplete'/> 
+          <!-- Since this is part of a chain,
+          this might not matter so much.-->
+          <GlobalSetVariableFloat VariableName='FarmingQuest' Value='1.0'/>
+          <CompleteQuest/>
+        </PostTrigger>
+      </Event>
+    </Events>
+  </GetMeABucketOfMilk>
+</Quests>

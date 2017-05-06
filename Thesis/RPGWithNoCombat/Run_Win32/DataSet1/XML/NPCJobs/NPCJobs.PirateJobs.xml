@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCJobs>
+  <Pirate>
+    <StatRequirements>
+      <Strength value='45'/>
+      <Dexterity value='45'/>
+    </StatRequirements>
+  </Pirate>
+
+  <PirateCaptain name='Pirate Captain'>
+    <StatRequirements>
+      <Strength value='55'/>
+      <Dexterity value='55'/>
+      <Intelligence value='55'/>
+    </StatRequirements>
+  </PirateCaptain>
+  
+</NPCJobs>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='nunClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='65, 144, 80, 126'/>
+  <SpriteResource resourceName='nunClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='81, 144, 96, 126'/>
+  <SpriteResource resourceName='nunClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='97, 144, 112, 126'/>
+
+  <SpriteResource resourceName='nunClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='65, 162, 80, 144'/>
+  <SpriteResource resourceName='nunClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='81, 162, 96, 144'/>
+  <SpriteResource resourceName='nunClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='97, 162, 112, 144'/>
+
+  <SpriteResource resourceName='nunClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='65, 180, 80, 162'/>
+  <SpriteResource resourceName='nunClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='81, 180, 96, 162'/>
+  <SpriteResource resourceName='nunClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='97, 180, 112, 162'/>
+
+  <SpriteResource resourceName='nunClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='65, 192, 80, 180'/>
+  <SpriteResource resourceName='nunClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='81, 192, 96, 180'/>
+  <SpriteResource resourceName='nunClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='97, 192, 112, 180'/>
+
+
+</SpriteResources>

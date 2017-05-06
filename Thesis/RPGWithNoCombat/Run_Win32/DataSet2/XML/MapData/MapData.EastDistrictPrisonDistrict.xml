@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='0,14'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='28,14'/>
+    </TileEvent>
+    
+    <TileEvent TileCoords='0,15'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='28,15'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,16'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='28,16'/>
+    </TileEvent>
+  </TileEvents>
+  <FeaturesToGenerate>
+    <Door number='2'>
+      <Position position='9,15'/>
+      <Position position='16,15'/>
+    </Door>
+    <SquareJailCellDoorClosed
+      number='12'>
+      <Position position='6,8'/>
+      <Position position='10,8'/>
+      <Position position='14,8'/>
+      <Position position='18,8'/>
+      <Position position='21,8'/>
+
+      <Position position='6,21'/>
+      <Position position='10,21'/>
+      <Position position='18,21'/>
+      <Position position='14,21'/>
+      <Position position='21,21'/>
+      
+      <Position position='22,11'/>
+      <Position position='22,19' />
+    </SquareJailCellDoorClosed>
+  </FeaturesToGenerate>
+
+  <AgentsToGenerate>
+    <Peasant number='5-7'>
+
+    </Peasant>
+  </AgentsToGenerate>
+
+</MapData>

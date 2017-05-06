@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <TradeDialogue1 uniqueGroup='tradeDialogue' text='Get your fish! Get your nice fresh fish here!' />
+  <TradeDialogue2 uniqueGroup='tradeDialogue' text='Selling fresh bread and cakes!' />
+  <TradeDialogue4 uniqueGroup='tradeDialogue' text='Buying gemstones! Buying all gemstones!' />
+  <TradeDialogue5 uniqueGroup='tradeDialogue' text='Trading iron for milk!' />
+  <TradeDialogue6 uniqueGroup='tradeDialogue' text='Trading silk for felt!' />
+  <TradeDialogue7 uniqueGroup='tradeDialogue' text='Are these good deals? I cant tell, cause I have ants in my eyes!' />
+  <TradeDialogue8 uniqueGroup='tradeDialogue' text='Selling silver and gold!' />
+</DialogueSegments>

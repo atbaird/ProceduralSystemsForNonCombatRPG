@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NameGenerators>
+  <KingQueenNameSet
+    male='Male_Royal_Title, Royal_firstName_male, Royal_surname'
+    female='Female_Royal_Title, Royal_firstName_female, Royal_surname'
+    referMaleAs='Male'
+    referFemaleAs='Female'
+    referMaleSiblingAs='Brother'
+    referFemaleSiblingAs='Sister'>
+
+    <Male_Royal_Title>
+      <King/>
+    </Male_Royal_Title>
+
+    <Female_Royal_Title>
+      <Queen/>
+    </Female_Royal_Title>
+    
+    <Royal_firstName_male>
+      
+    </Royal_firstName_male>
+
+    <Royal_firstName_female>
+      
+    </Royal_firstName_female>
+    
+    <Royal_surname>
+      
+    </Royal_surname>
+  </KingQueenNameSet>
+</NameGenerators>

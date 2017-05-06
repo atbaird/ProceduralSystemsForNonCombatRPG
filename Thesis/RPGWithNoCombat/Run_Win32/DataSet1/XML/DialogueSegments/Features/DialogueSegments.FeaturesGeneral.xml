@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <FeatureReceivedBucket text='You pull a bucket from the pile.'/>
+  <FeatureReceivedEgg text='The chicken laid an egg; you add it to your inventory.'/>
+  <MilkedCow text='You milk the cow and fill your bucket with milk.'/>
+  <DidNotMilkCow text='You do not have enough buckets to milk the cow.'/>
+  
+</DialogueSegments>

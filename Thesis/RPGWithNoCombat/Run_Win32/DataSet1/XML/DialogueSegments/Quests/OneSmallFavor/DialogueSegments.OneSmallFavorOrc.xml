@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='OrcSpeechBubble'>
+
+  <OneSmallFavorOrcDelivery text="Hmm? Finally! My war axe- wait... What are these runes?"
+    segmentToOpenNext='OneSmallFavorOrcRefusal'>
+  </OneSmallFavorOrcDelivery>
+
+  <OneSmallFavorOrcRefusal>
+    <Text text=" Those runes look elvish! I am not taking that axe unless I know what they mean!" />
+  </OneSmallFavorOrcRefusal>
+
+  <OneSmallFavorOrcAcceptance
+    segmentToOpenNext="OneSmallFavorOrcFinalNote">
+    <Text text="So thats what the runes mean. Excellent, then this axe will be great for cleaving skulls with!"/>
+  </OneSmallFavorOrcAcceptance>
+
+  <OneSmallFavorOrcFinalNote>
+    <Text text=" Send $OneSmallFavor.ThePirate.firstname$ my regards."/>
+  </OneSmallFavorOrcFinalNote>
+
+</DialogueSegments>

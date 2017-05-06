@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='Dryland_Tile' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136.0,15,151,0'/>
+
+  <SpriteResource resourceName='Dryland_AltTile'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='136.0,32,151,17'/>
+  
+  
+</SpriteResources>

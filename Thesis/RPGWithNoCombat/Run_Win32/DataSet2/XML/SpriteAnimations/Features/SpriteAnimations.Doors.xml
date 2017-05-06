@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='woodenDoor1Open' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='closedWoodenDoor1'/>
+    <Frame resourceName='openWoodenDoor1'/>
+    <Frame resourceName='closedWoodenDoor1'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='woodenDoor1LockedOpen' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='openWoodenDoor1'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='woodenDoor1LockedClosed' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='closedWoodenDoor1'/>
+  </SpriteAnimation>
+
+
+  <SpriteAnimation spriteAnimationName='LeftWoodenDoor1Open' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='RightClosedWoodenDoor1'/>
+    <Frame resourceName='RightOpenWoodenDoor1'/>
+    <Frame resourceName='RightClosedWoodenDoor1'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='LeftWoodenDoor1LockedOpen' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='RightOpenWoodenDoor1'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='LeftWoodenDoor1LockedClosed' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='RightClosedWoodenDoor1'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

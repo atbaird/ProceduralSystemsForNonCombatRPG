@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='WoodenCross' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='901,168,916,153'
+    />
+  
+</SpriteResources>

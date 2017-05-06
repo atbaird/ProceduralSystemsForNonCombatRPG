@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+
+  <TileDefinition
+    name='PrisonCell'
+    resourceName='BrownStoneRoad'
+    altResourceName='AltBrownStoneRoad'
+    altResourceChance='0.5'
+    MapCode='185,13,98'
+    solid='false'
+    topLayerCanDisappear='true'
+    topLayer2CanDisappear='true'>
+
+  </TileDefinition>
+  
+</TileDefinitions>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='Elf'
+    DefaultImage='human_base0'
+    MovementSpeed='2.f'
+    NameSet='ElfNameSet'
+    PercentageMale='0.5f'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_Townsfolk_hair1/>
+        <male_Townsfolk_hair2/>
+        <male_Townsfolk_hair3/>
+        <male_Monk/>
+        <male_Berserk/>
+      </Male>
+
+      <Female>
+        <female_Townsfolk_hair1/>
+        <female_Townsfolk_hair2/>
+        <female_Townsfolk_hair3/>
+        <female_Monk/>
+        <female_Berserk/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Townsfolk 1 clothes'/>
+      <Clothing name='Townsfolk 2 clothes'/>
+      <Clothing name='Monk clothes'/>
+      <Clothing name='Soldier clothes'/>
+    </Clothing>
+
+    <SkinColors>
+      <SkinColor value='3' />
+      <!-- blue -->
+    </SkinColors>
+
+    <HairColors>
+      <Red/>
+      <Green/>
+      <Black/>
+      <Brown/>
+    </HairColors>
+
+    <Jobs>
+      <WiseMan/>
+      <Healer/>
+      <Ranger/>
+      <Archer/>
+    </Jobs>
+
+    <NPCBehaviors>
+      <LookAround />
+      <Talking />
+    </NPCBehaviors>
+
+    <NPCAttributes>
+      <Age/>
+      <Personality/>
+      <Morallity>
+        <Blacklist>
+          <Evil/>
+        </Blacklist>
+      </Morallity>
+      <Lawfulness/>
+    </NPCAttributes>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='ElfGreeting'/>
+    </Dialogue>
+
+    <Animations>
+      <Animation animationName='human_base0_walkForward' direction='south' animIdx='walk'/>
+      <Animation animationName='human_base0_walkBack' direction='north' animIdx='walk'/>
+      <Animation animationName='human_base0_walkLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='human_base0_walkRight' direction='east' animIdx='walk'/>
+    </Animations>
+
+    <StatRanges>
+      <Strength min='25' max='45'/>
+      <Dexterity min='65' max='85'/>
+      <Intelligence min='50' max='90'/>
+    </StatRanges>
+  </AgentGenerator>
+</AgentGenerators>

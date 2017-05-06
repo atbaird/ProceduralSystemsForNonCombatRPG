@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <FindMy2ElfSiblingsStart text='Hey, have you seen my siblings anywhere?' >
+    <Text text=' Oh. And no, they are not human like me, they are elves.' />
+    <Text text=' Could you help me find them?' />
+    <Decision>
+      <Help DialogueToOpen='FindMy2ElfSiblingsYes'/>
+      <Dont_Help DialogueToOpen='FindMy2ElfSiblingsNo'
+        DialogueChoice='Dont Help'/>
+    </Decision>
+  </FindMy2ElfSiblingsStart>
+
+  <FindMy2ElfSiblingsYes>
+    <Text text='Oh thank you! Thank you! They have to be around here somewhere.'/>
+  </FindMy2ElfSiblingsYes>
+
+  <FindMy2ElfSiblingsNo>
+    <Text text='... But why?... I will keep trying to find them, let me know if you change your mind.' />
+  </FindMy2ElfSiblingsNo>
+
+  <FindMy2ElfSiblingsNoneFound>
+    <Text text='Have not seen even one of them yet.' />
+  </FindMy2ElfSiblingsNoneFound>
+
+  <FindMy2ElfSiblingsOneFound>
+    <Text text='Okay, so we know where one is; now where is the other?'/>
+  </FindMy2ElfSiblingsOneFound>
+
+  <FindMy2ElfSiblingsBothFound>
+    <Text text='Thats both of them. Thank you so much for your help.'/>
+    <Text text='Here, have this knife. Its useful if you need to cut some rope or cobwebs.' />
+  </FindMy2ElfSiblingsBothFound>
+
+  <FindMy2ElfSiblingsCompleteHuman1 uniqueGrouping='FindMyElfSiblingsCompleteHuman'
+          text='Putting my knife to good use?' />
+
+  <FindMy2ElfSiblingsCompleteHuman2 uniqueGrouping='FindMyElfSiblingsCompleteHuman'
+          text='Thanks again for your help!' />
+  
+  <FindMy2ElfSiblingsCompleteHuman3 uniqueGrouping='FindMyElfSiblingsCompleteHuman'
+          text='I do not think I ever would of found them without your help. Thanks again!' />
+</DialogueSegments>

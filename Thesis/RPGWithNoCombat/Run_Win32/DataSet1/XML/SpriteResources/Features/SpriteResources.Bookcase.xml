@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <!-- Some books variant-->
+  <SpriteResource resourceName='ShortBookCase1_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='697.0,219.0,712.0,204.0'/>
+
+  <SpriteResource resourceName='ShortBookCase2_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='714.0,219.0,729.0,204.0'/>
+
+  <SpriteResource resourceName='SingleBookCase1_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='731.0,219.0,746.0,204.0'/>
+
+  <SpriteResource resourceName='SingleBookCase2_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='748.0,219.0,763.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='765.0,219.0,780.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_WithSomeBooks_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='782.0,219.0,797.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799.0,219.0,814.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_WithSomeBooks_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816.0,219.0,831.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_WithSomeBooks'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850.0,219.0,865.0,204.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_WithSomeBooks_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833.0,219.0,848.0,204.0'/>
+
+  <!-- Empty variant-->
+  <SpriteResource resourceName='ShortBookCase1_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='697.0,221.0,712.0,236.0'/>
+
+  <SpriteResource resourceName='ShortBookCase2_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='714.0,221.0,729.0,236.0'/>
+
+  <SpriteResource resourceName='SingleBookCase1_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='731.0,221.0,746.0,236.0'/>
+
+  <SpriteResource resourceName='SingleBookCase2_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='748.0,221.0,763.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='765.0,221.0,780.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_Empty_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='782.0,221.0,797.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799.0,221.0,814.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816.0,221.0,831.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_Empty'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850.0,221.0,865.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_Empty_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833.0,221.0,848.0,236.0'/>
+  <!-- Full variant-->
+  <SpriteResource resourceName='ShortBookCase1_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='697.0,221.0,712.0,236.0'/>
+
+  <SpriteResource resourceName='ShortBookCase2_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='714.0,221.0,729.0,236.0'/>
+
+  <SpriteResource resourceName='SingleBookCase1_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='731.0,221.0,746.0,236.0'/>
+
+  <SpriteResource resourceName='SingleBookCase2_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='748.0,221.0,763.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='765.0,221.0,780.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseWest_Full_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='782.0,221.0,797.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='799.0,221.0,814.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseCenter_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='816.0,221.0,831.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_Full'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850.0,221.0,865.0,236.0'/>
+
+  <SpriteResource resourceName='BookCaseEast_Full_Stained'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='833.0,221.0,848.0,236.0'/>
+  
+</SpriteResources>

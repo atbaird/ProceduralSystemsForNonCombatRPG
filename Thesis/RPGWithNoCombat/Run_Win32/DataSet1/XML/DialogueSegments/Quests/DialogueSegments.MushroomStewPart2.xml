@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+
+  <MushroomStewStart2 text='Hello again adventurer! Would you lend me a hand once more?'>
+    <Text text=' I need more ingredients for yet another mushroom stew.'/>
+    <Text text=' Would you be willing to collect them for me?'/>
+    <Decision>
+      <Assist DialogueToOpen='MushroomStewYes2'/>
+      <Dont_Assist DialogueToOpen='MushroomStewNo2'
+        DialogueChoice='Dont Assist'/>
+    </Decision>
+  </MushroomStewStart2>
+
+  <MushroomStewNo2 text='Shame, I would of given you a bowl of stew if you helped me.' />
+
+  
+  
+  <MushroomStewYes2 text='You will? Excellent! I need $MushroomStewPart2.SpottyMushroomRequirement$'>
+    <Text text=' and $MushroomStewPart2.RedMushroomRequirement$.' />
+  </MushroomStewYes2>
+
+  <MushroomStewReminder2 text='Thats not quite enough ingredients.'>
+    <Text text=' I need $MushroomStewPart2.SpottyMushroomRequirement$ and '/>
+    <Text text='$MushroomStewPart2.RedMushroomRequirement$'/>
+  </MushroomStewReminder2>
+  
+</DialogueSegments>

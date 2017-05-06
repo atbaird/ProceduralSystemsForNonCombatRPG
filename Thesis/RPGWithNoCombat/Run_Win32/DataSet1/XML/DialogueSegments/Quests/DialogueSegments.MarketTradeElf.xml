@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='ElfSpeechBubble'>
+  
+  <!-- Riddles gotten from here: http://www.thievesguild.cc/riddles -->
+  <!-- The Wise Man -->
+  <MarketTradeTheWiseManNormal1 uniqueGrouping='WiseManNormal'>
+    <Text text='Give a man a fish, you feed him for a day.' />
+    <Text text=' Teach a man to fish and you feed him for a life time.' />
+  </MarketTradeTheWiseManNormal1>
+  <MarketTradeTheWiseManNormal2 uniqueGrouping='WiseManNormal'>
+    <Text text='The less you respond to negative people, the more peaceful your life will be.' />
+  </MarketTradeTheWiseManNormal2>
+  <MarketTradeTheWiseManNormal3 uniqueGrouping='WiseManNormal'>
+    <Text text='Forgive yourself for your mistakes.' />
+  </MarketTradeTheWiseManNormal3>
+  <MarketTradeTheWiseManNormal4 uniqueGrouping='WiseManNormal'>
+    <Text text='Live. Let nothing be lost upon you. Be afraid of nothing.' />
+  </MarketTradeTheWiseManNormal4>
+
+  <MarketTradeTheWiseManRequest text='The fisher wants to know why the fish are not biting?'
+                                segmentToOpenNext='MarketTradeTheWiseManDemand'/>
+  <MarketTradeTheWiseManDemand text='I will help you and the fisher if you solve these riddles three.'
+                               segmentToOpenNext='MarketTradeTheWiseManRiddle1'/>
+
+  <MarketTradeTheWiseManRiddle1 text=''>
+    <Text text='A serpent swam in a silver urn '/>
+    <Text text='a golden bird did in its mouth abide.'/>
+    <Text text='The serpent drank the water, this in turn '/>
+    <Text text='killed the serpent. Then the gold bird died.'/>
+    <Decision>
+      <Coil_Of_Rope dialogueToOpen='MarketTradeTheWiseManWrong'
+        DialogueChoice='Coil of Rope'/>
+      <A_Gemstone dialogueToOpen='MarketTradeTheWiseManWrong'
+        DialogueChoice='A Gemstone' />
+      <An_Oil_Lamp dialogueToOpen='MarketTradeTheWiseManRiddle2'
+        DialogueChoice='An Oil Lamp'/>
+      <Man dialogueToOpen='MarketTradeTheWiseManWrong'/>
+      <Time dialogueToOpen='MarketTradeTheWiseManWrong'/>
+      <Give_Up dialogueToOpen='MarketTradeTheWiseManGaveUp'
+        DialogueChoice='Give Up'/>
+    </Decision>
+
+  </MarketTradeTheWiseManRiddle1>
+
+  <MarketTradeTheWiseManRiddle2>
+    <Text text='Turn us on our backs, and open up our stomachs.' />
+    <Text text=' You will be the wisest of men, though at start a lummox.' />
+    <Decision>
+
+      <Twine dialogueToOpen='MarketTradeTheWiseManWrong' />
+      <Magic dialogueToOpen='MarketTradeTheWiseManWrong' />
+      <Time dialogueToOpen='MarketTradeTheWiseManWrong' />
+      <Steel dialogueToOpen='MarketTradeTheWiseManWrong' />
+      <A_book dialogueToOpen='MarketTradeTheWiseManRiddle3'
+        DialogueChoice='A Book'/>
+      <Give_Up dialogueToOpen='MarketTradeTheWiseManGaveUp'
+        DialogueChoice='Give Up'/>
+    </Decision>
+    
+  </MarketTradeTheWiseManRiddle2>
+
+  <MarketTradeTheWiseManRiddle3>
+    <Text text='It occurs once in every minute.'/>
+    <Text text=' Twice in every moment.' />
+    <Text text=' And yet never in one hundred thousand years.' />
+    <Decision>
+      <A_Sigh dialogueToOpen='MarketTradeTheWiseManWrong'
+              DialogueChoice='A Sigh'/>
+      <Creation dialogueToOpen='MarketTradeTheWiseManWrong' />
+      <War dialogueToOpen='MarketTradeTheWiseManWrong'/>
+      <Letter_M dialogueToOpen='MarketTradeTheWiseManComplete'
+                DialogueChoice='The letter M' />
+      <A_Minute dialogueToOpen='MarketTradeTheWiseManWrong' 
+                DialogueChoice='A Minute'/>
+      <Give_Up dialogueToOpen='MarketTradeTheWiseManGaveUp'
+        DialogueChoice='Give Up'/>
+    </Decision>
+  </MarketTradeTheWiseManRiddle3>
+
+  <MarketTradeTheWiseManWrong text='That was not right.'/>
+  <MarketTradeTheWiseManGaveUp text='I will be here if you wish to try again.'/>
+  
+  <MarketTradeTheWiseManComplete
+    text='Well done! The fish will bite if the fisher soaks his bait in gravy and ale.'/>
+
+  <MarketTradeTheWiseManReminder
+    text='Go tell the fisher what I told you.'/>
+</DialogueSegments>

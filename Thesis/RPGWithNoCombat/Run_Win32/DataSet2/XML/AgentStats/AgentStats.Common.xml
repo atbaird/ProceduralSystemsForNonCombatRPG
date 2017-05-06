@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentStats minimum='0' maximum='100'>
+  <Honor abbreviation='hon'/>
+  <Strength abbreviation='str'/>
+  <Intelligence abbreviation='int'/>
+  <Dexterity abbreviation='dex'/>
+  
+  
+</AgentStats>

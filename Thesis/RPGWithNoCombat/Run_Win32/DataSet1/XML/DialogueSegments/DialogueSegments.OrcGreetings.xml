@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='OrcSpeechBubble'>
+  <OrcGreeting1 uniqueGrouping='OrcGreeting' 
+                text='Ha, whats the matter? Never seen an orc before, human?'/>
+  <OrcGreeting2 uniqueGrouping='OrcGreeting' 
+                text='I am $MyName$ of the Kulik tribe, I am a great and powerful $Job$!'/>
+  <OrcGreeting3 uniqueGrouping='OrcGreeting' 
+                text='Which tastes better? Elven brains or human hearts?'/>
+  
+</DialogueSegments>

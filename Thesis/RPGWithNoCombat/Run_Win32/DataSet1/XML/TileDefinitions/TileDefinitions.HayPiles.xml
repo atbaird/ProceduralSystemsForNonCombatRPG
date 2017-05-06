@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='MediumHay' resourceName='medium_hay_pile'
+                  bottomResourceName='grassTile1_1'
+                  altBottomResourceName='grassTile1_1_alt'
+                  altBottomResourceChance='0.5f'
+                  MapCode='255,255,0' solid='true' liquid='false'/>
+</TileDefinitions>

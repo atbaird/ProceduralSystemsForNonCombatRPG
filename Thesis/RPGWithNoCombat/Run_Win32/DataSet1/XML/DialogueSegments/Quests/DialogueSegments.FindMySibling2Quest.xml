@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='OrcSpeechBubble'>
+  <FindMySibling2Start text='Hey, have you seen my $FindMySibling.YoungerSibling.SiblingTitle$?'>
+    <Text text=' $FindMySibling.YoungerSibling.GenderPronounOwning$ name is '/>
+    <Text text='$FindMySibling.YoungerSibling.FirstName$. Little idiot is probably picking fights'/>
+    <Text text=' with small fry again. Like that proves anything.' />
+  </FindMySibling2Start>
+  <SiblingSpeech2SpawnText text='You now face me, $MyFirstName$! Flee in terror of me! (please).'/>
+  <SiblingSpeech2 text='I am $MyFirstName$ , conquerer of- wait, my $FindMySibling.OlderSibling.SiblingTitle$'>
+    <Text text=' was looking for me?'/>
+  </SiblingSpeech2>
+  <FindMySibling2End text='Thank you for finding my $FindMySibling.YoungerSibling.SiblingTitle$! '>
+    <Text text='Here have $FindMySibling.QuestItem1$.'/>
+  </FindMySibling2End>
+  <FindMySibling2AlreadyComplete text='Thanks again!'/>
+</DialogueSegments>

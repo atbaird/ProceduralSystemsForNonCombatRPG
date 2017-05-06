@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='medium_hay_pile' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='714,202,729,187'/>
+  
+</SpriteResources>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='ManilaStoneSquare'
+                  MapCode='217,202,169' solid='false' liquid='false'
+                  topLayerCanDisappear='true' topLayer2CanDisappear='true'
+                  resourceName='horizontal_GrayStoneRoad_1'>
+
+    <TileDefinitionsToPretendAreTheSame>
+      <TileDefinition name='FountainOnManillaStone'/>
+      <TileDefinition name='RedCarpetOnManilaStoneFloor'/>
+      <TileDefinition name='BlueishGreenCarpetOnManilaStoneFloor'/>
+    </TileDefinitionsToPretendAreTheSame>
+    
+    <!-- North, South, East, West-->
+    <SpecialCase IfNeighborTypeIs='type=grass1_1,North>0,South==0,East==0,West==0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' resourceName='ManilaStoneWall_NorthEast'
+             solid='true'/>
+
+    </SpecialCase>
+
+    <SpecialCase IfNeighborTypeIs='type="grass1_1",North==0,South>0,East==0,West==0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_South'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase IfNeighborTypeIs='type="grass1_1",North==0,South==0,East>0,West==0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_East'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfNeighborTypeIs='type="grass1_1",North==0,South==0,East==0,West>0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_West'
+             solid='true'/>
+    </SpecialCase>
+
+    <!-- SW, SE, NE, NW-->
+    <SpecialCase
+      IfNeighborTypeIs='type="grass1_1",North==0,South>0,East==0,West>0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_SouthWest'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfNeighborTypeIs='type="grass1_1",North==0,South>0,East>0,West==0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_SouthEast'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfNeighborTypeIs='type="grass1_1",North>0,South==0,East>0,West==0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_NorthEast'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfNeighborTypeIs='type="grass1_1",North>0,South==0,East==0,West>0'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_NorthWest'
+             solid='true'/>
+    </SpecialCase>
+
+
+    <!-- One layer in case-->
+    <SpecialCase
+      IfSame='type="grass1_1",North==1,South>1,East>1,West==1'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_SouthEast'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='type="grass1_1",North==1,South>1,East==1,West>1'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_SouthWest'
+             solid='true'/>
+    </SpecialCase>
+    
+    <SpecialCase
+      IfSame='type="grass1_1",North>1,South==1,East>1,West==1'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_NorthEast'
+             solid='true'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='type="grass1_1",North>1,South==1,East==1,West>1'>
+      <ToSet debugName='NorthEastTileBrownBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='ManilaStoneWall_NorthWest'
+             solid='true'/>
+    </SpecialCase>
+
+  </TileDefinition>
+</TileDefinitions>

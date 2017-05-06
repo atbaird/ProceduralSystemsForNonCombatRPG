@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+
+  <TileDefinition name='GrayStoneRoadTile'
+                  resourceName='GrayStoneRoad'
+                  altResourceName='AltGrayStoneRoad'
+                  altResourceChance='0.5'
+                  MapCode='183,183,183'
+                  solid='false'>
+  </TileDefinition>
+  
+
+</TileDefinitions>

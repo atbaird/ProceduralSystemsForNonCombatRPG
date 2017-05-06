@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <!-- 
+    The name of the XML Nodes at this level should be the name of the dialogue segment.
+    //-------
+    Attributes:
+      //-------
+      uniqueGrouping : Define a dialogue segment as a part of a group of dialogue segments
+      
+      //-------
+      text : define the text for the dialogue segment.
+    
+    //-------
+    Child Nodes:
+      Text : by defining a 'text' attribute on this node, it effectively adds its text to all previously defined
+        text for that dialogue segment.
+      
+      //-------
+      Requirements: Contains requirements for the dialogue segment to be considered displayable.
+        NOTE, that for the requirements to be used, the dialogue segment needs to be part of a group, and the owning
+        entity needs to use the name of that grouping to try and call the dialogue instead.
+      
+      //-------
+      Decision : Contains nodes for having dialogue choices.
+        the children of the Decision node are the individual dialogue choices, and the names of these nodes
+        are what will appear as options to the player.
+          //-------
+          Attributes for individual dialogue decisions:
+            
+            //-------
+            DialogueToOpen : takes the name of another dialogue segment, and when the player selects that option,
+              the game will open that dialogue segment next.
+          //-------  
+          Children for individual dialogue decisions:
+            //-------
+            Requirements:
+              similar to the quests, contains requirements for the defined choice to be considered visible.
+            
+            //-------
+            Triggers:
+              when the player selects the owning dialogue decision, it will changes stats in the game.
+     
+  -->
+
+
+  <LongWindedVillagerGreeting>
+    <Text text="Hello, I am $MyName$."/>
+    <Text text=" I love my job as a $Job$."/>
+    <Text text=" I still wish I could spend more time with my family and friends though."/>
+  </LongWindedVillagerGreeting>
+
+  <LongDialogueExampleWithChoice>
+    <Text text="Hey, did you know monsters are coming back?"/>
+    <Decision>
+      
+      <Yes1 DialogueToOpen="LongDialogueExampleWithChoiceSelectionYes">
+        <Requirements>
+          <GlobalCheckVariableFloat Variable="Choice1" value="==0.0"/>
+        </Requirements>
+        <Triggers>
+          <GlobalSetVariableFloat Variable="Choice1" value="1.0"/>
+        </Triggers>
+      </Yes1>
+      
+      <Yes2 DialogueToOpen="LongDialogueExampleWithChoiceSelectionYes">
+        <Requirements>
+          <GlobalCheckVariableFloat Variable="Choice1" value="==1.0"/>
+        </Requirements>
+        <Triggers>
+          <GlobalSetVariableFloat Variable="Choice1" value="0.0"/>
+        </Triggers>
+      </Yes2>
+      
+      <No DialogueToOpen="LongDialogueExampleWithChoiceSelectionNo"/>
+      <Maybe DialogueToOpen="LongDialogueExampleWithChoiceSelectionMaybe"/>
+    </Decision>
+  </LongDialogueExampleWithChoice>
+
+  <LongDialogueExampleWithChoiceSelectionYes>
+    <Text text="Haha, nice to see someone else is in on the joke!"/>
+  </LongDialogueExampleWithChoiceSelectionYes>
+  
+  <LongDialogueExampleWithChoiceSelectionNo>
+    <Text text="Well, they are!... Just kidding!"/>
+  </LongDialogueExampleWithChoiceSelectionNo>
+
+  <LongDialogueExampleWithChoiceSelectionMaybe>
+    <Text text="What do you mean maybe? Stop being so diplomatic!"/>
+  </LongDialogueExampleWithChoiceSelectionMaybe>
+</DialogueSegments>

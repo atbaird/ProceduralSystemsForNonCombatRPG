@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='PaladinClothesForward'
+                   defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop'
+                   reverseDirection='false'>
+    <Frame resourceName='PaladinClothesForward1'/>
+    <Frame resourceName='PaladinClothesForward2'/>
+    <Frame resourceName='PaladinClothesForward1'/>
+    <Frame resourceName='PaladinClothesForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinClothesBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinClothesBack1'/>
+    <Frame resourceName='PaladinClothesBack2'/>
+    <Frame resourceName='PaladinClothesBack1'/>
+    <Frame resourceName='PaladinClothesBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinClothesLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinClothesLeft1'/>
+    <Frame resourceName='PaladinClothesLeft2'/>
+    <Frame resourceName='PaladinClothesLeft1'/>
+    <Frame resourceName='PaladinClothesLeft0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='PaladinClothesRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='PaladinClothesRight1'/>
+    <Frame resourceName='PaladinClothesRight2'/>
+    <Frame resourceName='PaladinClothesRight1'/>
+    <Frame resourceName='PaladinClothesRight0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

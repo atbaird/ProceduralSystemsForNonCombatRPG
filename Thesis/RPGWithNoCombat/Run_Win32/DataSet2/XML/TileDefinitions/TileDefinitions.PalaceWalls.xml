@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='PalaceWalls'
+                  resourceName='PalaceWallSingle'
+                  altResourceChance='0.5'
+                  MapCode='255,183,169'
+                  solid='true'>
+
+  </TileDefinition>
+</TileDefinitions>

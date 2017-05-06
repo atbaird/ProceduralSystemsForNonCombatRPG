@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='ManilaStoneWall_SouthWest' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,270.0,253.0,255.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_SouthEast'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='272.0,270.0,287.0,255.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_South'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,270.0,236.0,255.0'/>
+
+
+  <SpriteResource resourceName='ManilaStoneWall_North'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306.0,287.0,321.0,272.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_NorthEast'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323.0,287.0,338.0,272.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_NorthWest'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289.0,287.0,304.0,272.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_West'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289.0,270.0,304.0,256.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_Center'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306.0,270.0,321.0,256.0'/>
+
+  <SpriteResource resourceName='ManilaStoneWall_East'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323.0,270.0,338.0,256.0'/>
+</SpriteResources>

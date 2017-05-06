@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='merchantClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='114, 144, 129, 126'/>
+  <SpriteResource resourceName='merchantClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='130, 144, 145, 126'/>
+  <SpriteResource resourceName='merchantClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='146, 144, 161, 126'/>
+
+  <SpriteResource resourceName='merchantClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='114, 162, 129, 144'/>
+  <SpriteResource resourceName='merchantClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='130, 162, 145, 144'/>
+  <SpriteResource resourceName='merchantClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='146, 162, 161, 144'/>
+
+  <SpriteResource resourceName='merchantClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='114, 180, 129, 162'/>
+  <SpriteResource resourceName='merchantClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='130, 180, 145, 162'/>
+  <SpriteResource resourceName='merchantClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='146, 180, 161, 162'/>
+
+  <SpriteResource resourceName='merchantClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='114, 192, 129, 180'/>
+  <SpriteResource resourceName='merchantClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='130, 192, 145, 180'/>
+  <SpriteResource resourceName='merchantClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='146, 192, 161, 180'/>
+
+
+</SpriteResources>

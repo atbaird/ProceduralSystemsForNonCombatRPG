@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <Greeting1 uniqueGrouping="greeting" text="Hello my name is $MyName$.">
+    <Triggers>
+      <GlobalSetVariableFloat Variable="Greeting1Encountered" value="1.0"/>
+    </Triggers>
+  </Greeting1>
+  <Greeting2 uniqueGrouping="greeting" text="Hi, I'm $MyName$. I am a $Job$."/>
+  <Greeting3 uniqueGrouping="greeting" text="Hello my name is $MyName$, and I am a $Job$." />
+  <Greeting4 uniqueGrouping="greeting" text="Hello my name is $MyName$, and I am a $Job$. I love it!" />
+  <Greeting5 uniqueGrouping="greeting" text="Hello my name is $MyName$, and I am $NPCAttribute.Personality$."/>
+
+  <HumanSoldierGreeting1 uniqueGrouping="humanSoldierGreeting" text="Greetings citizen." />
+  <HumanSoldierGreeting2 uniqueGrouping="humanSoldierGreeting" text="Remember to always obey the law. Then we won't have a problem."/>
+  <HumanSoldierGreeting3 uniqueGrouping="humanSoldierGreeting" text="Good day, citizen."/>
+  <HumanSoldierGreetingMoveAlong text="Move along..."/>
+</DialogueSegments>

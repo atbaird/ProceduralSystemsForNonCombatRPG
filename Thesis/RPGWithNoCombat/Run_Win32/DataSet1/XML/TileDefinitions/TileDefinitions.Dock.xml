@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition
+    name='Horizontal_Dock'
+    resourceName='Horizontal_Wooden_Floor'
+    altResourceName='Horizontal_Wooden_Floor_Alt'
+    altResourceChance='0.05'
+    MapCode='180,131,85'>
+
+    <TileDefinitionsToPretendAreTheSame>
+      <Horizontal_Dock/>
+      <Vertical_Dock/>
+    </TileDefinitionsToPretendAreTheSame>
+  </TileDefinition>
+
+  <TileDefinition
+    name='Vertical_Dock'
+    resourceName='Vertical_Wooden_Floor'
+    altResourceName='Vertical_Wooden_Floor_Alt'
+    altResourceChance='0.05'
+    MapCode='168,126,84'>
+
+    <TileDefinitionsToPretendAreTheSame>
+      <Horizontal_Dock/>
+      <Vertical_Dock/>
+    </TileDefinitionsToPretendAreTheSame>
+  </TileDefinition>
+</TileDefinitions>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='BlueLongBannerTop'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850,66,865,51'/>
+
+  <SpriteResource resourceName='BlueLongBannerMiddle'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850,83,865,68'/>
+
+  <SpriteResource resourceName='BlueLongBannerBottom'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='850,100,865,85'/>
+  
+</SpriteResources>

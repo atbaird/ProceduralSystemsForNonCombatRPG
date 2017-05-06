@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentStats minimum='0' maximum='100'>
+  <!-- 
+    The XML nodes at this level define different stats for the game.
+    the names of these nodes are the names of the stats.
+    
+    the attributes of minimum and maximum define the range of the stats accordingly.
+    If there is a general setting for these stats, then define the attributes as a part of the root node instead.
+  -->
+  <Dexterity abbreviation='dex'/>
+  <Strength abbreviation='str' />
+  <Charisma abbreviation='chr' />
+  <Intelligence abbreviation='int' minimum='0' maximum='100'/> <!-- Default will be 0 to 100, just putting this as an example.-->
+</AgentStats>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <TwoEggsQuestStart 
+    text='Ah, your back. I could use your help again if your able.  I need two eggs from the hens in the yard. Could you get them for me?'>
+    <Decision>
+      <Help DialogueToOpen='TwoEggsQuestYes'/>
+      <DontHelp DialogueToOpen='TwoEggsQuestNo'
+                DialogueChoice='Dont Help'/>
+    </Decision>
+  </TwoEggsQuestStart>
+
+  <TwoEggsQuestYes text='Great! Like I said, I need two eggs, and the hens are out in the yard with the cows.'/>
+  <TwoEggsQuestNo text='Well, if you change your mind, you know where I will be.'/>
+
+  <TwoEggsQuestHaveYouGottenTheEggsYet text='Have you gotten the eggs yet? I need 2.' />
+
+  <TwoEggsQuestComplete text='Your a life saver! Here, you can have two sticks of butter from earlier.'/>
+  
+</DialogueSegments>

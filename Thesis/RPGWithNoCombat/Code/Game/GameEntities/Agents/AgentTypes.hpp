@@ -1,0 +1,14 @@
+#pragma once
+
+#ifndef AGENTTYPES_HPP
+#define AGENTTYPES_HPP
+
+enum AgentTypes
+{
+	INVALID_AGENTTYPE = -1,
+	PLAYER_AGENTTYPE,
+	NPC_AGENTTYPE,
+	NUM_OF_PLAYER_TYPES
+};
+
+#endif

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapFiles>
+  <SmallVillage DialogueName='Small Village'
+    image='DataSet1/Maps/SmallVillage.png' mapdata='DataSet1/XML/MapData/MapData.SmallVillage.xml'/>
+  
+  <SpiralLake DialogueName='Spiral Lake'
+    image='DataSet1/Maps/SpiralLake.png' mapdata='DataSet1/XML/MapData/MapData.SpiralLake.xml'>
+    <MapDependencies>
+      <!-- Add the names of other maps that need to be loaded first here.-->
+      <SmallVillage />
+    </MapDependencies>
+  </SpiralLake>
+  
+  <TradeSquare DialogueName='Trade Square'
+    image='DataSet1/Maps/TradeSquare.png' mapdata='DataSet1/XML/MapData/MapData.TradeSquare.xml'>
+    <MapDependencies>
+      <!-- Add the names of other maps that need to be loaded first here.-->
+      <SmallVillage />
+    </MapDependencies>
+  </TradeSquare>
+
+  <Farm DialogueName='Farm'
+        image='DataSet1/Maps/Farm.png' mapdata='DataSet1/XML/MapData/MapData.Farm.xml'>
+    
+  </Farm>
+
+  <Docks DialogueName='Docks'
+         image='DataSet1/Maps/Docks.png' mapData='DataSet1/XML/MapData/MapData.Docks.xml'>
+    
+  </Docks>
+
+  <Drylands DialogueName='Drylands'
+            image='DataSet1/Maps/Drylands.png' mapData='DataSet1/XML/MapData/MapData.Drylands.xml'>
+    <MapDependencies>
+      <TradeSquare/>
+      <Docks/>
+      <Farm/>
+    </MapDependencies>
+    
+  </Drylands>
+
+  <DrylandsVillage DialogueName='Drylands Village'
+            image='DataSet1/Maps/Drylands_Village.png'
+            mapData='DataSet1/XML/MapData/MapData.DrylandsVillage.xml'>
+    
+  </DrylandsVillage>
+
+  <Forestland DialogueName='Forest Land'
+    image='DataSet1/Maps/Forestland.png'
+    mapData='DataSet1/XML/MapData/MapData.Forestland.xml'>
+    
+  </Forestland>
+
+  <Peninsula DialogueName='Peninsula'
+             image='DataSet1/Maps/Peninsula.png'
+             mapData='DataSet1/XML/MapData/MapData.Peninsula.xml'>
+    <MapDependencies>
+      <Forestland/>
+      <Docks/>
+      <TradeSquare/>
+    </MapDependencies>
+    
+  </Peninsula>
+</MapFiles>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+
+  <TileEvents>
+
+    <TileEvent TileCoords='59,30'>
+      <OnEnter Function='ChangeMaps' MapFile='TradeSquare' PlayerPosition='1,30'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='59,31'>
+      <OnEnter Function='ChangeMaps' MapFile='TradeSquare' PlayerPosition='1,31'/>
+    </TileEvent>
+
+
+    <TileEvent TileCoords='0,51'>
+      <OnEnter Function='ChangeMaps' MapFile='Forestland' PlayerPosition='43,25'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,52'>
+      <OnEnter Function='ChangeMaps' MapFile='Forestland' PlayerPosition='43,26'/>
+    </TileEvent>
+  </TileEvents>
+  <FeaturesToGenerate>
+    <Door numbertospawn='11'>
+      <!-- Attributes for single spawn, children for multi-spawn. -->
+      <Position position='5,46'/>
+      <Position position='12,45'/>
+      <Position position='11,54'/>
+      <Position position='24,45'/>
+      <Position position='23,38'/>
+      <Position position='31,36'/>
+      <Position position='32,46'/>
+      <Position position='44,41'/>
+      <Position position='42,54'/>
+      <Position position='29,54'/>
+      <Position position='23,54'/>
+    </Door>
+  </FeaturesToGenerate>
+
+  <AgentsToGenerate>
+    <Pirate_base number='8-12'>
+      <Position position='47,18'/>
+      <Position position='27,27'/>
+      <Position position='9,26'/>
+      <Position position='10,50'/>
+      <Position position='21,55'/>
+      <Position position='23,46'/>
+      <Position position='32,38'/>
+      <Position position='45,43'/>
+      <Position position='3,48'/>
+      <Position position='8,20'/>
+      <Position position='44,9'/>
+      <Position position='39,36'/>
+      <Position position='4,56'/>
+      <Position position='53,47'/>
+    </Pirate_base>
+
+    <PirateCaptain number='2'>
+      <Position positionRange='12,40,46,53'/>
+    </PirateCaptain>
+
+    <Pirate number='1-3'>
+      <Position positionRange='12,40,46,53' />
+    </Pirate>
+
+    <OrcWarrior
+      GlobalVariableName='warrior2'>
+      <Position position='53,52'/>
+      <Position position='58,11'/>
+      <Position position='36,34'/>
+      <Position position='1,50'/>
+    </OrcWarrior>
+
+
+    <Pirate number='1'
+            GlobalVariableName='OneSmallFavorPirate'>
+      <Position position='22,39'/>
+      <Position position='42,56'/>
+      <Position position='12,46'/>
+      <Position position='3,47'/>
+      <Position position='45,42'/>
+    </Pirate>
+  </AgentsToGenerate>
+
+  <Quests>
+    <Quest QuestTitle='ElfFindMyTwoSibling' PercentageChanceToOccur='1.0'>
+      <Docks>
+        <Positions forEntity='OldestSibling'>
+          <Position position='55,31'/>
+          <Position position='58,10'/>
+          <Position position='39,53'/>
+          <Position position='26,53'/>
+        </Positions>
+
+        <Positions forEntity='MiddleSibling'>
+          <Position position='15,44'/>
+          <Position position='33,45'/>
+          <Position position='57,57'/>
+          <Position position='43,23'/>
+        </Positions>
+
+        <Positions forEntity='YoungestSibling'>
+          <Position position='4,45'/>
+          <Position position='1,54'/>
+          <Position position='27,58'/>
+          <Position position='22,36'/>
+        </Positions>
+      </Docks>
+    </Quest>
+  </Quests>
+</MapData>

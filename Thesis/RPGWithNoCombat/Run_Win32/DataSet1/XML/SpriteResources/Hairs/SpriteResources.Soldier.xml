@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_soldier_hair_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 450, 32, 432'/>
+  <SpriteResource resourceName='male_soldier_hair_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 450, 48, 432'/>
+  <SpriteResource resourceName='male_soldier_hair_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 450, 64, 432'/>
+
+  <SpriteResource resourceName='male_soldier_hair_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 468, 32, 450'/>
+  <SpriteResource resourceName='male_soldier_hair_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 468, 48, 450'/>
+  <SpriteResource resourceName='male_soldier_hair_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 468, 64, 450'/>
+
+  <SpriteResource resourceName='male_soldier_hair_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 486, 32, 468'/>
+  <SpriteResource resourceName='male_soldier_hair_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 486, 48, 468'/>
+  <SpriteResource resourceName='male_soldier_hair_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 486, 64, 468'/>
+
+  <SpriteResource resourceName='male_soldier_hair_left0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='16, 504, 32, 486'/>
+  <SpriteResource resourceName='male_soldier_hair_left1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='32, 504, 48, 486'/>
+  <SpriteResource resourceName='male_soldier_hair_left2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Males_altogether.png'
+                  spriteBounds='48, 504, 64, 486'/>
+
+  <SpriteResource resourceName='female_soldier_hair_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='16, 450, 32, 432'/>
+  <SpriteResource resourceName='female_soldier_hair_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='32, 450, 48, 432'/>
+  <SpriteResource resourceName='female_soldier_hair_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='48, 450, 64, 432'/>
+
+  <SpriteResource resourceName='female_soldier_hair_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='16, 468, 32, 450'/>
+  <SpriteResource resourceName='female_soldier_hair_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='32, 468, 48, 450'/>
+  <SpriteResource resourceName='female_soldier_hair_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='48, 468, 64, 450'/>
+
+  <SpriteResource resourceName='female_soldier_hair_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='16, 486, 32, 468'/>
+  <SpriteResource resourceName='female_soldier_hair_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='32, 486, 48, 468'/>
+  <SpriteResource resourceName='female_soldier_hair_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='48, 486, 64, 468'/>
+
+  <SpriteResource resourceName='female_soldier_hair_left0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='16, 504, 32, 486'/>
+  <SpriteResource resourceName='female_soldier_hair_left1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='32, 504, 48, 486'/>
+  <SpriteResource resourceName='female_soldier_hair_left2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_2nd_Females_altogether.png'
+                  spriteBounds='48, 504, 64, 486'/>
+</SpriteResources>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='nun_hair_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 234, 32, 216'/>
+  <SpriteResource resourceName='nun_hair_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 234, 48, 216'/>
+  <SpriteResource resourceName='nun_hair_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 234, 64, 216'/>
+
+  <SpriteResource resourceName='nun_hair_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 252, 32, 234'/>
+  <SpriteResource resourceName='nun_hair_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 252, 48, 234'/>
+  <SpriteResource resourceName='nun_hair_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 252, 64, 234'/>
+
+  <SpriteResource resourceName='nun_hair_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 270, 32, 252'/>
+  <SpriteResource resourceName='nun_hair_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 270, 48, 252'/>
+  <SpriteResource resourceName='nun_hair_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 270, 64, 252'/>
+
+  <SpriteResource resourceName='nun_hair_left0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 288, 32, 270'/>
+  <SpriteResource resourceName='nun_hair_left1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 288, 48, 270'/>
+  <SpriteResource resourceName='nun_hair_left2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 288, 64, 270'/>
+</SpriteResources>

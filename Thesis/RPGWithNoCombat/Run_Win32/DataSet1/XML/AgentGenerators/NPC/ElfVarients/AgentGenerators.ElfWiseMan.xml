@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='ElfWiseMan'
+    DefaultImage='human_base0'
+    NameSet='ElfNameSet'
+    PercentageMale='1.0f'
+    inherit='Elf'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_Magician_hair/>
+        <Priest />
+      </Male>
+
+      <Female>
+        <female_Magician_hair/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Magician clothes'/>
+    </Clothing>
+
+    <Jobs>
+      <WiseMan />
+    </Jobs>
+
+    <StatRanges>
+      <Dexterity min='40' max='65'/>
+      <Intelligence min='80' max='90'/>
+    </StatRanges>
+
+  </AgentGenerator>
+</AgentGenerators>

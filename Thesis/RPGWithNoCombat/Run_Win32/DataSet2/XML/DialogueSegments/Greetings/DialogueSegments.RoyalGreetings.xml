@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='RoyalSpeechBubble'>
+  <RoyalGreeting1 uniqueGroup='RoyalGreeting' 
+                  text='I am $MyName$. Look on me with respect, as is my title.'/>
+  <RoyalGreeting2 uniqueGroup='RoyalGreeting'
+                  text='It is so abysmal that our fair city was built in the middle of a swamp, do not you agree?'>
+    <Decision>
+      <BadLocation DialogueToOpen='RoyalGreeting2BadLocation'
+                   DialogueChoice='Bad Location'/>
+      <GoodLocation DialogueToOpen='RoyalGreeting2GoodLocation'
+                    DialogueChoice='Good Location'/>
+    </Decision>
+
+    <RoyalGreeting2BadLocation text='Glad to see you agree; we should of just built the city near the ocean, '>
+      <Text text='as we originally planned on... But the native wildlife was less than kind.'/>
+      <Text text=' Who knew that giant crabs loved tearing people apart so much?' />
+    </RoyalGreeting2BadLocation>
+
+    <RoyalGreeting2GoodLocation text="You what? Well, your a strange one aren't you." />
+  
+  </RoyalGreeting2>
+  <RoyalGreeting3 uniqueGroup='RoyalGreeting'
+                  text='The peasants seem to grow rowdier every passing day; its not our fault they were born into debt.'/>
+  <RoyalGreeting4 uniqueGroup='RoyalGreeting'
+                  text='The peasants are starving? Let them eat cake.'/>
+  <RoyalGreeting5 uniqueGroup='RoyalGreeting'
+                  text='Do you know when the food is to be served?'/>
+</DialogueSegments>

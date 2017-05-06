@@ -1,0 +1,2304 @@
+-------------------------------------
+Game Start Time: _5_1_2017__14_42_54_
+Game End Time: _5_1_2017__14_43_31_
+Game Duration: 37.714110
+Game Seed: 1493667774
+-------------------------------------
+Game Settings
+----------------------
+------------------
+Starting Game Player information
+--------Player Agent Generator: Player
+Starting Tile position: 10,10
+Starting Map Name: SmallVillage
+Default Clothing for Agents: Townsfolk 1 clothes
+
+--------
+------------------
+Shader information
+--------
+Shader Vert File: DataSet1/Shaders/SpritePassthrough.vert
+Shader Frag File: DataSet1/Shaders/SpritePassthroughWithColorHandling.frag
+Map Shader Vert File: DataSet1/Shaders/SpritePassthroughMultipleTextures.vert
+Map Shader Frag File: DataSet1/Shaders/SpritePassthroughWithColorHandlingMultipleTextures.frag
+Font folder: DataSet1/Font/
+Font FNT File: DebugFont.fnt
+--------
+------------------
+Data file directories
+--------
+Agent Generators Data Folder: DataSet1/XML/AgentGenerators/
+Agent Stats Data Folder: DataSet1/XML/AgentStats/
+Dialogue Groupings Data Folder: DataSet1/XML/DialogueGroupings/
+Dialogue Segments Data Folder: DataSet1/XML/DialogueSegments/
+Feature Generators Data Folder: DataSet1/XML/FeatureGenerators/
+Global Variables Data Folder: DataSet1/XML/GlobalVariables/
+Hair Generators Data Folder: DataSet1/XML/HairGenerators/
+Item Generators Data Folder: DataSet1/XML/ItemGenerators/
+Map Files Data Folder: DataSet1/XML/MapFiles/
+Name Generators Data Folder: DataSet1/XML/NameGenerators/
+NPC Attributes Data Folder: DataSet1/XML/NPCAttributes/
+NPC Jobs Data Folder: DataSet1/XML/NPCJobs/
+Quest Data Folder: DataSet1/XML/Quests/
+Sound Data Folder: DataSet1/XML/Sound/
+Speech Bubbles Data Folder: DataSet1/XML/SpeechBubbles/
+Sprite Animations Data Folder: DataSet1/XML/SpriteAnimations/
+Sprite Resources Data Folder: DataSet1/XML/SpriteResources/
+Tile Definitions Data Folder: DataSet1/XML/TileDefinitions/
+--------
+------------------
+Duration per frame used for loading
+--------
+Seconds To Allow per Frame For Loading Agent Generators: 0.250000
+Seconds To Allow per Frame For Loading Agent Stats: 0.250000
+Seconds To Allow per Frame For Loading Dialogue Groupings: 0.250000
+Seconds To Allow per Frame For Loading Dialogue Segments: 0.250000
+Seconds To Allow per Frame For Loading Feature Generators: 0.250000
+Seconds To Allow per Frame For Loading Global Variables: 0.250000
+Seconds To Allow per Frame For Loading Hair Generators: 0.250000
+Seconds To Allow per Frame For Loading Item Generators: 0.250000
+Seconds To Allow per Frame For Loading Map Files: 0.250000
+Seconds To Allow per Frame For Loading Map Data: 0.250000
+Seconds To Allow per Frame For Loading Name Generators: 0.250000
+Seconds To Allow per Frame For Loading NPC Attributes: 0.250000
+Seconds To Allow per Frame For Loading NPC Jobs: 0.250000
+Seconds To Allow per Frame For Loading Quests: 0.250000
+Seconds To Allow per Frame For Loading Speech Bubbles: 0.250000
+Seconds To Allow per Frame For Loading Sounds: 0.250000
+Seconds To Allow per Frame For Loading Sprite Animations: 0.250000
+Seconds To Allow per Frame For Loading Sprite Resources: 0.250000
+Seconds To Allow per Frame For Loading Tile Definitions: 0.250000
+--------
+------------------
+Preallocations
+--------
+Prealloactions for Agent Generators: 50
+Prealloactions for Agents per Map: 20
+Prealloactions for Dialogue Segments: 50
+Prealloactions for Feature Generators: 50
+Prealloactions for Features per Map: 20
+Prealloactions for Hair Generators: 50
+Prealloactions for Item Generators: 50
+Prealloactions for Music: 50
+Prealloactions for Quests: 50
+Prealloactions for Quests per Map: 20
+Prealloactions for Sounds: 50
+Prealloactions for Sound Effects: 50
+Prealloactions for Sprite Animations: 50
+Prealloactions for Sprite Resources: 50
+Prealloactions for Tile Definitions: 20
+--------
+----------------------
+-------------------------------------
+Active Data
+----------------------
+--------
+Global Variables
+--------   Number of global variables: 7
+
+      globalsmith: 
+         Entity Name: Will Farmer
+         Entity Type: AGENT
+         Tile Coordinates: 2,7
+         Actual Position: -7.500000,-2.500000
+         Color Choice: 4
+            Agent Type: NPC
+            Agent Generator Used: Human
+            Gender: MALE
+            Dialogue to open if spoken to: FindMySiblingStart
+            Hair: 
+               Hair: male_Monk
+                  Hair Color: Brown
+                  Entity Name: male_Monk
+                  Entity Type: HAIR
+                  Tile Coordinates: 2,7
+                  Actual Position: -7.500000,-2.500000
+                  Color Choice: 1
+            Equipped Clothes: 
+               Entity Name: Townsfolk 2 clothes
+               Entity Type: ITEM
+               Tile Coordinates: 2,7
+               Actual Position: -7.500000,-2.500000
+               Color Choice: 6
+            Default Clothes: 
+               Entity Name: Townsfolk 1 clothes
+               Entity Type: ITEM
+               Tile Coordinates: 10,10
+               Actual Position: 0.000000,0.000000
+               Color Choice: 3
+            Agent Stats: 
+               AgentStat Name: Dexterity
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 52
+               AgentStat Name: Strength
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 53
+               AgentStat Name: Charisma
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 33
+               AgentStat Name: Intelligence
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 62
+            Item Values: NONE
+            Quest first claimed by: FindMySibling
+            NPC Attributes: 
+            Number of attributes = 4
+               age: adult
+               personality: shy
+               morallity: good
+               lawfulness: chaotic
+            NPC Behaviors: 2
+               NPC Behavior Name: lookaround
+                  Last utility score: 0.000000
+                  Minimum seconds before change direction: 0.500000
+                  Additional seconds range before change direction0.300000
+               NPC Behavior Name: talking
+                  Last utility score: 0.000000
+            Behavior ran last frame: lookaround
+            NPC Job: Florist
+
+      oldersibling: 
+         Entity Name: Will Farmer
+         Entity Type: AGENT
+         Tile Coordinates: 2,7
+         Actual Position: -7.500000,-2.500000
+         Color Choice: 4
+            Agent Type: NPC
+            Agent Generator Used: Human
+            Gender: MALE
+            Dialogue to open if spoken to: FindMySiblingStart
+            Hair: 
+               Hair: male_Monk
+                  Hair Color: Brown
+                  Entity Name: male_Monk
+                  Entity Type: HAIR
+                  Tile Coordinates: 2,7
+                  Actual Position: -7.500000,-2.500000
+                  Color Choice: 1
+            Equipped Clothes: 
+               Entity Name: Townsfolk 2 clothes
+               Entity Type: ITEM
+               Tile Coordinates: 2,7
+               Actual Position: -7.500000,-2.500000
+               Color Choice: 6
+            Default Clothes: 
+               Entity Name: Townsfolk 1 clothes
+               Entity Type: ITEM
+               Tile Coordinates: 10,10
+               Actual Position: 0.000000,0.000000
+               Color Choice: 3
+            Agent Stats: 
+               AgentStat Name: Dexterity
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 52
+               AgentStat Name: Strength
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 53
+               AgentStat Name: Charisma
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 33
+               AgentStat Name: Intelligence
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 62
+            Item Values: NONE
+            Quest first claimed by: FindMySibling
+            NPC Attributes: 
+            Number of attributes = 4
+               age: adult
+               personality: shy
+               morallity: good
+               lawfulness: chaotic
+            NPC Behaviors: 2
+               NPC Behavior Name: lookaround
+                  Last utility score: 0.000000
+                  Minimum seconds before change direction: 0.500000
+                  Additional seconds range before change direction0.300000
+               NPC Behavior Name: talking
+                  Last utility score: 0.000000
+            Behavior ran last frame: lookaround
+            NPC Job: Florist
+
+      testglobalbool: FALSE
+      testglobalfloat: 0.000000
+      testglobalint: 0
+      testglobaltext: Test
+      youngersibling: 
+         Entity Name: Gabi Williams
+         Entity Type: AGENT
+         Tile Coordinates: 7,11
+         Actual Position: -2.500000,1.500000
+         Color Choice: 4
+            Agent Type: NPC
+            Agent Generator Used: Human
+            Gender: FEMALE
+            Dialogue to open if spoken to: SiblingSpeechSpawnText
+            Hair: 
+               Hair: female_Townsfolk_hair2
+                  Hair Color: Green
+                  Entity Name: female_Townsfolk_hair2
+                  Entity Type: HAIR
+                  Tile Coordinates: 7,11
+                  Actual Position: -2.500000,1.500000
+                  Color Choice: 5
+            Equipped Clothes: 
+               Entity Name: Berserk clothes
+               Entity Type: ITEM
+               Tile Coordinates: 7,11
+               Actual Position: -2.500000,1.500000
+               Color Choice: 4
+            Default Clothes: 
+               Entity Name: Townsfolk 1 clothes
+               Entity Type: ITEM
+               Tile Coordinates: 10,10
+               Actual Position: 0.000000,0.000000
+               Color Choice: 4
+            Agent Stats: 
+               AgentStat Name: Dexterity
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 46
+               AgentStat Name: Strength
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 48
+               AgentStat Name: Charisma
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 94
+               AgentStat Name: Intelligence
+                  AgentStat Max: 100
+                  AgentStat Min: 0
+                  AgentStat Value: 90
+            Item Values: NONE
+            Quest first claimed by: FindMySibling
+            NPC Attributes: 
+            Number of attributes = 4
+               age: adult
+               personality: shy
+               morallity: good
+               lawfulness: chaotic
+            NPC Behaviors: 2
+               NPC Behavior Name: lookaround
+                  Last utility score: 0.000000
+                  Minimum seconds before change direction: 0.500000
+                  Additional seconds range before change direction0.300000
+               NPC Behavior Name: talking
+                  Last utility score: 0.000000
+            Behavior ran last frame: lookaround
+            NPC Job: Florist
+
+
+--------Order in which all maps were loaded, by name: 
+   smallvillage
+Map Name: smallvillage
+   Number of Tiles with Tile Events: 0
+   Number of Tiles on this Map: 400
+   Tiles on this map: 
+      Tile Coordinates: 0,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 7,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 12,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 13,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 14,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 15,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 16,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,0
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 2,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 6,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 7,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 8,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 13,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 14,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 16,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 17,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,1
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 4,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 6,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 7,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 8,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 9,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,2
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+         Solid overwritten to: TRUE
+      Tile Coordinates: 2,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 4,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 6,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 7,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 8,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 9,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,3
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 4,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 6,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 7,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 8,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 9,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhousesink
+      Tile Coordinates: 13,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,4
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 3,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 6,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 7,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 8,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,5
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 2,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 3,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 4,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 7,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 12,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 13,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 17,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 19,6
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 1,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 2,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 3,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 4,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 5,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 6,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 7,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 8,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 9,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 14,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 16,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,7
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 2,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 3,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 4,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 7,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 8,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 9,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 14,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 15,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 16,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 17,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,8
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 1,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 3,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 4,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 5,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 6,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 7,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 8,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 9,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 14,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 15,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 16,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,9
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 4,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 5,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 6,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 7,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 8,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 9,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 10,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 12,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 13,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 14,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 15,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 16,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 17,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 18,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 19,10
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+         Tile events: 
+            On Interact Event Name: 
+               On Interact Event is Null: TRUE
+            On Touch Event Name: 
+               On Touch Event is Null: TRUE
+            On Enter Event Name: ChangeMaps
+               On Enter Event is Null: FALSE
+               On Enter Variables:                   MapFile : SpiralLake
+                  PlayerPosition : 1,10
+            On Exit Event Name: 
+               On Exit Event is Null: TRUE
+      Tile Coordinates: 0,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 4,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 5,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 6,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 7,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 8,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 9,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 14,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 15,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 16,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,11
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 4,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 5,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 6,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 7,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 8,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 9,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 14,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 15,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 16,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,12
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 4,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 5,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 6,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 7,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 8,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 9,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 10,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 12,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 14,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 15,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 16,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,13
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 5,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 6,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 7,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 8,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 11,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 13,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 14,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 16,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 17,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,14
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 6,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grayhouse
+      Tile Coordinates: 7,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 11,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,15
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 7,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 11,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 17,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,16
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: blueflowers1_1
+      Tile Coordinates: 2,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 7,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 11,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 13,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 14,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 15,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+         Solid overwritten to: FALSE
+      Tile Coordinates: 16,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhousesink
+      Tile Coordinates: 17,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 19,17
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: lake
+      Tile Coordinates: 5,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 7,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+      Tile Coordinates: 10,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 11,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 12,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 13,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 14,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 15,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 16,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 17,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownhouse
+      Tile Coordinates: 18,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,18
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 0,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 1,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 2,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 3,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 4,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 5,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 6,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 7,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 8,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 9,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: brownstoneroad_horizontal1
+         Tile events: 
+            On Interact Event Name: 
+               On Interact Event is Null: TRUE
+            On Touch Event Name: 
+               On Touch Event is Null: TRUE
+            On Enter Event Name: ChangeMaps
+               On Enter Event is Null: FALSE
+               On Enter Variables:                   MapFile : TradeSquare
+                  PlayerPosition : 29,1
+            On Exit Event Name: 
+               On Exit Event is Null: TRUE
+      Tile Coordinates: 10,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 11,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 12,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 13,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 14,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 15,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 16,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 17,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 18,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+      Tile Coordinates: 19,19
+         Tint: 1.000000,1.000000,1.000000,1.000000
+         Tile Definition: grass1_1
+   Number of Agents on this map: 8
+   Agents on this Map: 
+
+      Entity Name: Will Farmer
+      Entity Type: AGENT
+      Tile Coordinates: 2,7
+      Actual Position: -7.500000,-2.500000
+      Color Choice: 4
+         Agent Type: NPC
+         Agent Generator Used: Human
+         Gender: MALE
+         Dialogue to open if spoken to: FindMySiblingStart
+         Hair: 
+            Hair: male_Monk
+               Hair Color: Brown
+               Entity Name: male_Monk
+               Entity Type: HAIR
+               Tile Coordinates: 2,7
+               Actual Position: -7.500000,-2.500000
+               Color Choice: 1
+         Equipped Clothes: 
+            Entity Name: Townsfolk 2 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 2,7
+            Actual Position: -7.500000,-2.500000
+            Color Choice: 6
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 3
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 52
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 53
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 33
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 62
+         Item Values: NONE
+         Quest first claimed by: FindMySibling
+         NPC Attributes: 
+         Number of attributes = 4
+            age: adult
+            personality: shy
+            morallity: good
+            lawfulness: chaotic
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Florist
+
+      Entity Name: Gabi Williams
+      Entity Type: AGENT
+      Tile Coordinates: 7,11
+      Actual Position: -2.500000,1.500000
+      Color Choice: 4
+         Agent Type: NPC
+         Agent Generator Used: Human
+         Gender: FEMALE
+         Dialogue to open if spoken to: SiblingSpeechSpawnText
+         Hair: 
+            Hair: female_Townsfolk_hair2
+               Hair Color: Green
+               Entity Name: female_Townsfolk_hair2
+               Entity Type: HAIR
+               Tile Coordinates: 7,11
+               Actual Position: -2.500000,1.500000
+               Color Choice: 5
+         Equipped Clothes: 
+            Entity Name: Berserk clothes
+            Entity Type: ITEM
+            Tile Coordinates: 7,11
+            Actual Position: -2.500000,1.500000
+            Color Choice: 4
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 4
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 46
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 48
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 94
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 90
+         Item Values: NONE
+         Quest first claimed by: FindMySibling
+         NPC Attributes: 
+         Number of attributes = 4
+            age: adult
+            personality: shy
+            morallity: good
+            lawfulness: chaotic
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Florist
+
+      Entity Name: Aaren Michael
+      Entity Type: AGENT
+      Tile Coordinates: 13,8
+      Actual Position: 3.500000,-1.500000
+      Color Choice: 4
+         Agent Type: NPC
+         Agent Generator Used: Human
+         Gender: MALE
+         Dialogue to open if spoken to: greeting
+         Hair: 
+            Hair: male_Townsfolk_hair3
+               Hair Color: Green
+               Entity Name: male_Townsfolk_hair3
+               Entity Type: HAIR
+               Tile Coordinates: 13,8
+               Actual Position: 3.500000,-1.500000
+               Color Choice: 5
+         Equipped Clothes: 
+            Entity Name: Townsfolk 3 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 13,8
+            Actual Position: 3.500000,-1.500000
+            Color Choice: 2
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 4
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 45
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 45
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 34
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 68
+         Item Values: NONE
+         Quest first claimed by: 
+         NPC Attributes: 
+         Number of attributes = 4
+            age: adult
+            personality: serious
+            morallity: good
+            lawfulness: lawful
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Florist
+
+      Entity Name: Sally Jones
+      Entity Type: AGENT
+      Tile Coordinates: 2,2
+      Actual Position: -7.500000,-7.500000
+      Color Choice: 1
+         Agent Type: NPC
+         Agent Generator Used: Human
+         Gender: FEMALE
+         Dialogue to open if spoken to: greeting
+         Hair: 
+            Hair: female_Monk
+               Hair Color: Red
+               Entity Name: female_Monk
+               Entity Type: HAIR
+               Tile Coordinates: 2,2
+               Actual Position: -7.500000,-7.500000
+               Color Choice: 0
+         Equipped Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 2,2
+            Actual Position: -7.500000,-7.500000
+            Color Choice: 6
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 2
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 54
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 49
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 50
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 23
+         Item Values: NONE
+         Quest first claimed by: 
+         NPC Attributes: 
+         Number of attributes = 4
+            age: adult
+            personality: silly
+            morallity: neutral
+            lawfulness: lawful
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Florist
+
+      Entity Name: No Bo Hajus
+      Entity Type: AGENT
+      Tile Coordinates: 11,8
+      Actual Position: 1.500000,-1.500000
+      Color Choice: 6
+         Agent Type: NPC
+         Agent Generator Used: Orc
+         Gender: MALE
+         Dialogue to open if spoken to: OrcGreeting
+         Hair: 
+            Hair: male_Monk
+               Hair Color: Red
+               Entity Name: male_Monk
+               Entity Type: HAIR
+               Tile Coordinates: 11,8
+               Actual Position: 1.500000,-1.500000
+               Color Choice: 0
+         Equipped Clothes: 
+            Entity Name: Monk clothes
+            Entity Type: ITEM
+            Tile Coordinates: 11,8
+            Actual Position: 1.500000,-1.500000
+            Color Choice: 1
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 3
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 71
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 84
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 52
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 25
+         Item Values: NONE
+         Quest first claimed by: 
+         NPC Attributes: 
+         Number of attributes = 4
+            age: teenager
+            personality: shy
+            morallity: evil
+            lawfulness: normal
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Berserker
+
+      Entity Name: Amra Ongluth
+      Entity Type: AGENT
+      Tile Coordinates: 18,15
+      Actual Position: 8.500000,5.500000
+      Color Choice: 3
+         Agent Type: NPC
+         Agent Generator Used: Elf
+         Gender: FEMALE
+         Dialogue to open if spoken to: ElfGreeting
+         Hair: 
+            Hair: female_Townsfolk_hair2
+               Hair Color: Brown
+               Entity Name: female_Townsfolk_hair2
+               Entity Type: HAIR
+               Tile Coordinates: 18,15
+               Actual Position: 8.500000,5.500000
+               Color Choice: 1
+         Equipped Clothes: 
+            Entity Name: Monk clothes
+            Entity Type: ITEM
+            Tile Coordinates: 18,15
+            Actual Position: 8.500000,5.500000
+            Color Choice: 1
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 0
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 65
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 31
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 0
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 81
+         Item Values: NONE
+         Quest first claimed by: 
+         NPC Attributes: 
+         Number of attributes = 4
+            age: teenager
+            personality: lazy
+            morallity: neutral
+            lawfulness: chaotic
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Archer
+
+      Entity Name: Inialos Aluianti
+      Entity Type: AGENT
+      Tile Coordinates: 18,4
+      Actual Position: 8.500000,-5.500000
+      Color Choice: 3
+         Agent Type: NPC
+         Agent Generator Used: Elf
+         Gender: MALE
+         Dialogue to open if spoken to: ElfGreeting
+         Hair: 
+            Hair: male_Monk
+               Hair Color: Black
+               Entity Name: male_Monk
+               Entity Type: HAIR
+               Tile Coordinates: 18,4
+               Actual Position: 8.500000,-5.500000
+               Color Choice: 2
+         Equipped Clothes: 
+            Entity Name: Soldier clothes
+            Entity Type: ITEM
+            Tile Coordinates: 18,4
+            Actual Position: 8.500000,-5.500000
+            Color Choice: 1
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 4
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 75
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 40
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 31
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 65
+         Item Values: NONE
+         Quest first claimed by: 
+         NPC Attributes: 
+         Number of attributes = 4
+            age: adult
+            personality: lazy
+            morallity: neutral
+            lawfulness: chaotic
+         NPC Behaviors: 2
+            NPC Behavior Name: lookaround
+               Last utility score: 0.000000
+               Minimum seconds before change direction: 0.500000
+               Additional seconds range before change direction0.300000
+            NPC Behavior Name: talking
+               Last utility score: 0.000000
+         Behavior ran last frame: lookaround
+         NPC Job: Archer
+
+      Entity Name: Player
+      Entity Type: AGENT
+      Tile Coordinates: 9,13
+      Actual Position: -0.536300,3.684265
+      Color Choice: 0
+         Agent Type: PLAYER
+         Agent Generator Used: Player
+         Gender: MALE
+         Dialogue to open if spoken to: 
+         Hair: 
+            Hair: male_Townsfolk_hair1
+               Hair Color: DarkBlue
+               Entity Name: male_Townsfolk_hair1
+               Entity Type: HAIR
+               Tile Coordinates: 9,13
+               Actual Position: -0.536300,3.684265
+               Color Choice: 6
+         Equipped Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 9,13
+            Actual Position: -0.536300,3.684265
+            Color Choice: 4
+         Default Clothes: 
+            Entity Name: Townsfolk 1 clothes
+            Entity Type: ITEM
+            Tile Coordinates: 10,10
+            Actual Position: 0.000000,0.000000
+            Color Choice: 4
+         Agent Stats: 
+            AgentStat Name: Dexterity
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 10
+            AgentStat Name: Strength
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 10
+            AgentStat Name: Charisma
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 76
+            AgentStat Name: Intelligence
+               AgentStat Max: 100
+               AgentStat Min: 0
+               AgentStat Value: 8
+         Item Values: NONE
+   Number of Features on this map: 4
+   Features on this Map: 
+
+      Entity Name: Door
+      Entity Type: FEATURE
+      Tile Coordinates: 7,9
+      Actual Position: -2.500000,-0.500000
+      Color Choice: 0
+
+      Entity Name: Door
+      Entity Type: FEATURE
+      Tile Coordinates: 14,1
+      Actual Position: 4.500000,-8.500000
+      Color Choice: 0
+
+      Entity Name: Door
+      Entity Type: FEATURE
+      Tile Coordinates: 14,14
+      Actual Position: 4.500000,4.500000
+      Color Choice: 0
+
+      Entity Name: Firepit
+      Entity Type: FEATURE
+      Tile Coordinates: 1,3
+      Actual Position: -8.500000,-6.500000
+      Color Choice: 0
+   Number of Quests unclaimed on this Map: 1
+   Quests unclaimed on this Map: 
+      Quest Title: FindMySibling
+         Last Event Index tested could run: -1
+         Last Event ran: -1
+         Event ran before last: -1
+         Quest Variables: 
+
+            oldersibling: 
+               Entity Name: Will Farmer
+               Entity Type: AGENT
+               Tile Coordinates: 2,7
+               Actual Position: -7.500000,-2.500000
+               Color Choice: 4
+                  Agent Type: NPC
+                  Agent Generator Used: Human
+                  Gender: MALE
+                  Dialogue to open if spoken to: FindMySiblingStart
+                  Hair: 
+                     Hair: male_Monk
+                        Hair Color: Brown
+                        Entity Name: male_Monk
+                        Entity Type: HAIR
+                        Tile Coordinates: 2,7
+                        Actual Position: -7.500000,-2.500000
+                        Color Choice: 1
+                  Equipped Clothes: 
+                     Entity Name: Townsfolk 2 clothes
+                     Entity Type: ITEM
+                     Tile Coordinates: 2,7
+                     Actual Position: -7.500000,-2.500000
+                     Color Choice: 6
+                  Default Clothes: 
+                     Entity Name: Townsfolk 1 clothes
+                     Entity Type: ITEM
+                     Tile Coordinates: 10,10
+                     Actual Position: 0.000000,0.000000
+                     Color Choice: 3
+                  Agent Stats: 
+                     AgentStat Name: Dexterity
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 52
+                     AgentStat Name: Strength
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 53
+                     AgentStat Name: Charisma
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 33
+                     AgentStat Name: Intelligence
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 62
+                  Item Values: NONE
+                  Quest first claimed by: FindMySibling
+                  NPC Attributes: 
+                  Number of attributes = 4
+                     age: adult
+                     personality: shy
+                     morallity: good
+                     lawfulness: chaotic
+                  NPC Behaviors: 2
+                     NPC Behavior Name: lookaround
+                        Last utility score: 0.000000
+                        Minimum seconds before change direction: 0.500000
+                        Additional seconds range before change direction0.300000
+                     NPC Behavior Name: talking
+                        Last utility score: 0.000000
+                  Behavior ran last frame: lookaround
+                  NPC Job: Florist
+
+            player: 
+            questitem1: Staff
+            queststate: 0.000000
+            youngersibling: 
+               Entity Name: Gabi Williams
+               Entity Type: AGENT
+               Tile Coordinates: 7,11
+               Actual Position: -2.500000,1.500000
+               Color Choice: 4
+                  Agent Type: NPC
+                  Agent Generator Used: Human
+                  Gender: FEMALE
+                  Dialogue to open if spoken to: SiblingSpeechSpawnText
+                  Hair: 
+                     Hair: female_Townsfolk_hair2
+                        Hair Color: Green
+                        Entity Name: female_Townsfolk_hair2
+                        Entity Type: HAIR
+                        Tile Coordinates: 7,11
+                        Actual Position: -2.500000,1.500000
+                        Color Choice: 5
+                  Equipped Clothes: 
+                     Entity Name: Berserk clothes
+                     Entity Type: ITEM
+                     Tile Coordinates: 7,11
+                     Actual Position: -2.500000,1.500000
+                     Color Choice: 4
+                  Default Clothes: 
+                     Entity Name: Townsfolk 1 clothes
+                     Entity Type: ITEM
+                     Tile Coordinates: 10,10
+                     Actual Position: 0.000000,0.000000
+                     Color Choice: 4
+                  Agent Stats: 
+                     AgentStat Name: Dexterity
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 46
+                     AgentStat Name: Strength
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 48
+                     AgentStat Name: Charisma
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 94
+                     AgentStat Name: Intelligence
+                        AgentStat Max: 100
+                        AgentStat Min: 0
+                        AgentStat Value: 90
+                  Item Values: NONE
+                  Quest first claimed by: FindMySibling
+                  NPC Attributes: 
+                  Number of attributes = 4
+                     age: adult
+                     personality: shy
+                     morallity: good
+                     lawfulness: chaotic
+                  NPC Behaviors: 2
+                     NPC Behavior Name: lookaround
+                        Last utility score: 0.000000
+                        Minimum seconds before change direction: 0.500000
+                        Additional seconds range before change direction0.300000
+                     NPC Behavior Name: talking
+                        Last utility score: 0.000000
+                  Behavior ran last frame: lookaround
+                  NPC Job: Florist
+
+         Quest Events: 
+            Event Index: 0
+            Quest Event Name: Start
+               Quest Event Requirements: 
+                  Quest Requirement Name: Check Variable Float
+                     Variable Name: QuestState
+                     Value Desired: ==0.000000
+                  Quest Requirement Name: Check Player Interaction
+                     Variable player should be interacting with: OlderSibling
+               Quest Event Triggers: 
+                  Quest Trigger Name: Set Quest Variable Float
+                     Variable Name: QuestState
+                     Mode: SET
+                     Value: 1.000000
+                  Quest Trigger Name: Change Dialogue
+                     Entity Name to change dialogue: YoungerSibling
+                     Dialogue to change to: SiblingSpeech
+            Event Index: 1
+            Quest Event Name: TalkToYougnerSibling
+               Quest Event Requirements: 
+                  Quest Requirement Name: Check Variable Float
+                     Variable Name: QuestState
+                     Value Desired: ==1.000000
+                  Quest Requirement Name: Check Player Interaction
+                     Variable player should be interacting with: YoungerSibling
+               Quest Event Triggers: 
+                  Quest Trigger Name: Change Dialogue
+                     Entity Name to change dialogue: OlderSibling
+                     Dialogue to change to: FindMySiblingEnd
+                  Quest Trigger Name: Set Quest Variable Float
+                     Variable Name: QuestState
+                     Mode: SET
+                     Value: 2.000000
+            Event Index: 2
+            Quest Event Name: Finish
+               Quest Event Requirements: 
+                  Quest Requirement Name: Check Variable Float
+                     Variable Name: QuestState
+                     Value Desired: ==2.000000
+                  Quest Requirement Name: Check Player Interaction
+                     Variable player should be interacting with: OlderSibling
+               Quest Event Triggers: 
+                  Quest Trigger Name: Set Quest Variable Float
+                     Variable Name: QuestState
+                     Mode: SET
+                     Value: 3.000000
+                  Quest Trigger Name: Change Dialogue
+                     Entity Name to change dialogue: OlderSibling
+                     Dialogue to change to: FindMySiblingAlreadyComplete
+                  Quest Trigger Name: Complete Quest
+Active Quests on Player: NONE
+Completed Quests on Player: NONE
+
+----------------------

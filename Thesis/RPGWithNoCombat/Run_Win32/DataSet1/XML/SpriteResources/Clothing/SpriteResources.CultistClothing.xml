@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='cultistClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='163, 144, 178, 126'/>
+  <SpriteResource resourceName='cultistClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='179, 144, 194, 126'/>
+  <SpriteResource resourceName='cultistClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='195, 144, 210, 126'/>
+
+  <SpriteResource resourceName='cultistClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='163, 162, 178, 144'/>
+  <SpriteResource resourceName='cultistClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='179, 162, 194, 144'/>
+  <SpriteResource resourceName='cultistClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='195, 162, 210, 144'/>
+
+  <SpriteResource resourceName='cultistClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='163, 180, 178, 162'/>
+  <SpriteResource resourceName='cultistClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='179, 180, 194, 162'/>
+  <SpriteResource resourceName='cultistClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='195, 180, 210, 162'/>
+
+  <SpriteResource resourceName='cultistClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='163, 192, 178, 180'/>
+  <SpriteResource resourceName='cultistClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='179, 192, 194, 180'/>
+  <SpriteResource resourceName='cultistClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='195, 192, 210, 180'/>
+
+
+</SpriteResources>

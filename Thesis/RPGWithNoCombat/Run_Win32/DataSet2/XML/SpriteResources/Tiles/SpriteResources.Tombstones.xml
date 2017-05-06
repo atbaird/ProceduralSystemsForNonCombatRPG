@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='GroundTombstoneCurved'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,202,882,187' />
+  
+  <SpriteResource resourceName='StoneCrossCurved'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,185,882,170' />
+
+  <SpriteResource resourceName='GraveWithCrossSquare'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='867,168,882,153' />
+
+
+  <SpriteResource resourceName='GroundTombstoneSquare'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,202,899,187' />
+
+  <SpriteResource resourceName='StoneCrossFancy'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,185,899,170' />
+
+  <SpriteResource resourceName='GraveWithCrossCurved'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='884,168,899,153' />
+
+
+  <SpriteResource resourceName='GroundTombstoneSunken'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='901,202,916,187' />
+
+  <SpriteResource resourceName='StoneCross'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='901,185,916,170' />
+
+  <SpriteResource resourceName='WoodenCross'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='901,168,916,153' />
+</SpriteResources>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='Dryland_BigBrownRock'
+                  resourceName='BigBrownRock'
+                  altResourceName='BigMossyBrownRock'
+                  altResourceChance='0.5f'
+                  bottomResourceName='Dryland_Tile'
+                  altBottomResourceName='Dryland_AltTile'
+                  altBottomResourceChance='0.5'
+                  MapCode='189,108,66' solid='true' liquid='false'/>
+
+  <TileDefinition name='Dryland_BigGrayRock'
+                  resourceName='BigGrayRock'
+                  altResourceName='BigMossyGrayRock'
+                  altResourceChance='0.5f'
+                  bottomResourceName='Dryland_Tile'
+                  altBottomResourceName='Dryland_AltTile'
+                  altBottomResourceChance='0.5'
+                  MapCode='108,108,98' solid='true' liquid='false'/>
+</TileDefinitions>

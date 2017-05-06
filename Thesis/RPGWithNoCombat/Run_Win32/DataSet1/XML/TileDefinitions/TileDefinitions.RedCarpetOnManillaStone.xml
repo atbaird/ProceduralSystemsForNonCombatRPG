@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TileDefinitions>
+  <TileDefinition name='RedCarpetOnManilaStoneFloor'
+                  resourceName='RedCarpet_Center'
+                  bottomResourceName='horizontal_GrayStoneRoad_1'
+                  MapCode='255,0,0'
+                  solid='false' liquid='false'>
+
+    <!-- North, South, East, West-->
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_North'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_South'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_East'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_West'/>
+    </SpecialCase>
+
+
+    <!-- NE, SE, SW, NW-->
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_NorthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_SouthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_SouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_NorthWest'/>
+    </SpecialCase>
+
+    <!-- Narrow Cases -->
+    <SpecialCase IfSame='North==0,South==0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_NarrowWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South==0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_NarrowEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South==0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='RedCarpet_NarrowCenter'/>
+    </SpecialCase>
+
+  </TileDefinition>
+</TileDefinitions>

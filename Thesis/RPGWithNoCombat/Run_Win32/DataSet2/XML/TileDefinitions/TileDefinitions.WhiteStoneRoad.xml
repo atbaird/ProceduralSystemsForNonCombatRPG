@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+
+  <TileDefinition name='WhiteStoneRoadTile'
+                  resourceName='WhiteStoneRoad'
+                  altResourceName='AltWhiteStoneRoad'
+                  altResourceChance='0.5'
+                  MapCode='217,202,169'
+                  solid='false'>
+  </TileDefinition>
+</TileDefinitions>

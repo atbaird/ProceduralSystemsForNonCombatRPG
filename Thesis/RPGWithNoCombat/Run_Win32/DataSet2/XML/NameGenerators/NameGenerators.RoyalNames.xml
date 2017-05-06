@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NameGenerators>
+  <RoyalNameSet
+    male='Male_Royal_Title, Royal_firstName_male, Royal_surname'
+    female='Female_Royal_Title, Royal_firstName_female, Royal_surname'
+    referMaleAs='Male'
+    referFemaleAs='Female'
+    referMaleSiblingAs='Brother'
+    referFemaleSiblingAs='Sister'>
+
+    <Male_Royal_Title>
+      <Sir />
+      <Duke />
+      <Earl />
+      <Baron />
+      <Viscount/>
+      <Marquess/>
+      <Archduke/>
+      <Count/>
+    </Male_Royal_Title>
+
+    <Female_Royal_Title>
+      <Dame />
+      <Duchess/>
+      <Countess/>
+      <Baroness/>
+      <Viscountess/>
+      <Marchioness/>
+      <Archduchess/>
+    </Female_Royal_Title>
+
+    <Royal_firstName_male>
+      
+    </Royal_firstName_male>
+
+    <Royal_firstName_female>
+      
+    </Royal_firstName_female>
+
+    <Royal_surname>
+      
+    </Royal_surname>
+  </RoyalNameSet>
+</NameGenerators>

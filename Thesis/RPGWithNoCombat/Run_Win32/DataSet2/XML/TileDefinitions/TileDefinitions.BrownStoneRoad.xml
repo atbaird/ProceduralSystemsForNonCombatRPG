@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+
+  <TileDefinition name='BrownStoneRoadTile'
+                  resourceName='BrownStoneRoad'
+                  altResourceName='AltBrownStoneRoad'
+                  altResourceChance='0.5'
+                  MapCode='168,126,84'
+                  solid='false'>
+  </TileDefinition>
+
+  </TileDefinitions>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='SpeechBubble'
+                  textureLocation='DataSet1/Images/SpeechBubble.png'
+                  spriteBounds='0, 512, 512, 0'/>
+
+  <SpriteResource resourceName='OrcSpeechBubble'
+                  textureLocation='DataSet1/Images/OrcSpeechBubble.png'
+                  spriteBounds='0, 512, 512, 0'/>
+
+  <SpriteResource resourceName='ElfSpeechBubble'
+                  textureLocation='DataSet1/Images/ElfSpeechBubble.png'
+                  spriteBounds='0, 512, 512, 0'/>
+
+  <SpriteResource resourceName='PirateSpeechBubble'
+                  textureLocation='DataSet1/Images/PirateSpeechBubble.png'
+                  spriteBounds='0, 512, 512, 0'/>
+</SpriteResources>

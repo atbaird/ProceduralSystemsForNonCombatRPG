@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition 
+    name='BrownHouseSink' 
+    resourceName='Sink'
+    bottomResourceName='horizontalWoodenFloor'
+    MapCode='228,108,252' solid='true' liquid='false'
+    topLayerCanDisappear='true' topLayer2CanDisappear='true'
+    overlayResourceName='wall_brown_C'
+    altOverlayResourceName='wall_brown_C_Spotted' altOverlayChance='0.5f'/>
+
+  <TileDefinition 
+    name='BrownHouseCounterTop'
+    resourceName='Countertop'
+    bottomResourceName='horizontalWoodenFloor'
+    MapCode='138,108,248' solid='true' liquid='false'
+    topLayerCanDisappear='true' topLayer2CanDisappear='true'
+    overlayResourceName='wall_brown_C'
+    altOverlayResourceName='wall_brown_C_Spotted' altOverlayChance='0.5f'/>
+  
+</TileDefinitions>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_rangerClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 198, 228, 180'/>
+  <SpriteResource resourceName='male_rangerClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 198, 244, 180'/>
+  <SpriteResource resourceName='male_rangerClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 198, 260, 180'/>
+
+  <SpriteResource resourceName='male_rangerClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 216, 228, 198'/>
+  <SpriteResource resourceName='male_rangerClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 216, 244, 198'/>
+  <SpriteResource resourceName='male_rangerClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 216, 260, 198'/>
+
+  <SpriteResource resourceName='male_rangerClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 234, 228, 216'/>
+  <SpriteResource resourceName='male_rangerClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 234, 244, 216'/>
+  <SpriteResource resourceName='male_rangerClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 234, 260, 216'/>
+
+  <SpriteResource resourceName='male_rangerClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 252, 228, 234'/>
+  <SpriteResource resourceName='male_rangerClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 252, 244, 234'/>
+  <SpriteResource resourceName='male_rangerClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 252, 260, 234'/>
+
+  <SpriteResource resourceName='female_rangerClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 360, 228, 342'/>
+  <SpriteResource resourceName='female_rangerClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 360, 244, 342'/>
+  <SpriteResource resourceName='female_rangerClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 360, 260, 342'/>
+
+  <SpriteResource resourceName='female_rangerClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 342, 228, 324'/>
+  <SpriteResource resourceName='female_rangerClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 342, 244, 324'/>
+  <SpriteResource resourceName='female_rangerClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 342, 260, 324'/>
+
+  <SpriteResource resourceName='female_rangerClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 324, 229, 308'/>
+  <SpriteResource resourceName='female_rangerClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 324, 245, 308'/>
+  <SpriteResource resourceName='female_rangerClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 324, 260, 308'/>
+
+  <SpriteResource resourceName='female_rangerClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='213, 378, 228, 360'/>
+  <SpriteResource resourceName='female_rangerClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='229, 378, 244, 360'/>
+  <SpriteResource resourceName='female_rangerClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='245, 378, 260, 360'/>
+</SpriteResources>

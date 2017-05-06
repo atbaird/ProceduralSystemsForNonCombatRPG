@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  
+  <!-- Sleeping Bags -->
+  <SpriteResource resourceName='EastSleepingBag'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='204,49,219,34'/>
+
+  <SpriteResource resourceName='SouthSleepingBag'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221,49,236,34'/>
+
+
+  <SpriteResource resourceName='NorthSleepingBag'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='204,66,219,51'/>
+
+  <SpriteResource resourceName='WestSleepingBag'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221,66,236,51'/>
+
+
+  <!-- Unmade Beds -->
+  <SpriteResource resourceName='EastUnmadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,32,253,17'/>
+
+  <SpriteResource resourceName='WestUnmadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,49,253,34'/>
+
+  <SpriteResource resourceName='NorthUnmadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,66,253,51'/>
+
+  <SpriteResource resourceName='SouthtUnmadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238,83,253,68'/>
+
+
+  <!-- Made Beds -->
+  <SpriteResource resourceName='EastMadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255,32,270,17'/>
+
+  <SpriteResource resourceName='WestMadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255,49,270,34'/>
+
+  <SpriteResource resourceName='NorthMadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255,66,270,51'/>
+
+  <SpriteResource resourceName='SouthtMadeBed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255,83,270,68'/>
+  
+</SpriteResources>

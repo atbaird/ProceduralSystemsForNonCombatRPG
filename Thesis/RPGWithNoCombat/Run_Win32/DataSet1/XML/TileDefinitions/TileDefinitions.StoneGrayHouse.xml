@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='GrayHouse'
+                  MapCode='214,219,230' solid='true' liquid='false'
+                  topLayerCanDisappear='true' topLayer2CanDisappear='true'>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'>
+      <!-- N -->
+      <ToSet debugName='NorthTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_NC'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'>
+      <!-- NW -->
+      <ToSet debugName='NorthhWestTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_NW'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'>
+      <!-- NE -->
+      <ToSet debugName='NorthEastTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_NE'/>
+    </SpecialCase>
+
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'>
+      <!-- E -->
+      <ToSet debugName='EastTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_E'/>
+    </SpecialCase>
+
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>=1'>
+      <!-- SE -->
+      <ToSet debugName='SouthEastTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_SE'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'>
+      <!-- S-->
+      <ToSet debugName='SouthTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_SC'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'>
+      <!-- SW -->
+      <ToSet debugName='SouthWestTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1'  resourceName='wall_gray_SW'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'>
+      <!-- W -->
+      <ToSet debugName='WestTileGrayBuilding'
+        TileCoords='0,0' bottomResourceName='grassTile1_1' resourceName='wall_gray_W'/>
+    </SpecialCase>
+
+
+    <SpecialCase IfSame='North>=1,South>=1,East>=1,West>=1'>
+      <!-- Generic central tile. -->
+      <ToSet debugName='CentralTileGrayBuilding'
+            TileCoords='0,0'
+             bottomResourceName='horizontalWoodenFloor'
+             overlayResourceName='wall_gray_C'
+             altOverlayResourceName='wall_gray_C_Spotted' altOverlayChance='0.5f'
+             solid='false' topLayerCanDisappear='true' topLayer2CanDisappear='true'/>
+    </SpecialCase>
+
+    <!-- Roof NW Corner-->
+    <SpecialCase IfSame='North==0,South>=2,East>=1,West==0'>
+      <ToSet debugName='NorthTileGrayBuilding'
+        TileCoords='0,1' overlayresource2name='roof_brown_NW'/>
+      <ToSet debugName='NorthTileGrayBuilding'
+        TileCoords='0,0' overlayresource2name='roof_brown_W'
+      altoverlayresource2name='roof_brown_W_Alt' altoverlay2chance='0.5f'/>
+      <ToSet debugName='NorthTileGrayBuilding'
+        TileCoords='0,-1' overlayresource2name='roof_brown_W'
+      altoverlayresource2name='roof_brown_W_Alt' altoverlay2chance='0.5f'/>
+      <ToSet debugName='NorthTileGrayBuilding'
+        TileCoords='0,-2' overlayresource2name='roof_brown_SW'/>
+    </SpecialCase>
+
+
+
+
+    <SpecialCase IfSame='North==0,South>=2,East>=1,West>=1'>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,1' overlayresource2name='roof_brown_NC'/>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,0' overlayresource2name='roof_brown_C'
+      altoverlayresource2name='roof_brown_C_Alt' altoverlay2chance='0.2f'/>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,-1' overlayresource2name='roof_brown_C'
+      altoverlayresource2name='roof_brown_C_Alt' altoverlay2chance='0.2f'/>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,-2' overlayresource2name='roof_brown_SC'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>=2,East==0,West>=1'>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,1' overlayresource2name='roof_brown_NE' />
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,0' overlayresource2name='roof_brown_E'
+      altoverlayresource2name='roof_brown_E_Alt' altoverlay2chance='0.5f'/>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,-1' overlayresource2name='roof_brown_E'
+      altoverlayresource2name='roof_brown_E_Alt' altoverlay2chance='0.5f'/>
+      <ToSet debugName='NorthTileBrownBuilding'
+        TileCoords='0,-2' overlayresource2name='roof_brown_SE'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>=2,East==0,West==0'>
+      <ToSet TileCoords='0,0'
+             overlayresource2name='roof_brown_NC'
+             resourceName='wall_gray_NC'/>
+
+      <ToSet TileCoords='0,-1'
+             overlayresource2name='roof_brown_C'/>
+
+      <ToSet TileCoords='0,-2'
+             overlayresource2name='roof_brown_C'/>
+
+      <ToSet TileCoords='0,-3'
+             overlayresource2name='roof_brown_SC'/>
+    </SpecialCase>
+  </TileDefinition>
+
+</TileDefinitions>

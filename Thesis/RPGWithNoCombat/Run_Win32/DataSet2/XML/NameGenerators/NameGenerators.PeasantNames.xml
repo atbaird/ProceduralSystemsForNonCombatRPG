@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NameGenerators>
+  <PeasantNameSet
+    male='Peasant_firstName_male, Peasant_surname'
+    female='Peasant_firstName_female, Peasant_surname'
+    referMaleAs='Male'
+    referFemaleAs='Female'
+    referMaleSiblingAs='Brother'
+    referFemaleSiblingAs='Sister'>
+
+    <Peasant_firstName_male>
+      
+    </Peasant_firstName_male>
+
+    <Peasant_firstName_female>
+      
+    </Peasant_firstName_female>
+
+    <Peasant_surname>
+      
+    </Peasant_surname>
+    
+  </PeasantNameSet>
+</NameGenerators>

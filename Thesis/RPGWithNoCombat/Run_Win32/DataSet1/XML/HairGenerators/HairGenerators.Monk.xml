@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<HairGenerators>
+  <HairGenerator name='male_Monk'
+                 dialogueName='Religious cut'
+                 isDefault='true'
+                 defautltimage='male_monk_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='male_monk_hair_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+  <HairGenerator name='female_Monk'
+                 dialogueName='Religious Cut'
+                 isDefault='true'
+                 defautltimage='male_monk_back0'>
+    <Colors>
+      <Red value='0' />
+      <Brown value='1' />
+      <Black value='2'/>
+      <Blue value='3' />
+      <Green value='5'/>
+      <DarkBlue value='6'/>
+      <LightRed value='7'/>
+    </Colors>
+
+    <Animations>
+      <Animation animationName='male_monk_hair_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_monk_hair_right' direction='east' animIdx='walk'/>
+    </Animations>
+  </HairGenerator>
+
+</HairGenerators>

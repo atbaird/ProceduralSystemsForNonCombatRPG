@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  
+  <SpriteResource resourceName='PalaceDoorLeftOpenned'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='482,151,491,136'/>
+
+
+  <SpriteResource resourceName='PalaceDoorLeftClosed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='482,100,491,86'/>
+
+
+  <SpriteResource resourceName='PalaceDoorRightOpenned'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='493,151,505,136'/>
+
+
+  <SpriteResource resourceName='PalaceDoorRightClosed'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='493,100,505,86'/>
+</SpriteResources>

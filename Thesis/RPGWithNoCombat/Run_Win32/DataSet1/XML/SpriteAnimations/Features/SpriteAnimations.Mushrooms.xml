@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='TallRedMushroom' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='TallRedMushroom'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='TallBrownMushroom' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='TallBrownMushroom'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='TallSpottyMushroom' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='TallSpottyMushroom'/>
+  </SpriteAnimation>
+  
+  
+</SpriteAnimations>
+

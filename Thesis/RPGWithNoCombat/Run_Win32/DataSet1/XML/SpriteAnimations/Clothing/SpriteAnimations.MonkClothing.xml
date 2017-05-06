@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_monkClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_monkClothing_forward1'/>
+    <Frame resourceName='male_monkClothing_forward2'/>
+    <Frame resourceName='male_monkClothing_forward1'/>
+    <Frame resourceName='male_monkClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_monkClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_monkClothing_right1'/>
+    <Frame resourceName='male_monkClothing_right2'/>
+    <Frame resourceName='male_monkClothing_right1'/>
+    <Frame resourceName='male_monkClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_monkClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_monkClothing_back1'/>
+    <Frame resourceName='male_monkClothing_back2'/>
+    <Frame resourceName='male_monkClothing_back1'/>
+    <Frame resourceName='male_monkClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_monkClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_monkClothing_left1'/>
+    <Frame resourceName='male_monkClothing_left2'/>
+    <Frame resourceName='male_monkClothing_left1'/>
+    <Frame resourceName='male_monkClothing_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_monkClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_monkClothing_forward1'/>
+    <Frame resourceName='female_monkClothing_forward2'/>
+    <Frame resourceName='female_monkClothing_forward1'/>
+    <Frame resourceName='female_monkClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_monkClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_monkClothing_right1'/>
+    <Frame resourceName='female_monkClothing_right2'/>
+    <Frame resourceName='female_monkClothing_right1'/>
+    <Frame resourceName='female_monkClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_monkClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_monkClothing_back1'/>
+    <Frame resourceName='female_monkClothing_back2'/>
+    <Frame resourceName='female_monkClothing_back1'/>
+    <Frame resourceName='female_monkClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_monkClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_monkClothing_left1'/>
+    <Frame resourceName='female_monkClothing_left2'/>
+    <Frame resourceName='female_monkClothing_left1'/>
+    <Frame resourceName='female_monkClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

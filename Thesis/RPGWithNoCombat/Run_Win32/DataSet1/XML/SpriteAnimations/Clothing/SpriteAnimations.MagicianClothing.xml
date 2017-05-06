@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='male_magicianClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_magicianClothing_forward1'/>
+    <Frame resourceName='male_magicianClothing_forward2'/>
+    <Frame resourceName='male_magicianClothing_forward1'/>
+    <Frame resourceName='male_magicianClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_magicianClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_magicianClothing_right1'/>
+    <Frame resourceName='male_magicianClothing_right2'/>
+    <Frame resourceName='male_magicianClothing_right1'/>
+    <Frame resourceName='male_magicianClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_magicianClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_magicianClothing_back1'/>
+    <Frame resourceName='male_magicianClothing_back2'/>
+    <Frame resourceName='male_magicianClothing_back1'/>
+    <Frame resourceName='male_magicianClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='male_magicianClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='male_magicianClothing_left1'/>
+    <Frame resourceName='male_magicianClothing_left2'/>
+    <Frame resourceName='male_magicianClothing_left1'/>
+    <Frame resourceName='male_magicianClothing_left0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_magicianClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_magicianClothing_forward1'/>
+    <Frame resourceName='female_magicianClothing_forward2'/>
+    <Frame resourceName='female_magicianClothing_forward1'/>
+    <Frame resourceName='female_magicianClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_magicianClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_magicianClothing_right1'/>
+    <Frame resourceName='female_magicianClothing_right2'/>
+    <Frame resourceName='female_magicianClothing_right1'/>
+    <Frame resourceName='female_magicianClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_magicianClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_magicianClothing_back1'/>
+    <Frame resourceName='female_magicianClothing_back2'/>
+    <Frame resourceName='female_magicianClothing_back1'/>
+    <Frame resourceName='female_magicianClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='female_magicianClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='female_magicianClothing_left1'/>
+    <Frame resourceName='female_magicianClothing_left2'/>
+    <Frame resourceName='female_magicianClothing_left1'/>
+    <Frame resourceName='female_magicianClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

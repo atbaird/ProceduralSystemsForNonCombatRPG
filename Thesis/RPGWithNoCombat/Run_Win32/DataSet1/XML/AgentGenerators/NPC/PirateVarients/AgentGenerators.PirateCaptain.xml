@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='PirateCaptain'
+    DefaultImage='human_base0'
+    NameSet='PirateNameSet'
+    PercentageMale='0.5f'
+    inherit='Pirate_Base'>
+    <Jobs>
+      <PirateCaptain/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='55' max='75'/>
+      <Dexterity min='55' max='65'/>
+      <Intelligence min='55' max='60'/>
+    </StatRanges>
+
+  </AgentGenerator>
+</AgentGenerators>

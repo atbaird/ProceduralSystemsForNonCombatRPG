@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+
+  <FeatureGenerator name='Firepit' DefaultImage='Firepit_Off' solid='true'>
+    <Animations>
+      <Animation animationName='firepit_Off' direction='south' animIdx='walk'/>
+      <Animation animationName='firepit_On' direction='north' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <ChangeFeatureAnimations type='Interactive' toggle='true' direction='north' animIdx='walk'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+  <FeatureGenerator name='Firepit_Active' DefaultImage='Firepit_On' solid='true'>
+    <Animations>
+      <Animation animationName='firepit_On' direction='south' animIdx='walk'/>
+      <Animation animationName='firepit_Off' direction='north' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <ChangeFeatureAnimations type='Interactive' toggle='true' direction='north' animIdx='walk'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+</FeatureGenerators>

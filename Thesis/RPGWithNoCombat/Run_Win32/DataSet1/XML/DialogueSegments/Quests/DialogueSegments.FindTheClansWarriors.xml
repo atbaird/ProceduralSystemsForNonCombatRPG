@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='OrcSpeechBubble'>
+  <FindTheClanWarriorsStart text='The time has come for our warriors to come home.'>
+    <Text text=' But we can not spare anyone at this time. Human, you would be doing us a great' />
+    <Text text=' service if you seek them out, and deliver this message for us.'/>
+  </FindTheClanWarriorsStart>
+
+  <FindTheClanWarriorsReminder text='Human, please seek out our warriors.' />
+
+  <FindTheClanWarriorsFoundWarrior1 
+    uniqueGroup='findTheClanWarriorsFoundWarrior'
+    text='So the time has come? I will leave immediatly.'/>
+
+  <FindTheClanWarriorsFoundWarrior2
+    uniqueGroup='findTheClanWarriorsFoundWarrior'
+    text='The time for feasting has arrived? EXCELLENT!!!'/>
+
+  <FindTheClanWarriorsFoundWarrior3
+    uniqueGroup='findTheClanWarriorsFoundWarrior'
+    text="Thank you for the message, the shaman's call can not be unanswered."/>
+
+  <FindTheClanWarriorsComplete text="Thank you, human. Here, have three pork chops for the road."/>
+  
+  <FindTheClanWarriorsAfterQuestShaman text="You have done us a great service; we will remember this."/>
+
+  <FindTheClanWarriorsAfterQuestWarriors1
+    uniqueGroup="findTheClanWarriorsAfterQuestWarrior"
+    text="Ha ha! what a marvelous feast that was." />
+
+  <FindTheClanWarriorsAfterQuestWarriors2
+    uniqueGroup="findTheClanWarriorsAfterQuestWarrior"
+    text="The feast has ended, and now I am back at my post." />
+
+  <FindTheClanWarriorsAfterQuestWarriors3
+    uniqueGroup="findTheClanWarriorsAfterQuestWarrior"
+    text="Thank you again for delivering the message." />
+
+</DialogueSegments>

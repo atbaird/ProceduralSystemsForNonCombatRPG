@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='FountainOnManillaStone'
+                  resourceName='Fountain_Center'
+                  bottomResourceName='horizontal_GrayStoneRoad_1'
+                  MapCode='0,155,155'
+                  solid='true' liquid='true'>
+    <!-- North, South, East, West-->
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_North'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_South'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_East'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_West'/>
+    </SpecialCase>
+
+    <!-- NE, NW, SE, SW-->
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_NorthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_NorthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_SouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_SouthEast'/>
+    </SpecialCase>
+
+
+    <!-- NE, NW, SE, SW Corner cases-->
+    <SpecialCase IfSame='North>0,South==1,East==1,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_SECornerPiece'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==1,East>0,West==1'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_SWCornerPiece'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==1,South>0,East==1,West>0'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_NECornerPiece'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==1,South>0,East>0,West==1'>
+      <ToSet TileCoords='0,0' resourceName='Fountain_NWCornerPiece'/>
+    </SpecialCase>
+    
+    
+  </TileDefinition>
+</TileDefinitions>

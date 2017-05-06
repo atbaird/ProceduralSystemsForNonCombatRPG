@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='ElfSpeechBubble'>
+
+  <OneSmallFavorElfRequest text='A translation you say?'
+    segmentToOpenNext='OneSmallFavorRiddleIntro'>
+  </OneSmallFavorElfRequest>
+
+  <OneSmallFavorRiddleIntro
+    segmentToOpenNext='OneSmallFavorFirstRiddle'>
+    <Text text='I will translate it for you.'/>
+    <Text text=' But first, you must solve my riddles.' />
+  </OneSmallFavorRiddleIntro>
+
+  <!-- Riddles gotten from: 
+  https://www.reddit.com/r/rpg/comments/1lxxup/i_need_some_good_riddles_for_dd_any_subject_any/ -->
+  <OneSmallFavorFirstRiddle>
+    <Text text="I have a tail, and I have a head, but I have no body."/>
+    <Text text="I am NOT a snake. What am I?" />
+    <Decision>
+      <A_Dragon DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="A Dragon"/>
+      <A_Cow DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="A Cow"/>
+      <A_Coin DialogueToOpen="OneSmallFavorSecondRiddle"
+        DialogueChoice="A Coin"/>
+      <A_Dog DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="A Dog"/>
+      <A_Cat DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="A Cat" />
+      <Give_Up DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="Give Up"/>
+    </Decision>
+  </OneSmallFavorFirstRiddle>
+
+  <OneSmallFavorSecondRiddle>
+    <Text text="What rooms can't you enter?"/>
+    <Decision>
+      <Attics DialogueToOpen="OneSmallFavorIncorrect"/>
+      <Bathrrooms DialogueToOpen="OneSmallFavorIncorrect"/>
+      <Kitchens DialogueToOpen="OneSmallFavorIncorrect"/>
+      <Mushrooms DialogueToOpen="OneSmallFavorThirdRiddle" />
+      <Bedrooms DialogueToOpen="OneSmallFavorIncorrect" />
+      <Give_Up DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="Give Up"/>
+    </Decision>
+  </OneSmallFavorSecondRiddle>
+
+  <OneSmallFavorThirdRiddle>
+    <Text text="What knows all languages?"/>
+    <Decision>
+      <Echo DialogueToOpen="OneSmallFavorFinallyATranslation" />
+      <A_Book DialogueToOpen="OneSmallFavorIncorrect"
+              DialogueChoice="A Book"/>
+      <A_Book_Worm DialogueToOpen="OneSmallFavorIncorrect"
+                   DialogueChoice="A Book Worm"/>
+      <A_Languist DialogueToOpen="OneSmallFavorIncorrect"
+                  DialogueChoice="A Languist"/>
+      <A_Soap_Opera DialogueToOpen="OneSmallFavorIncorrect"
+                    DialogueChoice="A Soap Opera"/>
+      <Give_Up DialogueToOpen="OneSmallFavorIncorrect"
+        DialogueChoice="Give Up"/>
+    </Decision>
+  </OneSmallFavorThirdRiddle>
+
+  <OneSmallFavorIncorrect>
+    <Text text="Not quite right." />
+  </OneSmallFavorIncorrect>
+
+  
+  <OneSmallFavorFinallyATranslation
+    segmentToOpenNext='OneSmallFavorFinallyATranslationPart2'>
+    <Text text="Your pretty good at this. Now lets see that Axe."/>
+  </OneSmallFavorFinallyATranslation>
+  
+  <OneSmallFavorFinallyATranslationPart2
+    segmentToOpenNext='OneSmallFavorFinallyATranslationPart3'>
+    <Text text="..."/>
+  </OneSmallFavorFinallyATranslationPart2>
+  
+  <OneSmallFavorFinallyATranslationPart3>
+    <Text text="This one stands for valor... And this one means strength... While this one means honor."/>
+  </OneSmallFavorFinallyATranslationPart3>
+
+  <OneSmallFavorElfReminder>
+    <Text text="Go tell your orc friend what the sword runes mean."/>
+  </OneSmallFavorElfReminder>
+  
+</DialogueSegments>

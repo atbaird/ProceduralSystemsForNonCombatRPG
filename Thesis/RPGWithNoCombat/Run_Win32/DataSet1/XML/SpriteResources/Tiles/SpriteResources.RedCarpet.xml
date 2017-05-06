@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='RedCarpet_NorthWest' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='204.0,440.0,219.0,425.0' />
+
+  <SpriteResource resourceName='RedCarpet_North' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,440.0,236.0,425.0' />
+
+  <SpriteResource resourceName='RedCarpet_NorthEast' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,440.0,253.0,425.0' />
+
+  
+  <SpriteResource resourceName='RedCarpet_West' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='204.0,457.0,219.0,442.0' />
+
+  <SpriteResource resourceName='RedCarpet_Center' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,457.0,236.0,442.0' />
+
+  <SpriteResource resourceName='RedCarpet_East' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,457.0,253.0,442.0' />
+
+
+  <SpriteResource resourceName='RedCarpet_SouthWest' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='204.0,474.0,219.0,459.0' />
+
+  <SpriteResource resourceName='RedCarpet_South' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,474.0,236.0,459.0' />
+
+  <SpriteResource resourceName='RedCarpet_SouthEast' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,474.0,253.0,459.0' />
+
+  
+  <SpriteResource resourceName='RedCarpet_NarrowWest' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306.0,457.0,321.0,442.0' />
+
+  <SpriteResource resourceName='RedCarpet_NarrowCenter' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323.0,457.0,338.0,442.0' />
+
+  <SpriteResource resourceName='RedCarpet_NarrowEast' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='340.0,457.0,355.0,442.0' />
+  
+</SpriteResources>

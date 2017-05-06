@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <FindMySiblingStart text='Hey, have you seen my $FindMySibling.YoungerSibling.SiblingTitle$? $FindMySibling.YoungerSibling.GenderPronounOwning$ name is $FindMySibling.YoungerSibling.FirstName$.'/>
+  <SiblingSpeechSpawnText text='Hi, I am $MyFirstName$! Nice to meet you!'/>
+  <SiblingSpeech text='Hi, I am $MyFirstName$! Were you looking for me?'/>
+  <FindMySiblingEnd text='Thank you for finding my $FindMySibling.YoungerSibling.SiblingTitle$! Here have this $FindMySibling.QuestItem1$.'/>
+  <FindMySiblingAlreadyComplete text='Thanks again!'/>
+</DialogueSegments>

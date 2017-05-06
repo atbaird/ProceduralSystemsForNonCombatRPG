@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='Orc' 
+    DefaultImage='human_base0'
+    MovementSpeed='2.f'
+    NameSet='OrcNameSet'
+    PercentageMale='0.5f'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <bald/>
+        <male_Monk/>
+        <male_Berserk/>
+      </Male>
+
+      <Female>
+        <female_Monk/>
+        <female_Berserk/>
+      </Female>
+    </Hair>
+
+    <Clothing>
+      <Clothing name='Monk clothes'/>
+      <Clothing name='Berserk clothes'/>
+      <Clothing name='Soldier clothes'/>
+    </Clothing>
+
+    <SkinColors>
+      <SkinColor value='5' /> <!-- green -->
+      <SkinColor value='6'/>
+      <!-- Purple -->
+    </SkinColors>
+
+    <HairColors>
+      <Red/>
+      <Green/>
+      <Black/>
+      <Brown/>
+    </HairColors>
+
+    <Jobs>
+      <Hunter/>
+      <Berserker/>
+      <Warrior/>
+      <Shaman/>
+    </Jobs>
+
+    <NPCBehaviors>
+      <LookAround />
+      <Talking />
+    </NPCBehaviors>
+
+    <NPCAttributes>
+      <Age/>
+      <Personality/>
+      <Morallity>
+        <Blacklist>
+          <Good/>
+        </Blacklist>
+      </Morallity>
+      <Lawfulness>
+        <Blacklist>
+          <Lawful/>
+        </Blacklist>
+      </Lawfulness>
+    </NPCAttributes>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='OrcGreeting'/>
+    </Dialogue>
+
+    <Animations>
+      <Animation animationName='human_base0_walkForward' direction='south' animIdx='walk'/>
+      <Animation animationName='human_base0_walkBack' direction='north' animIdx='walk'/>
+      <Animation animationName='human_base0_walkLeft' direction='west' animIdx='walk'/>
+      <Animation animationName='human_base0_walkRight' direction='east' animIdx='walk'/>
+    </Animations>
+
+    <StatRanges>
+      <Strength min='65' max='95'/>
+      <Dexterity min='65' max='75'/>
+      <Intelligence min='10' max='70'/>
+    </StatRanges>
+  </AgentGenerator>
+</AgentGenerators>

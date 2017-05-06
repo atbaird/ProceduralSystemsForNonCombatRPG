@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='ElfSpeechBubble'>
+  <ElfGreeting1 uniqueGrouping='ElfGreeting' text='Greetings mellon... I am $MyName$ of the Eldar.'/>
+  <ElfGreeting2 uniqueGrouping='ElfGreeting' text='You humans live such short lives. Yet you accomplish so much in that span...'/>
+  <ElfGreeting3 uniqueGrouping='ElfGreeting' text='Would you like to play a game of riddles?'>
+    <Decision>
+      <Yes DialogueToOpen="ElfGameOfRiddles1"/>
+      <No DialogueToOpen="ElfGameOfRiddlesNo"/>
+    </Decision>
+  </ElfGreeting3>
+
+  <ElfGameOfRiddlesNo text='Such a shame. Maybe next time.' />
+
+  <ElfGameOfRiddles1>
+    <Text text='I walk on four legs in the morning,'/>
+    <Text text=' two legs in the afternoon,'/>
+    <Text text=' and three legs in the evening.'/>
+    <Text text=' what am I?'/>
+    <Decision>
+      <Time DialogueToOpen='ElfGameOfRiddles1Incorrect'/>
+      <Man DialogueToOpen='ElfGameOfRiddles1Correct' />
+      <Apples DialogueToOpen='ElfGameOfRiddles1Incorrect' />
+      <Trouble DialogueToOpen='ElfGameOfRiddles1Incorrect'/>
+      <Games DialogueToOpen='ElfGameOfRiddles1Incorrect' />
+      <Give_Up DialogueToOpen='ElfGameOfRiddles1Incorrect'  
+                DialogueChoice='Give Up'/>
+    </Decision>
+  </ElfGameOfRiddles1>
+
+  <ElfGameOfRiddles1Incorrect text='Not quite right. Maybe next time.' />
+  <ElfGameOfRiddles1Correct text='Not bad; now then. What is easy to get into, but hard to get out of?'>
+    <Decision>
+      <Time DialogueToOpen='ElfGameOfRiddles2Incorrect'/>
+      <Man DialogueToOpen='ElfGameOfRiddles2Incorrect' />
+      <Apples DialogueToOpen='ElfGameOfRiddles2Incorrect' />
+      <Trouble DialogueToOpen='ElfGameOfRiddles2Correct'/>
+      <Games DialogueToOpen='ElfGameOfRiddles2Incorrect' />
+      <Give_Up DialogueToOpen='ElfGameOfRiddles2Incorrect' 
+                DialogueChoice='Give Up'/>
+    </Decision>
+  </ElfGameOfRiddles1Correct>
+  
+  <ElfGameOfRiddles2Incorrect text='Incorrect. Maybe next time.'/>
+
+  <ElfGameOfRiddles2Correct text='Ha ha, your pretty good at this. One last riddle. What can fly without wings?'>
+    <Decision>
+      <Time DialogueToOpen='ElfGameOfRiddles3Correct'/>
+      <Man DialogueToOpen='ElfGameOfRiddles3Incorrect' />
+      <Apples DialogueToOpen='ElfGameOfRiddles3Incorrect' />
+      <Trouble DialogueToOpen='ElfGameOfRiddles3Incorrect'/>
+      <Games DialogueToOpen='ElfGameOfRiddles3Incorrect' />
+      <Give_Up DialogueToOpen='ElfGameOfRiddles3Incorrect'  
+                DialogueChoice='Give Up'/>
+    </Decision>
+  </ElfGameOfRiddles2Correct>
+
+  <ElfGameOfRiddles3Incorrect text='Such a shame, you had almost beaten me. Maybe next time.' />
+  <ElfGameOfRiddles3Correct text='Not bad mallon; I wish I had a prize I could give you. Perhaps just the time we shared is enough?' />
+  
+</DialogueSegments>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCJobs>
+
+  <Berserker>
+    <StatRequirements>
+      <Strength value='70'/>
+    </StatRequirements>
+  </Berserker>
+
+  <Warrior>
+    <StatRequirements>
+      <Strength value='60'/>
+      <Dexterity value='10'/>
+      <Intelligence value='10'/>
+    </StatRequirements>
+  </Warrior>
+
+  <Shaman>
+    <StatRequirements>
+      <Intelligence value='70' />
+    </StatRequirements>
+  </Shaman>
+
+  <Hunter>
+    <StatRequirements>
+      <Strength value='30'/>
+      <Dexterity value='30'/>
+    </StatRequirements>
+  </Hunter>
+
+</NPCJobs>

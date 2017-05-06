@@ -1,0 +1,14 @@
+#pragma once
+
+#ifndef SPECIALVARIABLETYPEENUM_HPP
+#define SPECIALVARIABLETYPEENUM_HPP
+
+enum SpecialVariableTypeEnum
+{
+	IS_PLAYER,
+	IS_AN_NPC,
+	IS_A_FEATURE,
+	NUMBER_OF_SPECIAL_VARIABLE_TYPES
+};
+
+#endif

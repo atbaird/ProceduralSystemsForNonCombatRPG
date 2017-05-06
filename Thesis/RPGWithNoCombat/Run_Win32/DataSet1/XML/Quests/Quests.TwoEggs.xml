@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <TwoEggs title='Two Eggs'>
+    <Variables>
+      <float VariableName='QuestState' defaultValue='0.0'/>
+      <NPC VariableName='TheFarmer'/>
+      <Player VariableName='player'/>
+    </Variables>
+
+    <AgentsToGenerate>
+      <Farmer
+        number='1'
+        VariableName='TheFarmer'
+        GlobalVariableName='GlobalTheFarmer'
+        Dialogue='GetMeABucketQuestStart'>
+      </Farmer>
+    </AgentsToGenerate>
+
+    <Events>
+
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='GlobalCheckVariableFloat' Variable='FarmingQuest' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='TwoEggsQuestStart'/>
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <GlobalSetVariableFloat VariableName='FarmingQuest' Value='1.5'/>
+        </PostTrigger>
+      </Event>
+      
+      <Event EventName='No'>
+          <Requirements>
+            <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+            <Requirement RequirementType='GlobalCheckVariableFloat' Variable='FarmingQuest' value='==1.5'/>
+            <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+            <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='TwoEggsQuestNo'/>
+          </Requirements>
+        <Trigger>
+          
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='0.0'/>
+          <GlobalSetVariableFloat VariableName='FarmingQuest' Value='1.0'/>
+        </PostTrigger>
+      </Event>
+      
+      <Event EventName='Yes'>
+          <Requirements>
+            <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+            <Requirement RequirementType='GlobalCheckVariableFloat' Variable='FarmingQuest' value='==1.5'/>
+            <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+            <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='TwoEggsQuestYes'/>
+          </Requirements>
+        <Trigger>
+          
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='TwoEggsQuestHaveYouGottenTheEggsYet'/>
+        </PostTrigger>
+      </Event>
+      
+      <Event EventName='CompletQuests'>
+        <Requirements>
+            <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==2.0'/>
+            <Requirement RequirementType='CheckPlayerInteraction' Interact='TheFarmer'/>
+          <Requirement RequirementType='CheckPlayerHasItem' ItemName='Egg' value='>=2.0'/>
+        </Requirements>
+      
+        <Trigger>
+          <RemoveFromEntity EntityName='player' ItemName='Egg' value='2.0'/>
+          <GiveToEntity EntityName='player' ItemName='Stick of Butter' value='2.0'/>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='TwoEggsQuestComplete'/>
+          
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='3.0'/>
+          <ChangeDialogue Entity='TheFarmer' DialogueSegment='GetMeABucketQuestComplete'/> 
+          <GlobalSetVariableFloat VariableName='FarmingQuest' Value='2.0'/>
+          <CompleteQuest/>
+        </PostTrigger>
+      </Event>
+    
+    </Events>
+
+  </TwoEggs>
+</Quests>

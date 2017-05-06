@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='TallBrownMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,134,831,119'/>
+
+  <SpriteResource resourceName='ShortBrownMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,117,831,102'/>
+
+  <SpriteResource resourceName='TallSpottyMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,100,831,85'/>
+
+  <SpriteResource resourceName='ShortSpottyMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,83,831,68'/>
+  
+  <SpriteResource resourceName='TallRedMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,66,831,51'/>
+
+  <SpriteResource resourceName='ShortRedMushroom'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                spriteBounds='816,49,831,34'/>
+  
+</SpriteResources>

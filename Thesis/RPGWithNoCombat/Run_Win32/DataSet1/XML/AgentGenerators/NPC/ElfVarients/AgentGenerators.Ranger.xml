@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='ElfArcher'
+    DefaultImage='human_base0'
+    NameSet='ElfNameSet'
+    PercentageMale='0.5f'
+    inherit='Elf'>
+    <Hair>
+      <Both>
+
+      </Both>
+
+      <Male>
+        <male_ranger_hair/>        
+      </Male>
+
+      <Female>
+        <female_ranger_hair/>
+      </Female>
+    </Hair>
+    
+    <Jobs>
+      <Archer/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='25' max='45'/>
+      <Dexterity min='65' max='85'/>
+      <Intelligence min='50' max='90'/>
+    </StatRanges>
+
+  </AgentGenerator>
+</AgentGenerators>

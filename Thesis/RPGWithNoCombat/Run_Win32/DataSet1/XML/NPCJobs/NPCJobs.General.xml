@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<NPCJobs>
+  <Smith>
+    <StatRequirements>
+      <Strength value='50'/>
+    </StatRequirements>
+  </Smith>
+
+  <Florist>
+    <StatRequirements>
+      <Dexterity value='20'/>
+      <Intelligence value='20'/>
+      <Charisma value='20'/>
+    </StatRequirements>
+  </Florist>
+
+  <Cobbler>
+    <StatRequirements>
+      <Dexterity value='60'/>
+    </StatRequirements>
+  </Cobbler>
+
+  <Soldier>
+    <StatRequirements>
+      <Strength value='50'/>
+      <Intelligence value='30'/>
+    </StatRequirements>
+  </Soldier>
+
+  <Monk>
+    <StatRequirements>
+      <Intelligence value='40'/>
+    </StatRequirements>
+  </Monk>
+
+  <Fisher>
+    <StatRequirements>
+      <Strength value='30'/>
+      <Dexterity value='50'/>
+    </StatRequirements>
+  </Fisher>
+
+  <Trader>
+    <StatRequirements>
+      <Dexterity value='30'/>
+      <Intelligence value='30'/>
+    </StatRequirements>
+  </Trader>
+
+</NPCJobs>

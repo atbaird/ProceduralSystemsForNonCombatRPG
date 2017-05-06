@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <RepeatableDeliveryQuest title="Delivery Quest">
+    <Variables>
+      <Player VariableName="player"/>
+      <NPC VariableName="Foreman" />
+      <NPC VariableName="Baker" />
+      <Float VariableName="QuestState" value="0.0"/>
+    </Variables>
+
+    <AgentsToGenerate>
+      <Human
+        number='1'
+        VariableName='Foreman'
+        GlobalVariableName='Foreman'
+        Dialogue='ForemanQuestStart'/>
+      <Human
+        number='1'
+        VariableName='Baker'
+        GlobalVariableName='TheBaker' 
+        Dialogue='DeliveryRecipientWaiting'/>
+    </AgentsToGenerate>
+    
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Foreman'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment'
+                       DialogueSegment='ForemanQuestYes'/>
+        </Requirements>
+
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <ChangeDialogue Entity='Foreman' DialogueSegment='ForemanReminder'/>
+          <ChangeDialogue Entity='Baker' DialogueSegment='DeliveryRecipientReceivedDelivery'/>
+        </PostTrigger>
+      </Event>
+      
+      <Event EventName='Repeat'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Foreman'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment'
+                       DialogueSegment='ForemanQuestYes'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <ChangeDialogue Entity='Foreman' DialogueSegment='ForemanReminder'/>
+          <ChangeDialogue Entity='Baker' DialogueSegment='DeliveryRecipientReceivedDelivery'/>
+        </PostTrigger>
+      </Event>
+
+
+      <Event EventName='Delivery'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Baker'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+          <ChangeDialogue Entity='Baker' DialogueSegment='DeliveryRecipientGetGoing' />
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Finished?'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==2.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Foreman'/>
+        </Requirements>
+
+        <Trigger>
+          <ChangeDialogue Entity='Baker' DialogueSegment='DeliveryRecipientWaiting'/>
+          <ChangeDialogue Entity='Foreman' DialogueSegment='ForemanComplete'/>
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='0.5'/>
+          <ChangeDialogue Entity='Foreman' DialogueSegment='ForemanQuestRepeat'/>
+          <ChangeDialogue Entity='Baker' DialogueSegment='DeliveryRecipientWaiting'/>
+          <GiveToEntity EntityName='player' ItemName='Gold' value='5.0'/>
+        </PostTrigger>
+      </Event>
+      
+    </Events>
+  </RepeatableDeliveryQuest>
+</Quests>

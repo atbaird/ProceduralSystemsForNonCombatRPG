@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='BigGapFence'
+                  resourceName='horizontal_fence_bigGap_SelfEnclosed'
+                  bottomResourceName='grassTile1_1'
+                  MapCode='151,113,103'
+                  solid='true' liquid='false'>
+    
+    
+    
+  </TileDefinition>
+
+</TileDefinitions>

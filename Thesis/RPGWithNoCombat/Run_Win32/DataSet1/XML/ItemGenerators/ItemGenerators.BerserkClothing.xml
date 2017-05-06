@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemGenerators>
+  <ItemGenerator Name='Berserk clothes' DefaultImage='male_berserkClothing_forward0'
+                 ItemType='clothes' GenderSpecific='true'>
+
+    <Animations>
+      <Animation animationName='male_berserkClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='male_berserkClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='male_berserkClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='male_berserkClothing_right' direction='east' animIdx='walk'/>
+    </Animations>
+    <AlternativeAnimations>
+      <Animation animationName='female_berserkClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='female_berserkClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='female_berserkClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='female_berserkClothing_right' direction='east' animIdx='walk'/>
+    </AlternativeAnimations>
+  </ItemGenerator>
+</ItemGenerators>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='VampireClothesForward'
+                   defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop'
+                   reverseDirection='false'>
+    <Frame resourceName='VampireClothesForward1'/>
+    <Frame resourceName='VampireClothesForward2'/>
+    <Frame resourceName='VampireClothesForward1'/>
+    <Frame resourceName='VampireClothesForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireClothesBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireClothesBack1'/>
+    <Frame resourceName='VampireClothesBack2'/>
+    <Frame resourceName='VampireClothesBack1'/>
+    <Frame resourceName='VampireClothesBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireClothesLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireClothesLeft1'/>
+    <Frame resourceName='VampireClothesLeft2'/>
+    <Frame resourceName='VampireClothesLeft1'/>
+    <Frame resourceName='VampireClothesLeft0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='VampireClothesRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='VampireClothesRight1'/>
+    <Frame resourceName='VampireClothesRight2'/>
+    <Frame resourceName='VampireClothesRight1'/>
+    <Frame resourceName='VampireClothesRight0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

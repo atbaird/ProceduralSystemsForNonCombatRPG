@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator
+    Name='OrcHunter'
+    DefaultImage='human_base0'
+    NameSet='OrcNameSet'
+    PercentageMale='0.5f'
+    inherit='Orc'>
+    <Jobs>
+      <Hunter/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='70' max='85'/>
+      <Dexterity min='45' max='55'/>
+      <Intelligence min='0' max='60'/>
+    </StatRanges>
+
+  </AgentGenerator>
+</AgentGenerators>

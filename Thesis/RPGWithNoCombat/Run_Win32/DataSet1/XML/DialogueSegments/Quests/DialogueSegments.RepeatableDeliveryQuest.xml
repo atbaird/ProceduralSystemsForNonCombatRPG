@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <!-- Foreman -->
+  <ForemanQuestStart text='Hey, would you like to make a quick few gold coins?'>
+    <Text text=' One of my delivery guys called in sick, and I need someone to deliver these bags of flour to the baker.'/>
+    <Decision>
+      <DeliverFlour dialogueToOpen='ForemanQuestYes'
+        DialogueChoice='Deliver'/>
+      <DontDeliverFlour dialogueToOpen='ForemanQuestNo'
+        DialogueChoice='Dont Deliver'/>
+    </Decision>
+  </ForemanQuestStart>
+
+  <ForemanQuestRepeat>
+    <Text text='Hey, would you like make some more money? The baker needs more flour.'/>
+    <Decision>
+      <DeliverFlour dialogueToOpen='ForemanQuestYes'
+        DialogueChoice='Deliver'/>
+      <DontDeliverFlour dialogueToOpen='ForemanQuestNo'
+        DialogueChoice='Dont Deliver'/>
+    </Decision>
+  </ForemanQuestRepeat>
+
+  <ForemanQuestYes text='You will? Great! Here are two bags of flour; hurry the baker is waiting.'
+    />
+
+  <ForemanQuestNo 
+    text='Well if you change your mind before one of the others show up, then I might still have a job for you.' />
+
+  <ForemanReminder text='Hurry, the baker needs that flour!' />
+
+  <ForemanComplete text='Thank you for lending a hand; here is 5 gold. Come back if you feel like doing some more work.'/>
+  
+  <!-- Delivery Recipient -->
+  <DeliveryRecipientWhenIsThatPackageArriving1 uniqueGroup='DeliveryRecipientWaiting'
+    text='I swear this is the worst service I have ever gotten. I will get a different delivery agency next time.'/>
+
+  <DeliveryRecipientWhenIsThatPackageArriving2 uniqueGroup='DeliveryRecipientWaiting'
+    text='When is that package getting here?' />
+
+  <DeliveryRecipientWhenIsThatPackageArrive3 uniqueGroup='DeliveryRecipientWaiting'
+    text='I can not make more cake without flour!' />
+
+  <DeliveryRecipientWellItsAboutTime1 uniqueGroup='DeliveryRecipientReceivedDelivery'
+    text='Well its about damn time! Let the foreman know how long I have been waiting for this.'/>
+
+  <DeliveryRecipientWellItsAboutTime2 uniqueGroup='DeliveryRecipientReceivedDelivery'
+    text='Why did it take so long to deliver some bags of flour here?... Whatever, just get out of here.'/>
+
+  <DeliveryRecipientWellItsAboutTime3 uniqueGroup='DeliveryRecipientReceivedDelivery'
+    text='Finally! Now I can bake more cakes!'/>
+
+  <DeliveryRecipientGetGoing text='Well? Get back to the Foreman.' />
+</DialogueSegments>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='pirateClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='212, 144, 227, 126'/>
+  <SpriteResource resourceName='pirateClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='228, 144, 243, 126'/>
+  <SpriteResource resourceName='pirateClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='244, 144, 259, 126'/>
+
+  <SpriteResource resourceName='pirateClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='212, 162, 227, 144'/>
+  <SpriteResource resourceName='pirateClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='228, 162, 243, 144'/>
+  <SpriteResource resourceName='pirateClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='244, 162, 259, 144'/>
+
+  <SpriteResource resourceName='pirateClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='212, 180, 227, 162'/>
+  <SpriteResource resourceName='pirateClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='228, 180, 243, 162'/>
+  <SpriteResource resourceName='pirateClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='244, 180, 259, 162'/>
+
+  <SpriteResource resourceName='pirateClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='212, 198, 227, 180'/>
+  <SpriteResource resourceName='pirateClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='228, 198, 243, 180'/>
+  <SpriteResource resourceName='pirateClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_3rd - no arms.png'
+                  spriteBounds='244, 198, 259, 180'/>
+
+
+</SpriteResources>

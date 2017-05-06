@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='Cow' DefaultImage='Cow_Right' solid='true'>
+    <Animations>
+      <Animation animationName='Cow_Right' direction='south' animIdx='walk'/>
+      <Animation animationName='Cow_Left' direction='north' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <TradeItemForItem type='Interactive'
+          ItemWanted='Bucket' AmountOfItemWanted='1'
+          ItemWillGive='Bucket of Milk' AmountOfItemWillGive='1'/>
+      <OpenDialogueBasedOnIfLastBehaviorRanOrNot type='Interactive'
+        segmentForIfRan='MilkedCow'
+        segmentForIfDidNotRun='DidNotMilkCow'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+</FeatureGenerators>

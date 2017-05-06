@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapFiles>
+  <TownSquare DialogueName='Small Village'
+    Image='DataSet2/Maps/TownSquare.png' 
+    MapData='DataSet2/XML/MapData/MapData.TownSquare.xml'>
+  </TownSquare>
+
+  <EastDistrict DialogueName='Prison District'
+    Image='DataSet2/Maps/TownEastPrisonDistrict.png'
+    MapData='DataSet2/XML/MapData/MapData.EastDistrictPrisonDistrict.xml'>
+    
+  </EastDistrict>
+
+  <WestDistrict DialogueName='Factory District'
+    Image='DataSet2/Maps/TownWestFactoryDistrict.png'
+    MapData='DataSet2/XML/MapData/MapData.WestDistrictFactoryDistrict.xml'>
+    
+  </WestDistrict>
+
+  <SouthDistrict DialogueName='Poor District'
+    Image='DataSet2/Maps/TownSouthPoorDistrict.png'
+    MapData='DataSet2/XML/MapData/MapData.SouthDistrictPoorDistrict.xml'>
+    
+  </SouthDistrict>
+
+  <NorthDistrict DialogueName='Rich District'
+    Image='DataSet2/Maps/TownNorthRichDistrict.png'
+    MapData='DataSet2/XML/MapData/MapData.NorthDistrictRichDistrict.xml'>
+    
+  </NorthDistrict>
+  
+</MapFiles>

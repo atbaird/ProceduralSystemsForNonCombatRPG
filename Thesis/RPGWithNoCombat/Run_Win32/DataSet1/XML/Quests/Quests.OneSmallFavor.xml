@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <OneSmallFavor title='One Small Favor'>
+
+    <Variables>
+      <Player VariableName='player'/>
+      <NPC VariableName='Fisherman'/>
+      <NPC VariableName='TheElf'/>
+      <NPC VariableName='TheOrc'/>
+      <NPC VariableName='ThePirate'/>
+      <Float VariableName='QuestState' DefaultValue='0.0'/>
+      <Text VariableName='FishermanObj' value='pipe'/>
+      <Text VariableName='PirateObj' value='War Axe'/>
+      <Text VariableName='Reward' value='Keyring'/>
+
+    </Variables>
+
+    <AgentsToGenerate>
+      <Fisher
+        VariableName='Fisherman'
+        GlobalVariableName='OneSmallFavorFisherman'
+        AlwaysSpawn='true'
+      />
+      <!-- Global Variable Name will over power "alwaysSpawn" -->
+      <Elf
+        VariableName='TheElf'
+        GlobalVariableName='OneSmallFavorElf'
+        AlwaysSpawn='true'
+      />
+      <OrcWarrior
+        VariableName='TheOrc'
+        GlobalVariableName='OneSmallFavorOrc'
+        AlwaysSpawn='true'
+      />
+      <Pirate
+        VariableName='ThePirate'
+        GlobalVariableName='OneSmallFavorPirate'
+        AlwaysSpawn='true'
+      />
+    </AgentsToGenerate>
+
+    <Events>
+      <Event EventName='Start'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Fisherman'/>
+        </Requirements>
+        <Trigger>
+          <ChangeDialogue Entity='Fisherman' DialogueSegment='OneSmallFavorStartFisherman'/>
+        </Trigger>
+        <PostTrigger>
+
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Helping the Fisherman'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Fisherman'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='OneSmallFavorYesFisherman'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='Fisherman' DialogueSegment='OneSmallFavorFishermanReminder'/>
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='OneSmallFavorPiratePipeDelivery'/>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speaking to the Pirate - No'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='ThePirate'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='OneSmallFavorPirateNo'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='OneSmallFavorPirateTheRequest' />
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speaking to the Pirate - Yes'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==1.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='ThePirate'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='OneSmallFavorPirateYes'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='OneSmallFavorPirateReminder'/>
+          <ChangeDialogue Entity='TheOrc' DialogueSegment='OneSmallFavorOrcDelivery'/>
+          <SetQuestVariableFloat Variable='QuestState' value='2.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Delivery to the Orc'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' Value='==2.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheOrc'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='TheOrc' DialogueSegment='OneSmallFavorOrcRefusal'/>
+          <ChangeDialogue Entity='TheElf' DialogueSegment='OneSmallFavorElfRequest'/>
+          <SetQuestVariableFloat Variable='QuestState' value='3.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Speaking to the Elf for the first time.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==3.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheElf'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment' DialogueSegment='OneSmallFavorElfRequest'/>
+        </Requirements>
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='TheElf' DialogueSegment='OneSmallFavorRiddleIntro'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Elf Riddles Solved'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==3.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheElf'/>
+          <Requirement RequirementType='CheckCurrentDialogueSegment'
+                       DialogueSegment='OneSmallFavorFinallyATranslation'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='TheElf' DialogueSegment='OneSmallFavorElfReminder'/>
+          <ChangeDialogue Entity='TheOrc' DialogueSegment='OneSmallFavorOrcAcceptance'/>
+          <SetQuestVariableFloat Variable='QuestState' value='4.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Telling the Orc what the runes mean.'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==4.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheOrc'/>
+        </Requirements>
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='TheOrc' DialogueSegment='OneSmallFavorOrcFinalNote'/>
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='OneSmallFavorPirateDeliverySuccessful'/>
+          <ChangeDialogue Entity='TheElf' DialogueSegment='ElfGreeting'/>
+          <SetQuestVariableFloat Variable='QuestState' value='5.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Reporting back to the Pirate'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==5.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='ThePirate'/>
+        </Requirements>
+        <Trigger>
+
+        </Trigger>
+        <PostTrigger>
+          <ChangeDialogue Entity='TheOrc' DialogueSegment='OrcGreeting'/>
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='OneSmallFavorPirateReminder2'/>
+          <ChangeDialogue Entity='Fisherman' DialogueSegment='OneSmallFavorFisherman'/>
+          <SetQuestVariableFloat Variable='QuestState' value='6.0'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Reporting back to the Fisherman'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==6.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='Fisherman'/>
+        </Requirements>
+
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <GiveToEntity EntityName='player' ItemName='Keyring' value='1.0' />
+          <ChangeDialogue Entity='ThePirate' DialogueSegment='PirateGreeting'/>
+          <ChangeDialogue Entity='Fisherman' DialogueSegment='OneSmallFavorAfterwards'/>
+          <SetQuestVariableFloat Variable='QuestState' value='7.0'/>
+          <QuestComplete/>
+        </PostTrigger>
+      </Event>
+    </Events>
+  </OneSmallFavor>
+  
+</Quests>

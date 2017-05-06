@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='BlueishGreenDrapesTopOfWindowBound'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='952,49,967,34'/>
+
+  <SpriteResource resourceName='BlueishGreenDrapesBottomOfWindow'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='952,32,967,17'/>
+
+
+  <SpriteResource resourceName='BlueishGreenDrapesShortWindow'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='952,100,967,85'/>
+  
+</SpriteResources>

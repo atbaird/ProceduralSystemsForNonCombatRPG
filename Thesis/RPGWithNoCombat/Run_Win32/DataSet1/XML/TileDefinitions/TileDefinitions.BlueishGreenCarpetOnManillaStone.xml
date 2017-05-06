@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='BlueishGreenCarpetOnManilaStoneFloor'
+                  resourceName='BlueishGreenCarpet_Center'
+                  bottomResourceName='horizontal_GrayStoneRoad_1'
+                  MapCode='55,170,165'
+                  solid='false' liquid='false'>
+
+    <!-- North, South, East, West-->
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_North'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_South'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_East'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_West'/>
+    </SpecialCase>
+
+
+    <!-- NE, SE, SW, NW-->
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_NorthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_SouthEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_SouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_NorthWest'/>
+    </SpecialCase>
+
+    <!-- Narrow Cases -->
+    <SpecialCase IfSame='North==0,South==0,East>0,West==0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_NarrowWest'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South==0,East==0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_NarrowEast'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South==0,East>0,West>0'>
+      <ToSet TileCoords='0,0' resourceName='BlueishGreenCarpet_NarrowCenter'/>
+    </SpecialCase>
+
+  </TileDefinition>
+</TileDefinitions>

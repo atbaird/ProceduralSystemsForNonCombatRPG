@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='29,14'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='1,14'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='29,15'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='1,15'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='29,16'>
+      <OnEnter Function='ChangeMaps' MapFile='TownSquare' PlayerPosition='1,16'/>
+    </TileEvent>
+  </TileEvents>
+
+  <FeaturesToGenerate>
+    <Door number='5'>
+      <Position position='11,3'/>
+      <Position position='23,16'/>
+      <Position position='23,22'/>
+      <Position position='9,23'/>
+      <Position position='3,24'/>
+    </Door>
+  </FeaturesToGenerate>
+
+
+  <AgentsToGenerate>
+    <Peasant number='5-7'>
+
+    </Peasant>
+  </AgentsToGenerate>
+
+</MapData>

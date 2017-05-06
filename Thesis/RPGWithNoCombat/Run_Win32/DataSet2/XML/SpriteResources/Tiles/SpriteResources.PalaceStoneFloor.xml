@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+
+  <SpriteResource resourceName='PalaceStoneFloorNorthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289,372,304,357' />
+
+  <SpriteResource resourceName='PalaceStoneFloorNorth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306,372,321,357' />
+
+  <SpriteResource resourceName='PalaceStoneFloorNorthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323,372,338,357' />
+
+
+  <SpriteResource resourceName='PalaceStoneFloorWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289,389,304,374' />
+
+  <SpriteResource resourceName='PalaceStoneFloorCenter'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306,389,321,374' />
+
+  <SpriteResource resourceName='PalaceStoneFloorEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323,389,338,374' />
+
+
+  <SpriteResource resourceName='PalaceStoneFloorSouthWest'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='289,406,304,391' />
+
+  <SpriteResource resourceName='PalaceStoneFloorSouth'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='306,406,321,391' />
+
+  <SpriteResource resourceName='PalaceStoneFloorSouthEast'
+                  textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='323,406,338,391' />
+
+</SpriteResources>

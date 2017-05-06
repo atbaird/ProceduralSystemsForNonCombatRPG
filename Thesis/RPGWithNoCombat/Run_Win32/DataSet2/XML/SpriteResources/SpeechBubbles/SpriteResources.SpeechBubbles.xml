@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+
+  <SpriteResource resourceName='RoyalSpeechBubble'
+                  textureLocation='DataSet2/Images/RoyalSpeechBubble.png'
+                  spriteBounds='213, 198, 228, 180'/>
+
+  <SpriteResource resourceName='PeasantSpeechBubble'
+                  textureLocation='DataSet2/Images/Peasant Speech Bubble.png'
+                  spriteBounds='213, 198, 228, 180'/>
+  
+</SpriteResources>

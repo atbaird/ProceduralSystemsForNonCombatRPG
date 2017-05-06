@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='BardHairForward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardHairForward1'/>
+    <Frame resourceName='BardHairForward2'/>
+    <Frame resourceName='BardHairForward1'/>
+    <Frame resourceName='BardHairForward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardHairBack' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardHairBack1'/>
+    <Frame resourceName='BardHairBack2'/>
+    <Frame resourceName='BardHairBack1'/>
+    <Frame resourceName='BardHairBack0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardHairRight' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardHairRight1'/>
+    <Frame resourceName='BardHairRight2'/>
+    <Frame resourceName='BardHairRight1'/>
+    <Frame resourceName='BardHairRight0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='BardHairLeft' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='BardHairLeft1'/>
+    <Frame resourceName='BardHairLeft2'/>
+    <Frame resourceName='BardHairLeft1'/>
+    <Frame resourceName='BardHairLeft0'/>
+  </SpriteAnimation>
+</SpriteAnimations>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Sounds>
+  <SoundEffect filelocation='DataSet1/Sounds/sfx_sound_neutral10.wav' name='Chirp'/>
+</Sounds>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <!-- White Roof and Walls-->
+  <SpriteResource resourceName='roof_brown_Sharp_NE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='350.0,372.0,335.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_Sharp_E' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='350.0,389.0,335.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_Sharp_SE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='350.0,406.0,335.0,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='roof_brown_Sharp_NW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,372.0,335.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_Sharp_W' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,389.0,335.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_Sharp_SW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,406.0,335.0,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+
+  <SpriteResource resourceName='roof_brown_NW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='340.0,372.0,355.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='roof_brown_W' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='340.0,389.0,355.0,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_W_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='391.0,423.0,406.0,408.0'
+                  virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='roof_brown_NE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='357.0,372.0,372.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_NC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='425.0,372.0,440.0,357.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_C' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='425.0,389.0,440,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_C_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='680,321,695,306'
+                  virtualSize='1.0f,1.0f'/>
+  
+  
+  <SpriteResource resourceName='roof_brown_E' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='442,389.0,457,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_E_Alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='408,423.0,423,408.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_SC' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='391,389.0,406,374.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_SW' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='374,406.0,389,391.0'
+                  virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='roof_brown_SE' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='391,406.0,406,391.0'
+                  virtualSize='1.0f,1.0f'/>
+
+</SpriteResources>

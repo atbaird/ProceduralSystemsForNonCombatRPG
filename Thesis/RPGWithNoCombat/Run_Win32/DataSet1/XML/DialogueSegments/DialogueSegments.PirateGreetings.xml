@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='PirateSpeechBubble'>
+  <PirateGreeting1 uniqueGrouping='PirateGreeting' text='Yaarr!'/>
+  <PirateGreeting2 uniqueGrouping='PirateGreeting' text='Ye be speaken to $MyName$ the most fearsome pirate ever born!'/>
+  <PirateGreeting3 uniqueGrouping='PirateGreeting' text='Be needing to set sail in the evening.'/>
+  <PirateGreeting4 uniqueGrouping='PirateGreeting' text='Ye be speaken to $MyName$ the $Job$.'/>
+</DialogueSegments>

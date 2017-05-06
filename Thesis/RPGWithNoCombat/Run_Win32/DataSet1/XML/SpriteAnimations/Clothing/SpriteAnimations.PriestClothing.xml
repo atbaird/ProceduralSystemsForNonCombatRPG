@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='priestClothing_forward' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='priestClothing_forward1'/>
+    <Frame resourceName='priestClothing_forward2'/>
+    <Frame resourceName='priestClothing_forward1'/>
+    <Frame resourceName='priestClothing_forward0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='priestClothing_right' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='priestClothing_right1'/>
+    <Frame resourceName='priestClothing_right2'/>
+    <Frame resourceName='priestClothing_right1'/>
+    <Frame resourceName='priestClothing_right0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='priestClothing_back' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='priestClothing_back1'/>
+    <Frame resourceName='priestClothing_back2'/>
+    <Frame resourceName='priestClothing_back1'/>
+    <Frame resourceName='priestClothing_back0'/>
+  </SpriteAnimation>
+
+  <SpriteAnimation spriteAnimationName='priestClothing_left' defaultIntervalBetweenFrames='0.125'
+                   animationMode='loop' reverseDirection='false'>
+    <Frame resourceName='priestClothing_left1'/>
+    <Frame resourceName='priestClothing_left2'/>
+    <Frame resourceName='priestClothing_left1'/>
+    <Frame resourceName='priestClothing_left0'/>
+  </SpriteAnimation>
+
+</SpriteAnimations>

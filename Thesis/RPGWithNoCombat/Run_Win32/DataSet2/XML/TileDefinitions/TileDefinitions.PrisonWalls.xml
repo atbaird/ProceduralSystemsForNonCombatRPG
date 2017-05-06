@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition
+    name='PrisonWalls'
+    MapCode='249,165,0'
+    solid='true'
+    resourceName='SingleGrayWallTile'
+    topLayerCanDisappear='true'
+    topLayer2CanDisappear='true'>
+
+    <SpecialCase
+      IfSame='North>0,South==0,East>0,West==0'>
+      <ToSet resourceName='JailWallSouthWest'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North>0,South==0,East==0,West>0'>
+      <ToSet resourceName='JailWallSouthEast'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North==0,South>0,East==0,West>0'>
+      <ToSet resourceName='JailWallNorthEast'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North==0,South>0,East>0,West==0'>
+      <ToSet resourceName='JailWallNorthWest'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North>0,South>0,East==0,West==0'>
+      <ToSet resourceName='JailWallVerticalStraight'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North==0,South==0,East>0,West>0'>
+      <ToSet resourceName='JailWallHorizontalStraight'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North==0,South>0,East>0,West>0'>
+      <ToSet resourceName='JailWallBlockedNorth'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North>0,South==0,East>0,West>0'>
+      <ToSet resourceName='JailWallBlockedSouth'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North>0,South>0,East==0,West>0'>
+      <ToSet resourceName='JailWallBlockedEast'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North>0,South>0,East>0,West==0'>
+      <ToSet resourceName='JailWallBlockedWest'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North>0,South>0,East>0,West>0'>
+      <ToSet resourceName='JailWallAllDirections'/>
+    </SpecialCase>
+    
+  </TileDefinition>
+  
+</TileDefinitions>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<MapData Music='Village2'>
+  <TileEvents>
+    <TileEvent TileCoords='0,10'>
+      <OnEnter Function='ChangeMaps' MapFile='SmallVillage' PlayerPosition='18,10'/>
+    </TileEvent>
+    <TileEvent TileCoords='9,19'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='18,1'/>
+    </TileEvent>
+    <TileEvent TileCoords='10,19'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='19,1'/>
+    </TileEvent>
+  </TileEvents>
+  
+  <AgentsToGenerate>
+    <Town_Liar number='1'>
+      <Position position='2,7'/>
+    </Town_Liar>
+    <Long_Winded_HumanVillager>
+      <Position position='2,9'/>
+    </Long_Winded_HumanVillager>
+  </AgentsToGenerate>
+
+</MapData>

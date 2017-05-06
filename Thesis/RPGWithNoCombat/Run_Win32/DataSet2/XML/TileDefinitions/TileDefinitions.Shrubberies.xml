@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+
+  <TileDefinition
+    name='FallTreeDirt'
+    solid='true'
+    MapCode='192,117,28'
+    topLayer2CanDisappear='false'
+    resourceName='FallTreeTallBottom'
+    bottomResourceName='RegularDirtTile'
+    altBottomResourceName='AltRegularDirtTile'
+    altBottomResourceChance='0.5'
+    >
+    <SpecialCase>
+      <ToSet TileCoords='0,1'
+             topResource2Name='FallTreeTallTop'/>
+    </SpecialCase>
+  </TileDefinition>
+
+  <TileDefinition
+    name='FallTreeGrass'
+    solid='true'
+    MapCode='244,117,27'
+    topLayer2CanDisappear='false'
+    resourceName='FallTreeTallBottom'
+    bottomResourceName='RegularGrassTile'
+    altBottomResourceName='AltRegularGrassTile'
+    altBottomResourceChance='0.5'
+    >
+    <SpecialCase>
+      <ToSet TileCoords='0,1'
+             topResource2Name='FallTreeTallTop'/>
+    </SpecialCase>
+  </TileDefinition>
+  
+</TileDefinitions>

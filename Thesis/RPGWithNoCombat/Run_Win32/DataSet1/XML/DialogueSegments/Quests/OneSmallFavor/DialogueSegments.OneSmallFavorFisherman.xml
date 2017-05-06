@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+
+  <OneSmallFavorStartFisherman 
+    segmentToOpenNext='OneSmallFavorFishermanTheRequest'
+    text='Pardon me adventurer, but could I ask a small favor of you?'>
+    <Text text=' You see, I need my $OneSmallFavor.FishermanObj$ repaired, and I am unable to go to town in my current state.'/>
+  </OneSmallFavorStartFisherman>
+
+  
+  <OneSmallFavorFishermanTheRequest text='So will you help me?'>
+    <Decision>
+      <Help DialogueChoice='Help'
+            DialogueToOpen='OneSmallFavorYesFisherman'/>
+      <Dont_Help DialogueChoice='Dont Help'
+            DialogueToOpen='OneSmallFavorNoFisherman'/>
+      <WhyCantYou DialogueChoice='Why cant you?'
+            DialogueToOpen='OneSmallFavorWhyFisherman'/>
+    </Decision>
+  </OneSmallFavorFishermanTheRequest>
+
+  <OneSmallFavorWhyFisherman
+    segmentToOpenNext='OneSmallFavorFishermanTheRequest'>
+    <Text text='Its my darn leg... I know I would need to travel a bit to get to ' />
+    <Text text='town. Five minutes of walking is the best I can do before I fall over.'/>
+  </OneSmallFavorWhyFisherman>
+
+  <OneSmallFavorNoFisherman>
+    <Text text='... Well, I suppose if you really must let this old man suffer a while longer...' />
+  </OneSmallFavorNoFisherman>
+
+  <OneSmallFavorYesFisherman>
+    <Text text='You will? Thank you so kindly. Here is my $OneSmallFavor.FishermanObj$, '/>
+    <Text text='$OneSmallFavor.ThePirate.name$ in town should be able to fix it.'/>
+  </OneSmallFavorYesFisherman>
+
+  <OneSmallFavorFishermanReminder>
+    <Text text='Have you gotten my pipe fixed yet? '/>
+    <Text text='$OneSmallFavor.ThePirate.name$ in town should be able to fix it.'/>
+  </OneSmallFavorFishermanReminder>
+
+  <OneSmallFavorFisherman>
+    <Text text='Ah finally, thank you kindly for getting my $OneSmallFavor.FishermanObj$ fixed.'/>
+    <Text text=' Here, have this $OneSmallFavor.Reward$ for your troubles.'/>
+  </OneSmallFavorFisherman>
+
+  <OneSmallFavorAfterwards>
+    <Text text='Thanks again, adventurer.' />
+  </OneSmallFavorAfterwards>
+  
+</DialogueSegments>

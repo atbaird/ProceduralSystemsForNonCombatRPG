@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='SpeechBubble'>
+  <FarmerGreeting1 uniqueGrouping='FarmerGreeting' text='Looks like its gonna be a good day.'/>
+  <FarmerGreeting2 uniqueGrouping='FarmerGreeting' text='Need to water the crops later today.'>
+    <Requirements>
+      <NPCHasJob JobTitle='Farmer'/>
+    </Requirements>
+  </FarmerGreeting2>
+
+  <FarmerGreeting3 uniqueGrouping='FarmerGreeting' text='The cattle need to be moved to another patch.'>
+    <Requirements>
+      <NPCHasJob JobTitle='Rancher'/>
+    </Requirements>
+  </FarmerGreeting3>
+
+  <FarmerGreeting4 uniqueGrouping='FarmerGreeting' text='Hey there, I am $MyName$ and I am a $Job$.'/>
+  
+</DialogueSegments>

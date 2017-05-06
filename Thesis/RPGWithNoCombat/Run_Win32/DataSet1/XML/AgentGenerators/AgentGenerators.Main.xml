@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <!-- 
+    All of the Agent Generators that had been in here have been moved to their own separate 
+    xml files for the sake of readability.
+  -->
+
+  
+</AgentGenerators>

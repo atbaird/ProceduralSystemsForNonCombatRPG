@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='Buckets' DefaultImage='Bucket' solid='true'>
+    <Animations>
+      <Animation animationName='Bucket' direction='south' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <GiveItem ItemWillGive='Bucket' AmountToGive='1' type='Interactive'/>
+      <OpenDialogue dialogueSegment='FeatureReceivedBucket' type='Interactive'/>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+</FeatureGenerators>

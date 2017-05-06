@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Quests>
+  <FindTheClanWarriors title="Find the Clan's Warriors">
+    <Variables>
+      <Player VariableName="player" />
+      <NPC VariableName="TheShaman"/>
+      <NPC VariableName="warrior1"/>
+      <NPC VariableName="warrior2"/>
+      <NPC VariableName="warrior3"/>
+      <Float VariableName="QuestState" defaultValue="0.0"/>
+      <Bool VariableName="SpokeToFirstWarrior" defaultValue="false"/>
+      <Bool VariableName="SpokeToSecondWarrior" defaultValue="false"/>
+      <Bool VariableName="SpokeToThirdWarrior" defaultValue="false"/>
+    </Variables>
+    
+    <AgentsToGenerate>
+      <OrcShaman 
+        number='1'
+        VariableName='TheShaman'
+        GlobalVariableName='ShamanWarlord'
+        Dialogue='FindTheClanWarriorsStart'/>
+      <OrcWarrior 
+        number='1'
+        VariableName='warrior1'
+        GlobalVariableName='Warrior1'
+        />
+      <OrcWarrior 
+        number='1'
+        VariableName='warrior2'
+        GlobalVariableName='Warrior2'
+         />
+      <OrcWarrior 
+        number='1'
+        VariableName='warrior3'
+        GlobalVariableName='Warrior3'/>
+    </AgentsToGenerate>
+    
+    <Events>
+      <Event EventName="Start">
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.0'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheShaman'/>
+        </Requirements>
+        <Trigger>
+          <ChangeDialogue Entity='TheShaman' DialogueSegment='FindTheClanWarriorsStart'/>
+        </Trigger>
+        <PostTrigger>
+          <SetQuestVariableFloat Variable='QuestState' value='0.5'/>
+          <ChangeDialogue Entity='TheShaman' DialogueSegment='FindTheClanWarriorsReminder'/>
+          <ChangeDialogue Entity='warrior1' DialogueSegment='findTheClanWarriorsFoundWarrior'/>
+          <ChangeDialogue Entity='warrior2' DialogueSegment='findTheClanWarriorsFoundWarrior'/>
+          <ChangeDialogue Entity='warrior3' DialogueSegment='findTheClanWarriorsFoundWarrior'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Found the First Warrior'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToFirstWarrior' value='false'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='warrior1'/>
+        </Requirements>
+        <Trigger>
+          
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableBool Variable='SpokeToFirstWarrior' value='true'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Found the Second Warrior'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToSecondWarrior' value='false'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='warrior2'/>
+        </Requirements>
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableBool Variable='SpokeToSecondWarrior' value='true'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Found the Third Warrior'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToThirdWarrior' value='false'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='warrior3'/>
+        </Requirements>
+        <Trigger>
+
+        </Trigger>
+
+        <PostTrigger>
+          <SetQuestVariableBool Variable='SpokeToThirdWarrior' value='true'/>
+        </PostTrigger>
+      </Event>
+
+      <Event EventName='Quest Complete'>
+        <Requirements>
+          <Requirement RequirementType='CheckVariableFloat' Variable='QuestState' value='==0.5'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToFirstWarrior' value='true'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToSecondWarrior' value='true'/>
+          <Requirement RequirementType='CheckVariableBool' Variable='SpokeToThirdWarrior' value='true'/>
+          <Requirement RequirementType='CheckPlayerInteraction' Interact='TheShaman'/>
+        </Requirements>
+        <Trigger>
+          <ChangeDialogue Entity='TheShaman' DialogueSegment='FindTheClanWarriorsComplete'/>
+        </Trigger>
+
+        <PostTrigger>
+          <ChangeDialogue Entity='TheShaman' DialogueSegment='FindTheClanWarriorsAfterQuestShaman'/>
+          <ChangeDialogue Entity='warrior1' DialogueSegment='findTheClanWarriorsAfterQuestWarrior'/>
+          <ChangeDialogue Entity='warrior2' DialogueSegment='findTheClanWarriorsAfterQuestWarrior'/>
+          <ChangeDialogue Entity='warrior3' DialogueSegment='findTheClanWarriorsAfterQuestWarrior'/>
+          <SetQuestVariableFloat Variable='QuestState' value='1.0'/>
+          <GiveToEntity EntityName='player' ItemName='pork chop' value='3.0'/>
+          <QuestComplete/>
+        </PostTrigger>
+      </Event>
+    </Events>
+  </FindTheClanWarriors>
+  
+</Quests>

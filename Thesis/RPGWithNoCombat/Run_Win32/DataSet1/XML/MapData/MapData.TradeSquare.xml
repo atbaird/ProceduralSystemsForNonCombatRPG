@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<MapData Music='Village1' ConstrainCameraBounds='true'>
+  <TileEvents>
+    <TileEvent TileCoords='29,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SmallVillage' PlayerPosition='9,18'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='28,0'>
+      <OnEnter Function='ChangeMaps' MapFile='SmallVillage' PlayerPosition='9,18'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='59,30'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='1,8'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='59,31'>
+      <OnEnter Function='ChangeMaps' MapFile='Farm' PlayerPosition='1,9'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,30'>
+      <OnEnter Function='ChangeMaps' MapFile='Docks' PlayerPosition='58,31'/>
+    </TileEvent>
+
+    <TileEvent TileCoords='0,31'>
+      <OnEnter Function='ChangeMaps' MapFile='Docks' PlayerPosition='58,31'/>
+    </TileEvent>
+
+  </TileEvents>
+  
+  <AgentsToGenerate>
+    <HumanSoldier number='8'>
+      <Position position='27,10'/>
+      <Position position='30,10'/>
+      <Position position='48,32'/>
+      <Position position='48,29'/>
+      <Position position='11,32'/>
+      <Position position='11,29'/>
+      <Position position='27,47'/>
+      <Position position='30,47'/>
+    </HumanSoldier>
+    
+    <Town_Trader number='10-14'>
+      <Position position='24,17'/>
+      <Position position='35,17'/>
+      
+      <Position position='17,22'/>
+      <Position position='24,22'/>
+      <Position position='35,22'/>
+      <Position position='42,22'/>
+
+      <Position position='17,27'/>
+      <Position position='24,27'/>
+      <Position position='35,27'/>
+      <Position position='42,27'/>
+
+      <Position position='17,34'/>
+      <Position position='24,34'/>
+      <Position position='35,34'/>
+      <Position position='42,34'/>
+
+      <Position position='17,38'/>
+      <Position position='24,38'/>
+      <Position position='35,38'/>
+      <Position position='42,38'/>
+
+      <Position position='24,42'/>
+      <Position position='35,42'/>
+    </Town_Trader>
+
+    <OrcShaman
+      number='1'>
+      <Position position='4,5'/>
+      <Position position='5,4'/>
+      <Position position='3,4'/>
+      <Position position='4,3'/>
+    </OrcShaman>
+
+    <OrcWarrior
+      number='1'
+      GlobalVariableName='warrior1'>
+      <Position position='36,4'/>
+      <Position position='5,25'/>
+      <Position position='21,53'/>
+      <Position position='24,9'/>
+    </OrcWarrior>
+
+    <OrcWarrior
+      number='1'
+      GlobalVariableName='TheWarrior'>
+     <Position position='4, 8'/>
+     <Position position='6, 7'/>
+     <Position position='1, 2'/>
+     <Position position='11, 0'/>
+     <Position position='9, 3'/>
+    </OrcWarrior>
+
+    <OrcWarrior
+      number='1'
+      GlobalVariableName='OneSmallFavorOrc'>
+      <Position position='1,4'/>
+      <Position position='6,8'/>
+      <Position position='8,2'/>
+      <Position position='18,30'/>
+      <Position position='13,32'/>
+    </OrcWarrior>
+  </AgentsToGenerate>
+
+  <FeaturesToGenerate>
+    <Firepit_Active number='2'>
+      <Position position='4,4'/>
+      <Position position='54,55'/>
+    </Firepit_Active>
+  </FeaturesToGenerate>
+
+  <Quests>
+    <Quest QuestTitle='MarketTrade' PercentChanceToOccur='1.0'>
+      <TradeSquare>
+
+        <Positions forEntity='TheTrader'>
+          <Position position='29,26'/>
+          <Position position='30,35'/>
+          <Position position='34,30'/>
+          <Position position='25,31'/>
+          <Position position='18,15'/>
+          <Position position='42,42'/>
+        </Positions>
+
+        <Positions forEntity='TheFisherman'>
+          <Position position='1,58'/>
+          <Position position='12,58'/>
+          <Position position='12,52'/>
+          <Position position='2,52'/>
+        </Positions>
+
+        <Positions forEntity='TheWiseMan'>
+          <Position position='45,55'/>
+          <Position position='57,55'/>
+          <Position position='54,57'/>
+          <Position position='53,53'/>
+          <Position position='51,47'/>
+          <Position position='42,18'/>
+        </Positions>
+      </TradeSquare>
+    </Quest>
+  </Quests>
+</MapData>

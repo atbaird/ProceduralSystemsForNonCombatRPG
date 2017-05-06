@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<DialogueSegments SpeechBubble='RoyalSpeechBubble'>
+
+  <GuardGreeting1 uniqueGroup='GuardGreeting'
+                    text='Excuse me your highness, but I am very busy. Kindly move along,' >
+    <Text text=' and if you have any issues, please report them to the captain.'/>
+  </GuardGreeting1>
+
+  <GuardGreeting2 uniqueGroup='GuardGreeting'
+                    text='' />
+
+  <GuardGreeting3 uniqueGroup='GuardGreeting'
+                    text='' />
+</DialogueSegments>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='waterTile1_1' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='0.0,15.0,15.0,0.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='waterTile1_1_alt' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='17.0,15.0,32.0,0.0' virtualSize='1.0f,1.0f'/>
+  
+  <SpriteResource resourceName='lake_northWestGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,15.0,49.0,0.0' virtualSize='1.0f,1.0f'/>
+  
+  <SpriteResource resourceName='lake_northGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,15.0,66.0,0.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_northEastGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,15.0,83.0,.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_westGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,32.0,49.0,17.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_centerGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,32.0,66.0,17.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_eastGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,32.0,83.0,17.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_southWestGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='34.0,49.0,49.0,34.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_southGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='51.0,49.0,66.0,34.0' virtualSize='1.0f,1.0f'/>
+  <SpriteResource resourceName='lake_southEastGrass' textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='68.0,49.0,83.0,34.0' virtualSize='1.0f,1.0f'/>
+
+
+  <SpriteResource resourceName='lake_grassInNorthWestCorner' 
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='17.0,49.0,32.0,34.0' virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='lake_grassInNorthEastCorner'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='0.0,49.0,15.0,34.0' virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='lake_grassInSouthEastCorner'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='0.0,32.0,15.0,17.0' virtualSize='1.0f,1.0f'/>
+
+  <SpriteResource resourceName='lake_grassInSouthWestCorner'
+                  textureLocation='DataSet1/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='17.0,32.0,32.0,17.0' virtualSize='1.0f,1.0f'/>
+</SpriteResources>

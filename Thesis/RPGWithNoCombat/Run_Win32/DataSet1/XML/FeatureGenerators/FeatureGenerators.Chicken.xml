@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='Chicken' DefaultImage='Chicken_Right' solid='true'>
+    <Animations>
+      <Animation animationName='Chicken_Right' direction='south' animIdx='walk'/>
+    </Animations>
+
+
+    <FeatureBehaviors>
+      <GiveItem ItemWillGive='Egg' AmountToGive='1' type='Interactive'/>
+      <OpenDialogue dialogueSegment='FeatureReceivedEgg' type='Interactive'/>
+      <PlaySoundFromList>
+        <SoundEffect name='Chirp' volume='1.0'/>
+      </PlaySoundFromList>
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+</FeatureGenerators>

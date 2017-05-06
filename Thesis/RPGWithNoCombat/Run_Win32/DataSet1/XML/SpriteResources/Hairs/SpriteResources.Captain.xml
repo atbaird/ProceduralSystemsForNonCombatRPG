@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='captain_hair_back0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 666, 32, 648'/>
+  <SpriteResource resourceName='captain_hair_back1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 666, 48, 648'/>
+  <SpriteResource resourceName='captain_hair_back2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 666, 64, 648'/>
+
+  <SpriteResource resourceName='captain_hair_right0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 684, 32, 666'/>
+  <SpriteResource resourceName='captain_hair_right1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 684, 48, 666'/>
+  <SpriteResource resourceName='captain_hair_right2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 684, 64, 666'/>
+
+  <SpriteResource resourceName='captain_hair_forward0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 702, 32, 684'/>
+  <SpriteResource resourceName='captain_hair_forward1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 702, 48, 684'/>
+  <SpriteResource resourceName='captain_hair_forward2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 702, 64, 684'/>
+
+  <SpriteResource resourceName='captain_hair_left0'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='16, 720, 32, 702'/>
+  <SpriteResource resourceName='captain_hair_left1'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='32, 720, 48, 702'/>
+  <SpriteResource resourceName='captain_hair_left2'
+                  textureLocation='DataSet1/Images/Characters/Hair/16x18_Hairs_separated_3rd_Males_altogether.png'
+                  spriteBounds='48, 720, 64, 702'/>
+</SpriteResources>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<AgentGenerators>
+  <AgentGenerator Name='Wandering_Villager'
+                  DefaultImage='human_base0'
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+
+    <NPCBehaviors>
+      <Talking />
+      <Wander />
+    </NPCBehaviors>
+    
+
+  </AgentGenerator>
+</AgentGenerators>

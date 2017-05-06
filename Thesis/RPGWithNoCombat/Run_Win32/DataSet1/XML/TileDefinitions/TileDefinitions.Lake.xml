@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<TileDefinitions>
+  <TileDefinition name='Lake' 
+                  resourceName='waterTile1_1' 
+                  MapCode='0,0,255' 
+                  solid='true' liquid='true'>
+
+    <TileDefinitionsToPretendAreTheSame>
+      <Horizontal_Dock name='Horizontal_Dock'/>
+      <Vertical_Dock name='Vertical_Dock'/>
+    </TileDefinitionsToPretendAreTheSame>
+    
+    
+    <SpecialCase IfSame='North==0,South>0,East>0,West>0'
+                 IfNeighborTypeIs='type=grass1_1,North>0'>
+      <!-- N -->
+      <ToSet debugName='lake_northGrass'
+        TileCoords='0,0' resourceName='lake_northGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East>0,West==0'
+                 IfNeighborTypeIs='type=grass1_1,West>0'>
+      <!-- W -->
+      <ToSet debugName='lake_westGrass'
+        TileCoords='0,0' resourceName='lake_westGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West>0'
+                 IfNeighborTypeIs='type=grass1_1,South>0'>
+      <!-- S -->
+      <ToSet debugName='lake_southGrass'
+        TileCoords='0,0' resourceName='lake_southGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South>0,East==0,West>0'
+                 IfNeighborTypeIs='type=grass1_1,East>0'>
+      <!-- E -->
+      <ToSet debugName='lake_eastGrass'
+        TileCoords='0,0' resourceName='lake_eastGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East==0,West>0'
+                 IfNeighborTypeIs='type=grass1_1,North>0,East>0'>
+      <!-- NE -->
+      <ToSet debugName='lake_northEastGrass'
+        TileCoords='0,0' resourceName='lake_northEastGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North==0,South>0,East>0,West==0'
+                 IfNeighborTypeIs='type=grass1_1,North>0,West>0'>
+      <!-- NW -->
+      <ToSet debugName='lake_northWestGrass'
+        TileCoords='0,0' resourceName='lake_northWestGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East==0,West>0'
+                 IfNeighborTypeIs='type=grass1_1,South>0,East>0'>
+      <!-- SE -->
+      <ToSet debugName='lake_southEastGrass'
+        TileCoords='0,0' resourceName='lake_southEastGrass'/>
+    </SpecialCase>
+
+    <SpecialCase IfSame='North>0,South==0,East>0,West==0'
+                 IfNeighborTypeIs='type=grass1_1,South>0,West>0'>
+      <!-- SW -->
+      <ToSet debugName='lake_southWestGrass'
+        TileCoords='0,0' resourceName='lake_southWestGrass'/>
+    </SpecialCase>
+
+  </TileDefinition>
+  
+</TileDefinitions>

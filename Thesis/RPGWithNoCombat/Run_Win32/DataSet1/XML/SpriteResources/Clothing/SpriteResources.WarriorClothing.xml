@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<SpriteResources>
+  <SpriteResource resourceName='male_warriorClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 198, 32, 180'/>
+  <SpriteResource resourceName='male_warriorClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 198, 48, 180'/>
+  <SpriteResource resourceName='male_warriorClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 198, 64, 180'/>
+
+  <SpriteResource resourceName='male_warriorClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 216, 32, 198'/>
+  <SpriteResource resourceName='male_warriorClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 216, 48, 198'/>
+  <SpriteResource resourceName='male_warriorClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 216, 64, 198'/>
+
+  <SpriteResource resourceName='male_warriorClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 234, 32, 216'/>
+  <SpriteResource resourceName='male_warriorClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 234, 48, 216'/>
+  <SpriteResource resourceName='male_warriorClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 234, 64, 216'/>
+
+  <SpriteResource resourceName='male_warriorClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 252, 32, 234'/>
+  <SpriteResource resourceName='male_warriorClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 252, 48, 234'/>
+  <SpriteResource resourceName='male_warriorClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 252, 64, 234'/>
+
+  <SpriteResource resourceName='female_warriorClothing_forward0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 360, 32, 342'/>
+  <SpriteResource resourceName='female_warriorClothing_forward1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 360, 48, 342'/>
+  <SpriteResource resourceName='female_warriorClothing_forward2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 360, 64, 342'/>
+
+  <SpriteResource resourceName='female_warriorClothing_right0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 342, 32, 324'/>
+  <SpriteResource resourceName='female_warriorClothing_right1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 342, 48, 324'/>
+  <SpriteResource resourceName='female_warriorClothing_right2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 342, 64, 324'/>
+
+  <SpriteResource resourceName='female_warriorClothing_back0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 324, 32, 308'/>
+  <SpriteResource resourceName='female_warriorClothing_back1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 324, 48, 308'/>
+  <SpriteResource resourceName='female_warriorClothing_back2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 324, 64, 308'/>
+
+  <SpriteResource resourceName='female_warriorClothing_left0'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='17, 378, 32, 360'/>
+  <SpriteResource resourceName='female_warriorClothing_left1'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='33, 378, 48, 360'/>
+  <SpriteResource resourceName='female_warriorClothing_left2'
+                  textureLocation='DataSet1/Images/Characters/Clothing/16x18_Bodies_separated_1st - no arms.png'
+                  spriteBounds='49, 378, 64, 360'/>
+</SpriteResources>

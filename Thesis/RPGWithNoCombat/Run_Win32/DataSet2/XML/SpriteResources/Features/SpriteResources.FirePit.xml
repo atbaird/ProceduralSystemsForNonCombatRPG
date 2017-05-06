@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteResources>
+  <SpriteResource resourceName='Firepit_Off' textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='221.0,151.0,236.0,136.0'/>
+  <SpriteResource resourceName='Firepit_On1' textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='238.0,151.0,253.0,136.0'/>
+  <SpriteResource resourceName='Firepit_On2' textureLocation='DataSet2/Images/Map/roguelikeSheet_transparent.png'
+                  spriteBounds='255.0,151.0,270.0,136.0'/>
+</SpriteResources>

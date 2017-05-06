@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<FeatureGenerators>
+  <FeatureGenerator name='Door' DefaultImage='openWoodenDoor1'
+                    solid='false' renderOffset='-0.04f'>
+    <Animations>
+      <Animation animationName='woodenDoor1LockedOpen' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <!-- 
+      <SwitchSides type='Interactive'/>
+      -->
+
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+  <FeatureGenerator name='PalaceDoorLeftOpenned' DefaultImage='PalaceDoorLeftOpenned'
+                    solid='false' renderOffset='-0.04f'>
+    <Animations>
+      <Animation animationName='PalaceDoorLeft1LockedOpen' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+  <FeatureGenerator name='PalaceDoorRightOpenned' DefaultImage='PalaceDoorRightOpenned'
+                    solid='false' renderOffset='-0.04f'>
+    <Animations>
+      <Animation animationName='PalaceDoorRight1LockedOpen' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+
+  <FeatureGenerator name='SquareJailCellDoorClosed' DefaultImage='openWoodenDoor1'
+                    solid='true' renderOffset='-0.04f'>
+    <Animations>
+      <Animation animationName='JailDoor1LockedClosed' direction='south' animIdx='walk'/>
+    </Animations>
+
+    <FeatureBehaviors>
+      <!-- 
+      <SwitchSides type='Interactive'/>
+      -->
+
+    </FeatureBehaviors>
+
+  </FeatureGenerator>
+
+</FeatureGenerators>

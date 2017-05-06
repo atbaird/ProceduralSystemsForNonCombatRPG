@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<TileDefinitions>
+  <TileDefinition name='PalaceStairs'
+                  resourceName='PalaceHorizontalStairsSingle'
+                  altResourceChance='0.5'
+                  MapCode='255,255,169'
+                  solid='false'>
+    <SpecialCase
+      IfSame='North>=0,South>=0,East>0,West==0'>
+      <ToSet resourceName='PalaceHorizontalStairsRight'/>
+    </SpecialCase>
+
+
+    <SpecialCase
+      IfSame='North>=0,South>=0,East==0,West>0'>
+      <ToSet resourceName='PalaceHorizontalStairsLeft'/>
+    </SpecialCase>
+
+    <SpecialCase
+      IfSame='North>=0,South>=0,East>0,West>0'>
+      <ToSet resourceName='PalaceHorizontalStairsMiddle'/>
+    </SpecialCase>
+
+
+  </TileDefinition>
+
+</TileDefinitions>

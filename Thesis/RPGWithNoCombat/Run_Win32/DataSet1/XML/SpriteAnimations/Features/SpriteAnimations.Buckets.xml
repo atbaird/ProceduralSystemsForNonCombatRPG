@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<SpriteAnimations>
+  <SpriteAnimation spriteAnimationName='Bucket' defaultIntervalBetweenFrames='0.125'
+                   animationMode='clamp' reverseDirection='false'>
+    <Frame resourceName='Bucket'/>
+  </SpriteAnimation>
+</SpriteAnimations>

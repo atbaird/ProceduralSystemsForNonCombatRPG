@@ -1,0 +1,29 @@
+<AgentGenerators>
+  <AgentGenerator Name='Farmer'
+                  DefaultImage='human_base0'
+                  MovementSpeed='2.f'
+                  NameSet='HumanNameSet'
+                  inherit='Human'>
+
+    <Dialogue>
+      <DialogueSegment dialogueSegment='FarmerGreeting'/>
+    </Dialogue>
+
+    <Jobs>
+      <Farmer/>
+      <Rancher/>
+    </Jobs>
+
+    <StatRanges>
+      <Strength min='45' max='65'/>
+      <Dexterity min='45' max='65'/>
+    </StatRanges>
+
+    <Clothing>
+      <Clothing name='Townsfolk 1 clothes'/>
+      <Clothing name='Townsfolk 2 clothes'/>
+      <Clothing name='Townsfolk 3 clothes'/>
+    </Clothing>
+
+  </AgentGenerator>
+</AgentGenerators>

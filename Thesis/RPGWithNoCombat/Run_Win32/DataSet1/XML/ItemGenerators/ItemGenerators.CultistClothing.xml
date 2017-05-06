@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<ItemGenerators>
+  <ItemGenerator Name='Cultist clothes' DefaultImage='cultistClothing_forward0'
+                 ItemType='clothes' GenderSpecific='true'>
+
+    <Animations>
+      <Animation animationName='cultistClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='cultistClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='cultistClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='cultistClothing_right' direction='east' animIdx='walk'/>
+    </Animations>
+    <AlternativeAnimations>
+      <Animation animationName='cultistClothing_forward' direction='south' animIdx='walk'/>
+      <Animation animationName='cultistClothing_back' direction='north' animIdx='walk'/>
+      <Animation animationName='cultistClothing_left' direction='west' animIdx='walk'/>
+      <Animation animationName='cultistClothing_right' direction='east' animIdx='walk'/>
+    </AlternativeAnimations>
+  </ItemGenerator>
+</ItemGenerators>
